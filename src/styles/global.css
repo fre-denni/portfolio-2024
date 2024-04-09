@@ -11,4 +11,6 @@ html{background-color:var(--global-background);}
 
 *{box-sizing: border-box;}
 
-body{}
+body{
+    font-family: var(--global-font-primary);
+}

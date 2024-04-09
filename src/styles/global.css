@@ -1,0 +1,14 @@
+:root{
+    --global-background: #fff;
+    --global-primary: #000;
+    --global-secondary: #CECECE;
+    --global-select: #EE805A;
+    --global-font-primary:'Geist Sans', sans-serif;
+    --global-font-secondary:'Geist Mono', monospace;
+}
+
+html{background-color:var(--global-background);}
+
+*{box-sizing: border-box;}
+
+body{}

@@ -29,9 +29,11 @@ a:hover{
     color: var(--global-secondary);
 }
 
+
 a:active{
     color: var(--global-select);
 }
+
 
 /*--MOBILE--*/
 
@@ -109,7 +111,6 @@ a:active{
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    background-color: #CECECE;
 }
 
 .action-call a{
@@ -185,7 +186,9 @@ a:active{
     letter-spacing: -0.05rem;
     text-transform: lowercase;
     font-size: 1.5rem; 
+    margin: 3rem;
 }
+
 
 /*--DESKTOP--*/
 
@@ -220,5 +223,33 @@ a:active{
 
     .logo-box{
         margin-left: 3rem;
+    }
+
+    /*--footer links--*/
+
+    .footer-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+ 
+    .footer-link ul{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .footer-link li{
+        line-height: 1.5rem;
+    }
+    
+    .footer-link a{
+        font-weight: 600;
+        margin: 10% 0;
     }
 }

@@ -4,7 +4,7 @@ import '@fontsource/geist-mono';
 import '@fontsource/geist-sans';
 import '../styles/global.css';
 
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 ---
 
 <html lang="en">
@@ -16,11 +16,13 @@ import Navigation from '../components/Navigation.astro';
     <title>Federico Denni</title>
   </head>
   <body>
-	<Navigation />
+	<Header />
     <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
     <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
     <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-  </body>
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>

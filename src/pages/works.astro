@@ -3,7 +3,7 @@ import '@fontsource/geist-mono';
 import '@fontsource/geist-sans';
 import '../styles/global.css';
 
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 
 ---
 
@@ -16,11 +16,14 @@ import Navigation from '../components/Navigation.astro';
     <title>Federico Denni</title>
   </head>
   <body>
-	<Navigation />
+	<Header />
     <h1>Works</h1>
     <p>This is where I will post about my journey learning Astro.</p>
     <ul>
         <li><a href="/projects/hacko/">HACKO</a></li>
       </ul>
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>

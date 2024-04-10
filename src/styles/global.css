@@ -82,6 +82,10 @@ a:active{
     cursor:pointer;
 }
 
+.expanded{
+    display:unset;
+}
+
 .menu-icons{
     display: none;
 }

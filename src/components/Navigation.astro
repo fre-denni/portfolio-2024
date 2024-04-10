@@ -6,9 +6,7 @@ import '../styles/global.css';
 <div class="header">
     <div class="logo-box">
         <a href="/">
-        <!--div class="logo"></div-->
         <img class="logo" alt="fre-denni logo">
-        <!--img src="/logo-hover.svg" alt="fre-denni logo"-->
         </a>
     </div>
     <div class="navbar">
@@ -19,3 +17,8 @@ import '../styles/global.css';
         </div>
     </div>
 </div>
+<script>
+    document.querySelector('.menu-icons').addEventListener('click', () => {
+      document.querySelector('.menu-items').classList.toggle('menu-item');
+    });
+  </script>

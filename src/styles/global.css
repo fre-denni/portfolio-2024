@@ -28,6 +28,7 @@ a:active{
     color: var(--global-select);
 }
 
+/*navigation component css*/
 .header{
     display: flex;
     width: 100vw;
@@ -53,6 +54,7 @@ a:active{
 
 .logo:hover{
     content: url('/logo-hover.svg');
+    cursor:pointer;
 }
 
 .navbar{
@@ -75,9 +77,9 @@ a:active{
     text-align: center;
     font-size: 1.2rem;
     font-style:normal;
-    font-weight: 500;
     line-height: normal;
     letter-spacing: 0.015rem;
+    cursor:pointer;
 }
 
 .menu-icons{
@@ -87,6 +89,7 @@ a:active{
 
 @media screen and (max-width:635px) {
 
+    /*navbar*/
     .menu-icons{
         content: url('/menu-mobile-closed.svg');
         display: flex;

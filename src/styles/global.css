@@ -28,6 +28,10 @@ a:active{
     color: var(--global-select);
 }
 
+ul {
+    
+}
+
 /*navigation component css*/
 .header{
     display: inline-flex;
@@ -49,7 +53,7 @@ a:active{
     content: url('/logo-idle.svg');
     position: relative;
     width: fit-content;
-    height: auto;
+    height: fit-content;
 }
 
 .logo:hover{

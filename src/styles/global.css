@@ -91,6 +91,7 @@ a:active{
     text-decoration: underline;
     font-size: 1.2rem;
     background-color: var(--global-secondary);
+    font-weight: 600;
 }
 
 .nav-links{
@@ -112,7 +113,7 @@ a:active{
 
 .action-call a{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     line-height: normal;
     letter-spacing: -0.01875rem;
@@ -175,6 +176,7 @@ a:active{
 
     .nav-links a {
         display: inline-block;
+        font-weight: 600;
     }
 
     .description-homepage{

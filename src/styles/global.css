@@ -5,8 +5,8 @@
     --global-primary: #000;
     --global-secondary: #CECECE;
     --global-select: #EE805A;
-    --global-font-primary:'Geist Sans', sans-serif;
-    --global-font-secondary:'Geist Mono', monospace;
+    --global-font-primary:'Geist Sans', 'Arial', sans-serif;
+    --global-font-secondary:'Geist Mono','Courier', monospace;
 }
 
 html{background-color:var(--global-background);}
@@ -48,6 +48,7 @@ a:active{
 .logo-box{
     width: 6rem;
     height: auto;
+    margin-left: 1rem;
     flex-shrink:0;
 }
 
@@ -55,7 +56,6 @@ a:active{
     content: url('/logo-idle.svg');
     position: relative;
     width: fit-content;
-    height: fit-content;
 }
 
 .logo:hover{
@@ -180,5 +180,9 @@ a:active{
     .description-homepage{
         padding: 3rem 20%;
         font-size:3rem;
+    }
+
+    .logo-box{
+        margin-left: 3rem;
     }
 }

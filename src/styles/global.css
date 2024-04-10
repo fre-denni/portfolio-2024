@@ -28,10 +28,6 @@ a:active{
     color: var(--global-select);
 }
 
-ul {
-    
-}
-
 /*navigation component css*/
 .header{
     display: inline-flex;
@@ -94,6 +90,39 @@ ul {
 
 .expanded{
     display:unset;
+}
+
+/*footer*/
+.action-call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 5%;
+}
+
+.action-call a{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.01875rem;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+}
+
+.smiley{
+    content: url('/favicon.svg');
+}
+
+.sub-head{
+    font-family: var(--global-font-secondary);
+}
+
+.footer-link{
+   display: block;
+   align-items: center;
+   justify-content: center;
 }
 
 @media screen and (min-width:636px) {

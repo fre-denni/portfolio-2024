@@ -1,3 +1,5 @@
+/*--GENERAL--*/
+
 :root{
     --global-background: #fff;
     --global-primary: #000;
@@ -14,7 +16,10 @@ html{background-color:var(--global-background);}
 body{
     font-family: var(--global-font-primary);
     margin:0;
+    overflow-x: hidden;
 }
+
+/*--link--*/
 
 a:link, a:visited{
     color: var(--global-primary);
@@ -27,6 +32,8 @@ a:hover{
 a:active{
     color: var(--global-select);
 }
+
+/*--MOBILE--*/
 
 /*navigation component css*/
 .header{
@@ -144,6 +151,8 @@ a:active{
     line-height: normal;
 }
 
+
+/*--DESKTOP--*/
 
 @media screen and (min-width:636px) {
 

@@ -134,11 +134,12 @@ a:active{
 /*--footer links--*/
 
 .footer-link{
-   display: flex;
+   display: block;
    align-items: center;
    justify-content: center;
    width: 100%;
    padding: 0;
+   margin-top: 3rem;
 }
 
 .footer-link ul{

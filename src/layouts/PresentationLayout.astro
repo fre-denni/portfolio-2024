@@ -13,10 +13,14 @@ const {frontmatter} = Astro.props;
             <slot />
         </section>
         <!--immagini all'interno di main-content vengono messe nella colonna di sinistra -->
-        <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
+        <div class="heroshot">
+            <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
+        </div>
     </div>
     <div class="main-content-mobile">
-        <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
+        <div class="heroshot">
+            <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
+        </div>
         <div class="content-mobile">
             <h1>{frontmatter.title}</h1>
             <span>{frontmatter.description}</span>

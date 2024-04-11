@@ -203,27 +203,20 @@ a:active{
     display: flexbox;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    margin: 2rem;
 }
 
 .main-content-mobile img{
-    -webkit-mask-image: url('/images/Subtract.svg');
-    -webkit-mask-repeat: no-repeat;
-    mask-image: url('/images/Subtract.svg');
-    mask-type:alpha;
-    object-fit:cover;
+    object-position: 100% 50%;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    margin-bottom: 2rem;
 }
 
 .heroshot{
-    display: block;
+    margin:0;
     overflow: hidden;
-    align-items: center;
-    justify-content: center;
 }
+
 
 /*--TABLET--*/
 
@@ -302,23 +295,19 @@ a:active{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin: 0rem 2rem 4rem 2rem;
+        margin: 1rem 2rem 4rem 2rem;
+        justify-content: space-between;
+        align-items: top;
     }
-
+    
+    
     .main-content img{
-        -webkit-mask-image: url('/images/Subtract.svg');
-        -webkit-mask-repeat: no-repeat;
-        mask-image: url('/images/Subtract.svg');
-        mask-type:alpha;
-        object-fit:cover;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
     }
 
     .content-column{
-
+        display: block;
+        padding: 0 2rem;
     }
 
     

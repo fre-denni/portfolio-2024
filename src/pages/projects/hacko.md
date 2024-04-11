@@ -6,20 +6,33 @@ description: 'This is the first post of my new Astro blog.'
 description-card: 'Blah blach'
 author: 'POLIFACTORY'
 image:
-    url: '../../../public/images/hacko-heroshot.jpg'
+    url: '/images/hacko-heroshot.jpg'
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+<section class="first-p">
 
-### What I've accomplished
+HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and canteens.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+</section>
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+<section class="second-p">
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+Our brief consisted in developing a toolkit to be produced 
+in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
+We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
 
-### What's next
+</section>
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/) .
+
+<section class="third-p">
+
+### Interface Design
+
+The design of the interface is based on interacting
+with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
+
+</section>
+
+To diminish energy waste an e-ink display is used.

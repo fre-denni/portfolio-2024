@@ -4,11 +4,21 @@ import BaseLayout from "./BaseLayout.astro";
 const {frontmatter} = Astro.props;
 ---
 <BaseLayout>
-    <div class="project-heading">
+    <div class="project-title">
         <h1>{frontmatter.title}</h1>
         <span>{frontmatter.description}</span>
     </div>
-    <!--<div class="main-content">
+    <div class="work-project">
+        <slot />
+    </div>
+    <div class="work-related">
+        <!--qui vanno messi progetti collegati per tag -->
+    </div>
+</BaseLayout>
+
+
+<!-- old layout, messo qua per scaramanzia
+    <div class="main-content">
         <section class="content-column">
             <slot />
         </section>
@@ -28,4 +38,3 @@ const {frontmatter} = Astro.props;
             <slot/>
         </div>
     </div> -->
-</BaseLayout>

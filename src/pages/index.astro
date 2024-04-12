@@ -1,11 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Description from "../components/Content/Description.astro";
+import Tagline from "../components/Content/Tagline.astro";
 ---
 
 <BaseLayout>
-  <Description/>
-  <div class="shortcut">
-  <a href="/works/">i wanna see other projects!</a>
-  </div> 
+  <div class="page-home">
+    <Tagline/>
+    <!--qui va dashboard progetti home -->
+    <div class="shortcut">
+      <a href="/works/">i wanna see other projects!</a>
+    </div>
+  </div>
 </BaseLayout>

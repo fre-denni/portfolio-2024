@@ -4,3 +4,5 @@ document.addEventListener('astro:page-load', () => {
         document.querySelector('.hamburger').classList.toggle('open');
     });
 });
+
+//capire come cambiare (anche se non dovrebbe cambiare molto)

@@ -2,15 +2,16 @@
 import Navigation from '../Header/Navigation.astro';
 import Menu from '../Header/Menu.astro';
 ---
-<header>
-  <nav class="header">
+<header class="header">
+  <div class="header-main">
     <div class="logo-box">
       <a href="/">
       <img class="logo" alt="fre-denni logo">
       </a>
     </div>
-    <img class="hamburger" alt="navigation icons">
     <Navigation />
-  </nav>
-    <Menu />
+    <img class="hamburger" alt="navigation icons">
+  </div>
+  <Menu />
+  </div>
 </header>

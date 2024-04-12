@@ -3,20 +3,29 @@
 import Social from "./Social.astro"
 ---
 
-<footer>
-    <div class="action-call">
-        <img class="smiley" alt="attract-attention">
-        <p class="sub-head">would you hire me?</p><!--consider other catchprase -->
-        <a href="mailto:federico.denni.design@gmail.com?subject=Hi!">get in touch!</a>
+<footer class="footer">
+    <div class="footer-main">
+        <div class="footer-row">
+            <div class="action-call">
+                <img class="smiley" alt="attract-attention">
+                <p class="sub-head">would you hire me?</p><!--consider other catchprase -->
+                <a href="mailto:federico.denni.design@gmail.com?subject=Hi!">get in touch!</a>
+            </div>
+            <div class="footer-link">
+                <p>Design and Coded with ♥</br>
+                You can find me wandering here:</p>
+                <ul>
+                <li><Social platform="linkedin" username="in/federico-denni"/></li>
+                <li><Social platform="github" username="fre-denni"/></li>
+                <li><Social platform="instagram" username="federicodenni"/></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <!--menu links -->
+            </div>
+            <div class="goback-btn">
+                <!--go back component -->
+            </div>
+        </div>
     </div>
-    <div class="footer-link">
-        <ul>
-        <li>Design and Coded with ♥</li>
-        <li>You can find me wandering here:</li>
-        <li><Social platform="linkedin" username="in/federico-denni"/></li>
-        <li><Social platform="github" username="fre-denni"/></li>
-        <li><Social platform="instagram" username="federicodenni"/></li>
-        </ul>
-    </div>
-    <!--Navigation/--><!--Add way to navigate or scroll up again -->
 </footer>

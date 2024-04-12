@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const {frontmatter} = Astro.props;
+---
+
+<!--RICORDATI DI MODIFICARE TUTTI I LINK DEGLI AHREF DA ABOUT.ASTRO A ABOUT.MD -->
+
+<BaseLayout>
+    <div class="page-about">
+        <slot/>
+    </div>
+</BaseLayout>
+
+<!-- -Vecchio codice messo per scaramanzia
+     <h1>{pageTitle}</h1>
+<h2>... and my new Astro site!</h2>
+<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+<p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p> --> 

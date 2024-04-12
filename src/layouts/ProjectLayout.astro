@@ -6,7 +6,9 @@ const {frontmatter} = Astro.props;
 <BaseLayout>
     <div class="project-title">
         <h1>{frontmatter.title}</h1>
-        <span>{frontmatter.description}</span>
+    </div>
+    <div class="project-credits">
+        <!--mettere tag, persone, dati da YAML -->
     </div>
     <div class="work-project">
         <slot />

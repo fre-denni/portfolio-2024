@@ -10,13 +10,13 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-<section class="first-p">
+<section class="row">
 
 HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and canteens.
 
 </section>
 
-<section class="second-p">
+<section class="row">
 
 Our brief consisted in developing a toolkit to be produced 
 in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
@@ -26,7 +26,7 @@ We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating wit
 
 All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/) .
 
-<section class="third-p">
+<section class="row">
 
 ### Interface Design
 

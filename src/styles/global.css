@@ -56,10 +56,6 @@ a:link, a:visited{
     color: var(--global-primary);
 }
 
-a:hover{
-    color: var(--global-secondary);
-}
-
 a:active{
     color: var(--global-select);
 }
@@ -89,7 +85,7 @@ button{
 
 .header-nav .site-menu ul li a:hover, .header-nav .site-menu ul .current-menu-item a, .header-nav .site-menu ul .current-page-parent a, .header-nav .site-menu ul li.menu-active a, .header-nav .site-menu ul {
     background-color: transparent;
-    color: #999;
+    color: var(--global-secondary);
 }
 
 .header-nav .site-menu ul li a:after {

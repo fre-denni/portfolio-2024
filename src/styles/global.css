@@ -41,6 +41,12 @@ body{
     overflow-x: hidden;
 }
 
+
+body.show-nav{
+    overflow:hidden;
+    height:100%;
+}
+
 article, aside, footer, header, nav, section {
     display: block;
 }
@@ -104,7 +110,7 @@ button{
 }
 
 /*--MOBILE--*/
-/*navigation component css*/
+
 .header{
     position: relative;
     height: 60px;
@@ -174,6 +180,19 @@ button{
     transition: ease 0.3s all;
 }
 
+.show-nav .header-nav {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+	opacity: 1;
+	visibility: visible
+}
+
+.show-nav .header-nav .site-menu {
+	transition: ease-in 0.3s all;
+	visibility: visible;
+	background-color: var(--global-background);
+}
+
 .logo-box{
     width: 5rem;
     height: auto;
@@ -191,7 +210,7 @@ button{
     cursor:pointer;
 }
 
-.logo:hover{
+.logo:hover, .logo:active {
     content: url('/logo-hover.svg');
     position: relative;
     width: fit-content;
@@ -204,7 +223,7 @@ button{
     display: block;
     position: absolute;
     border: 0;
-    top: 10px;
+    top: 12px;
     right: 15px;
     color: var(--global-secondary);
     font-weight: 700;
@@ -215,6 +234,7 @@ button{
     outline: 0;
     margin: 0;
     padding: 0 9px;
+    z-index:999;
     text-align: center;
     transition: all 0.6s ease;
     border-radius: 50%;
@@ -236,36 +256,35 @@ button{
     margin-bottom: 0;
 }
 
-.hamburger:hover {
+.hamburger:hover, .hamburger:active {
     background-color: var(--global-secondary-hover);
 }
 
-
-/*.menu{
-    width: 100%;
-    top: 5rem;
-    left:48px;
-    display: none;
-    margin: 0;
-}
-
-.menu a {
-    display: block;
-    text-align: center;
-    padding: 30px 0;
-    text-decoration: underline;
-    font-size: 1.2rem;
+.hamburger:active {
     background-color: var(--global-secondary);
-    font-weight: 600;
 }
 
-.nav-links{
-    display: none;
+.show-nav .hamburger {
+	background-color: var(--global-secondary);
 }
 
-.expanded{
-    display:unset;
-}*/
+.show-nav .hamburger span:nth-child(2) {
+    opacity: 0;
+	transform: scale(.5, .5)
+}
+
+.show-nav .hamburger span:first-child {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 6px
+}
+
+.show-nav .hamburger span:last-child {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: -6px
+}
+
 
 /*footer*/
 .action-call{
@@ -335,7 +354,7 @@ button{
 
 .tagline-box .tagline-description {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -386,7 +405,9 @@ button{
 
 /*--TABLET--*/
 
-@media screen and (min-width:736px) {
+@media screen and (min-width:768px) {
+
+    body.show-nav{overflow:auto}
 
     .header{
         height:180px;
@@ -430,6 +451,7 @@ button{
     .tagline-description{
         padding: 3rem 20%;
         font-size:3rem;
+        font-weight: 400;
     }
 
     .logo-box{

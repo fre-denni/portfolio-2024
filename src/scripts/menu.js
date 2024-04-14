@@ -1,8 +1,20 @@
-document.addEventListener('astro:page-load', () => {
+
+/*document.addEventListener('astro:page-load', () => {
     document.querySelector('.hamburger').addEventListener('click', () => {
         document.querySelector('.menu').classList.toggle('expanded');
         document.querySelector('.hamburger').classList.toggle('open');
     });
+}); */
+
+document.addEventListener('astro:page-load', () => {
+    document.querySelector('.hamburger').addEventListener('click', toggleNav);
+    document.querySelector('.header-nav a').addEventListener('click', toggleNav);
 });
 
-//capire come cambiare (anche se non dovrebbe cambiare molto)
+function toggleNav() {
+    if(document.body.classList.contains('show-nav')) {
+        document.body.classList.remove('show-nav');
+    } else {
+        document.body.classList.add('show-nav');
+    }
+}

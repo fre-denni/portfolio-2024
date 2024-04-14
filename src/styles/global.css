@@ -89,7 +89,14 @@ button{
     -webkit-appearance: button;
 }
 
-.header-nav .site-menu ul li a:hover, .header-nav .site-menu ul .current-menu-item a, .header-nav .site-menu ul .current-page-parent a, .header-nav .site-menu ul li.menu-active a, .header-nav .site-menu ul {
+.header-nav .site-menu ul li a:hover, .header-nav .site-menu ul li.menu-active a, .header-nav .site-menu ul {
+    background-color: transparent;
+    color: var(--global-secondary);
+}
+
+.page-home .home-link,
+.page-experiment .experiment-link,
+.page-about .about-link{
     background-color: transparent;
     color: var(--global-secondary);
 }
@@ -356,7 +363,7 @@ button{
     line-height: normal;
 }
 
-.tagline-box .tagline-experiment {
+.tagline-box .tagline-experiments {
     text-align: center;
     font-family: var(--global-font-secondary);
     font-size: 1rem;

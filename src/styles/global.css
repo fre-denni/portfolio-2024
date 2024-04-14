@@ -256,10 +256,6 @@ button{
     margin-bottom: 0;
 }
 
-.hamburger:hover, .hamburger:active {
-    background-color: var(--global-secondary-hover);
-}
-
 .hamburger:active {
     background-color: var(--global-secondary);
 }
@@ -520,6 +516,5 @@ button{
     
 
 }
-
 
 /*--COMPUTER--*/

@@ -214,7 +214,7 @@ button{
     display: block;
     align-items: center;
     justify-content: center;
-    padding: 10px 0 0 0;
+    padding: 12px 0 0 0;
     position: relative;
 }
 
@@ -464,8 +464,12 @@ button{
         display: none;
     }
 
+    .tagline-box{
+        padding: 0 10% 10%;
+    }
+
     .tagline-description{
-        padding: 3rem 20%;
+        padding: 0 10%;
         font-size:3rem;
         font-weight: 400;
     }

@@ -124,6 +124,27 @@ button{
     position: relative;
 }
 
+main,
+#main {
+	position: relative;
+	min-height: calc(100% - 200px)
+}
+
+.page-home .tagline-box, .page-experiment .tagline-box {
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 0 50px;
+	margin: 0 0 15px;
+	line-height: 125%
+}
+
+.page-home .tagline-box .tagline-description, .page-experiment .tagline-box .tagline-experiments {
+    max-width: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+
 /*--MOBILE--*/
 
 .header{
@@ -353,7 +374,7 @@ button{
     margin: 10% 0;
 }
 
-/*--description--*/
+/*--description
 .tagline-box {
     display: flex;
     flex-direction: column;
@@ -361,7 +382,7 @@ button{
     align-self: stretch;
     margin:0;
     padding: 10%;
-}
+}--*/
 
 .tagline-box .tagline-description {
     text-align: center;
@@ -464,15 +485,16 @@ button{
         display: none;
     }
 
-    .tagline-box{
-        padding: 0 10% 10%;
+    .page-home .tagline-box, .page-experiment .tagline-box {
+        font-size: 36px;
+        padding: 40px 0 130px;
     }
 
-    .tagline-description{
+    /*.tagline-description{
         padding: 0 10%;
         font-size:3rem;
         font-weight: 400;
-    }
+    }*/
 
     .logo-box{
         width: 6rem;
@@ -525,6 +547,10 @@ button{
         margin: 1rem 2rem 4rem 2rem;
         justify-content: space-between;
         align-items: top;
+    }
+
+    .page-home .tagline-box .tagline-description, .page-experiment .tagline-box .tagline-experiments{
+        max-width: 640px;
     }
     
     

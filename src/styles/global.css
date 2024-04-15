@@ -6,7 +6,7 @@
 :root{
     --global-background: #fff;
     --global-primary: #000;
-    --global-secondary: #CECECE;
+    --global-secondary: #999;
     --global-secondary-hover: #6a6a6a;
     --global-select: #EE805A;
     --global-font-primary:'Geist Sans', 'Arial', sans-serif;
@@ -66,6 +66,10 @@ a:active{
     color: var(--global-select);
 }
 
+a:hover{
+    color: var(--global-secondary);
+}
+
 ul{
     margin: 0 0 15px;
     display: block;
@@ -87,19 +91,19 @@ li {
 
 button{
     -webkit-appearance: button;
+    appearance: button;
 }
 
-.header-nav .site-menu ul li a:hover, .header-nav .site-menu ul li.menu-active a, .header-nav .site-menu ul {
+.header-nav .site-menu ul li a:hover{
     background-color: transparent;
     color: var(--global-secondary);
 }
 
-.page-home .home-link,
-.page-experiment .experiment-link,
-.page-about .about-link{
+.header-nav .site-menu ul li.menu-active a {
     background-color: transparent;
     color: var(--global-secondary);
 }
+
 
 .header-nav .site-menu ul li a:after {
     content: ',';
@@ -114,6 +118,10 @@ button{
    max-width: 3000px;
    margin: 0 auto;
    padding: 0 14px; 
+}
+
+.wrapper {
+    position: relative;
 }
 
 /*--MOBILE--*/
@@ -375,12 +383,17 @@ button{
     align-self: stretch;
     text-align: center;
     font-family: var(--global-font-secondary);
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
     letter-spacing: -0.05rem;
     text-transform: lowercase;
-    font-size: 1.5rem; 
+    font-size: 1.25rem; 
+    line-height: 1.15;
     margin: 3rem;
+}
+
+.shortcut a{
+    text-decoration: underline;
 }
 
 .main-content{

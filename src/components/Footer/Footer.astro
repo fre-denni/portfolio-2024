@@ -4,24 +4,47 @@ import Social from "./Social.astro"
 ---
 
 <footer class="footer">
-    <div class="footer-main">
-        <div class="footer-row">
-            <div class="action-call">
+    <div class="container">
+        <div class="row">
+            <div class="column large-11-20 xlarge-2-3 action-call"> <!--nice-->
                 <img class="smiley" alt="attract-attention">
-                <p class="sub-head">Thank you for visiting!</p>
-                <a href="mailto:federico.denni.design@gmail.com?subject=Hi!">get in touch!</a>
+                <p>Thank you <br/>for visiting!</p>
             </div>
-            <div class="footer-link">
-                <p>Design and Coded with ♥</br>
-                You can find me wandering here:</p>
-                <ul>
-                <li><Social platform="linkedin" username="in/federico-denni"/></li>
-                <li><Social platform="github" username="fre-denni"/></li>
-                <li><Social platform="instagram" username="federicodenni"/></li>
+            <div class="column medium-2-5 large-3-10 xlarge-1-3 contact"> <!--email-->
+                <p>
+                    Let's get in touch: <br />
+                <span class="mail">
+                    <a href="mailto:federico.denni.design@gmail.com?subject=Hi!">federico.denni.design@gmail.com</a>
+                </span>
+                </p>
+            </div>
+            <div class="column medium-3-10 large-1-4 xlarge-1-3 social-link"> <!--link social-->
+                <p>
+                    You can find me wandering here: <br/>
+                    <Social platform="linkedin" username="in/federico-denni"/> <br/>
+                    <Social platform="instagram" username="federicodenni"/> <br/>
+                </p>
+            </div>
+            <div class="column medium-3-10 large-1-4 xlarge-1-6 work-link"> <!--link lavoro-->
+                <p>
+                If you are curios about my projects <br/>
+                you can find them here: <br/>
+                <Social platform="github" username="fre-denni"/><br/>
+                </p>
+            </div>
+            <div class="column small-1-2 medium-2-3 large-9-20 xlarge-1-3 nav"> <!--link menu-->
+                <ul class="menu">
+                    <li><a href="/">Works</a></li>
+                    <li><a href="/experiments/">Experiments</a></li>
+                    <li><a href="/about/">About</a></li>
                 </ul>
             </div>
-            <div class="footer-menu">
-                <!--menu links -->
+            <div class="column small-1-2 medium-1-3 large-1-5 xlarge-1-6 copy"><!--designed with love-->
+                <p>
+                Design and Coded by myself!
+                <br/>
+                using Astro && ♥
+                </p>
             </div>
         </div>
     </div>

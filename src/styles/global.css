@@ -579,6 +579,10 @@ main,
     overflow: hidden;
 }
 
+.credits{
+    text-align: left;
+}
+
 @media only screen and (min-width:768px) {
 	.medium-1-10 {
 		width: 10%;
@@ -883,11 +887,12 @@ main,
     }
 
     .work-project{
-        padding: 0 0 50px;
+        padding: 0 50px 50px;
     }
-
-
     
+    .credits{
+        text-align: center;
+    }
 }
 
 

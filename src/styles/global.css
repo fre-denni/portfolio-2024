@@ -394,6 +394,7 @@ main,
 
 .smiley{
     content: url('/favicon.svg');
+    margin-bottom: 5px;
 }
 
 .sub-head{
@@ -556,6 +557,23 @@ main,
 .heroshot{
     margin:0;
     overflow: hidden;
+}
+
+.work-project{
+    padding: 15px 0;
+}
+
+.work-project img{
+    margin: 0 0 15px;
+    border-radius: 16px;
+}
+
+.work-project .column .img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media only screen and (min-width:768px) {
@@ -859,6 +877,10 @@ main,
     .content-column{
         display: block;
         padding: 0 2rem;
+    }
+
+    .work-project{
+        padding: 0 0 50px;
     }
 
     

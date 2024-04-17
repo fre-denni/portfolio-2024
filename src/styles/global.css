@@ -563,17 +563,20 @@ main,
     padding: 15px 0;
 }
 
-.work-project img{
-    margin: 0 0 15px;
-    border-radius: 16px;
+.work-project .inner{
+    width: 100%;
+    max-width: 475px;
 }
 
-.work-project .column .img{
+.work-project .image{
+    margin: 0 0 50px;
+}
+
+.work-project .image img{
     display: block;
     width: 100%;
+    border-radius: 16px;
     overflow: hidden;
-    object-fit: cover;
-    object-position: center;
 }
 
 @media only screen and (min-width:768px) {
@@ -882,6 +885,7 @@ main,
     .work-project{
         padding: 0 0 50px;
     }
+
 
     
 }

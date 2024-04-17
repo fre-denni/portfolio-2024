@@ -9,13 +9,21 @@ tags: ["astro", "blogging", "learning in public"]
 
 <div class="column large-2-5">
 
+<div class="inner">
+
 HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
+
+</div>
 
 </div>
 
 <div class="column large-3-5">
 
+<div class="image">
+
 ![hacko heroshot](/images/hacko-heroshot.jpg)
+
+</div>
 
 </div>
 
@@ -34,6 +42,12 @@ All project files are visible on the [Polifactory website](https://www.polifacto
 </div>
 
 <div class="column large-3-5">
+
+<div class="image">
+
+![hacko heroshot](/images/hacko-heroshot.jpg)
+
+</div>
 
 </div>
 

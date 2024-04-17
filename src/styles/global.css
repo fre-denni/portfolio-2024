@@ -389,7 +389,7 @@ main,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10%;
+    margin: 65%;
 }
 
 .smiley{
@@ -401,7 +401,7 @@ main,
 }
 
 .footer {
-    padding: 20px 0 1px;
+    padding: 20px 0px 1px;
 }
 
 .footer.variable{
@@ -410,10 +410,51 @@ main,
 
 .footer a{
     color: var(--global-primary);
+    font-weight: 600;
 }
 
 .footer .action-call {
 	margin: 20px 0 10px;
+}
+
+.footer .column p{
+    font-size: 15px;
+}
+
+.footer .link{
+    display:flex;
+    align-items: center;
+    width: auto;
+    margin: 15px 0;
+    padding: 0;
+}
+
+.link img{
+    margin: 0 5px 0 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 2px;
+}
+
+
+.link .hand-img{
+    content:url('/hand.svg');
+    width: 25px;
+}
+
+.link .linkedin-img{
+    content:url('/linkedin.svg');
+    width: 25px;
+}
+
+.link .instagram-img{
+    content:url('/instagram.svg');
+    width: 25px;
+}
+
+.link .github-img{
+    content:url('/github.svg');
+    width: 25px;
 }
 
 .column .smiley p{
@@ -461,9 +502,6 @@ main,
 	margin: 0 0 40px;
 }
 
-.footer .work-link a {
-	color: var(--global-secondary);
-}
 
 .tagline-box .tagline-description {
     text-align: center;

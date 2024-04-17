@@ -13,29 +13,39 @@ import Social from "./Social.astro"
             <div class="column medium-2-5 large-3-10 xlarge-1-3 contact"> <!--email-->
                 <p>
                     Let's get in touch: <br />
-                <span class="mail">
-                    <a href="mailto:federico.denni.design@gmail.com?subject=Hi!">federico.denni.design@gmail.com</a>
-                </span>
+                    <div class="link">
+                    <img class="hand-img" alt="hand">
+                    <a href="mailto:federico.denni.design@gmail.com?subject=Hi!">Send me a mail!</a>
+                    </div>
                 </p>
             </div>
             <div class="column medium-3-10 large-1-4 xlarge-1-3 social-link"> <!--link social-->
                 <p>
                     You can find me wandering here: <br/>
-                    <Social platform="linkedin" username="in/federico-denni"/> <br/>
-                    <Social platform="instagram" username="federicodenni"/> <br/>
+                    <div class="link">
+                        <img class="linkedin-img" alt="logo linkedin">
+                        <Social platform="linkedin" username="in/federico-denni"/> <br/>
+                    </div>
+                    <div class="link">
+                        <img class="instagram-img" alt="logo insta">
+                        <Social platform="instagram" username="federicodenni"/> <br/>
+                    </div>
                 </p>
             </div>
             <div class="column medium-3-10 large-1-4 xlarge-1-6 work-link"> <!--link lavoro-->
                 <p>
-                If you are curios about my projects <br/>
+                If you are curios about my projects
                 you can find them here: <br/>
-                <Social platform="github" username="fre-denni"/><br/>
+                <div class="link">
+                    <img class="github-img" alt="logo github">
+                    <Social platform="github" username="fre-denni"/><br/>
+                </div>
                 </p>
             </div>
             <div class="column small-1-2 medium-2-3 large-9-20 xlarge-1-3 nav"> <!--link menu-->
                 <ul class="menu">
                     <li><a href="/">Works</a></li>
-                    <li><a href="/experiments/">Experiments</a></li>
+                    <li><a href="/experiments/">Ideas</a></li>
                     <li><a href="/about/">About</a></li>
                 </ul>
             </div>
@@ -43,7 +53,7 @@ import Social from "./Social.astro"
                 <p>
                 Design and Coded by myself!
                 <br/>
-                using Astro && ♥
+                using <a href="https://astro.build/" target="blank">Astro</a> && ♥
                 </p>
             </div>
         </div>

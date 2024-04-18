@@ -99,6 +99,11 @@ button{
     appearance: button;
 }
 
+hr{
+    border: 1px solid var(--global-primary);
+    margin: 0 0 30px 0;
+}
+
 .header-nav .site-menu ul li a:hover{
     background-color: transparent;
     color: var(--global-secondary);
@@ -563,13 +568,18 @@ main,
     padding: 15px 0;
 }
 
+.work-project a{
+    text-decoration: underline;
+}
+
+
 .work-project .inner{
     width: 100%;
     max-width: 475px;
 }
 
 .work-project .image{
-    margin: 0 0 50px;
+    margin: 0 0 30px;
 }
 
 .work-project .image img{

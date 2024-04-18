@@ -1,9 +1,15 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
 title: 'HACKO'
-description: 'This is the first post of my new Astro blog.'
-made: 'POLIFACTORY'
-tags: ["astro", "blogging", "learning in public"]
+time: '10-2022 to 05-2023'
+description: 'Open Source Fermenter Kit'
+card-description: 'design an open-source fermenter toolkit for plant based food'
+made: 'with Distributed Design'
+role: ["Hardware Interface", "Software Designer", "UX Research"]
+team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
+links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
+taglinks: ["POLIFACTORY WEBSITE", "DISTRIBUTED DESIGN"]
+tags: ["prototyping", "dataviz", "coding"]
 ---
 <section class="row">
 
@@ -23,13 +29,15 @@ HACKO is an open-source fermenter of bran developed for the Distributed Design P
 
 <div class="image">
 
-![hacko heroshot](/images/hacko-heroshot.jpg)
+![heroshot](/images/hacko-heroshot.jpg)
 
 </div>
 
 </div>
 
 </section>
+
+---
 
 <section class="row">
 
@@ -54,6 +62,8 @@ All project files are visible on the [Polifactory website](https://www.polifacto
 </div>
 
 </section>
+
+---
 
 <section class="row">
 

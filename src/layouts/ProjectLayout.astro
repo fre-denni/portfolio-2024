@@ -5,18 +5,17 @@ const {frontmatter} = Astro.props;
 ---
 <BaseLayout>
     <div class="credits">
-        <div class="project-title">
-            <div class="row">
-                <div class="column title">
-                    <h1>{frontmatter.title}</h1>
-                    <h2>{frontmatter.description}</h2>
-                </div>
-                <div class="column large-1-4 time">
-                    <p>Period:<br/>
-                    {frontmatter.time}
-                    </p>
-                </div>
-                <div class="column large-1-4 role">
+        <div class="row">
+            <div class="column title">
+                <h1>{frontmatter.title}</h1>
+                <h3>{frontmatter.description}</h3>
+            </div>
+            <div class="column small-1-2 medium-1-4 large-1-4 time">
+                <p>Period:<br/>
+                {frontmatter.time}
+                </p>
+            </div>
+                <div class="column small-1-2 medium-1-4 large-1-4 role">
                     <p>Role:</p>
                     <ul>
                         <li>{frontmatter.role[0]}</li>
@@ -24,7 +23,7 @@ const {frontmatter} = Astro.props;
                         <li>{frontmatter.role[2]}</li>
                     </ul>
                 </div>
-                <div class="column large-1-4 team">
+                <div class="column small-1-2 medium-1-4 large-1-4 team">
                     <p>Team:</p>
                     <ul>
                         <li>{frontmatter.team[0]}</li>
@@ -34,7 +33,7 @@ const {frontmatter} = Astro.props;
                         <li>{frontmatter.team[4]}</li>
                     </ul>
                 </div>
-                <div class="column large-1-4 project-link">
+                <div class="column small-1-2 medium-1-4 large-1-4 project-link">
                     <p>External Links:</p>
                     <ul>
                         <li><a href={frontmatter.links[0]} target="blank">{frontmatter.taglinks[0]}</a></li>
@@ -42,9 +41,6 @@ const {frontmatter} = Astro.props;
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="project-credits">
-            <!--mettere tag, persone, dati da YAML -->
         </div>
     </div>
     <div class="work-project">
@@ -54,26 +50,3 @@ const {frontmatter} = Astro.props;
         <!--qui vanno messi progetti collegati per tag -->
     </div>
 </BaseLayout>
-
-
-<!-- old layout, messo qua per scaramanzia
-    <div class="main-content">
-        <section class="content-column">
-            <slot />
-        </section>
-
-        <div class="heroshot">
-            <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
-        </div>
-        <div class="heroshot">
-            <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
-        </div>
-    </div>
-    <div class="main-content-mobile">
-        <div class="heroshot">
-            <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
-        </div>
-        <div class="content-mobile">
-            <slot/>
-        </div>
-    </div> -->

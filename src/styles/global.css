@@ -574,9 +574,14 @@ main,
 
 .work-project .image img{
     display: block;
-    width: 100%;
     border-radius: 16px;
     overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .credits{
@@ -892,6 +897,10 @@ main,
     
     .credits{
         text-align: center;
+    }
+
+    .image img{
+        height: 428px;
     }
 }
 

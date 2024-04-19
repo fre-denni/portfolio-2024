@@ -7,8 +7,10 @@ const {frontmatter} = Astro.props;
     <div class="credits">
         <div class="row">
             <div class="column title">
-                <h1>{frontmatter.title}</h1>
-                <h3>{frontmatter.description}</h3>
+                <div class="">
+                    <h1>{frontmatter.title}</h1>
+                    <h3>{frontmatter.description}</h3>
+                </div>
                 <div class="image">
                     <img src={frontmatter.image.url} alt={frontmatter.image.alt} />
                 </div>

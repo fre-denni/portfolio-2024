@@ -572,7 +572,6 @@ main,
     text-decoration: underline;
 }
 
-
 .work-project .inner{
     width: 100%;
     max-width: 475px;
@@ -586,17 +585,28 @@ main,
     display: block;
     border-radius: 16px;
     overflow: hidden;
-}
-
-.image img{
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
 .credits{
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     text-align: left;
+}
+
+.credits .image{
+    display: block;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.credits .image img{
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media only screen and (min-width:768px) {
@@ -908,11 +918,18 @@ main,
     
     .credits{
         text-align: center;
+        margin: 0 50px 10px 50px;
     }
 
-    .image img{
+    .work-project .image img{
         height: 428px;
     }
+
+    .credits .image img{
+        height: 625px;
+        object-position: 45% 65%;
+    }
+    
 }
 
 

@@ -4,6 +4,9 @@ title: 'HACKO'
 time: '10-2022 to 05-2023'
 description: 'Open Source Fermenter Kit'
 card-description: 'design an open-source fermenter toolkit for plant based food'
+image:
+    url: '/images/hacko-heroshot.jpg'
+    alt: 'heroshot'
 made: 'with Distributed Design'
 role: ["Hardware Interface", "Software Designer", "UX Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]

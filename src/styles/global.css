@@ -590,15 +590,52 @@ main,
     object-position: center;
 }
 
-.credits{
-    margin: 0 0 10px 0;
+
+.credits .title .text{
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.credits .title h1, .credits .title h3{
+    margin: 5px;
+}
+
+.credits .title h1{
+    text-transform: uppercase;
+}
+
+.credits .title h3{
+    font-family: var(--global-font-secondary);
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .credits .image{
     display: block;
     width: 100%;
     border-radius: 16px;
+    margin: 10px 0;
+}
+
+.credits p{
+    margin:0;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.credits ul{
+    margin-bottom: 10px;
+}
+
+.credits ul li{
+    list-style: none;
+    margin-bottom:5px;
+    font-size: 12px;
+}
+
+.credits ul li a{
+    text-decoration: underline;
+    font-weight:500;
 }
 
 .credits .image img{
@@ -917,17 +954,28 @@ main,
     }
     
     .credits{
-        text-align: center;
         margin: 0 50px 10px 50px;
+    }
+
+    .credits .title .text{
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .work-project .image img{
         height: 428px;
     }
-
     .credits .image img{
         height: 625px;
         object-position: 90% 65%;
+    }
+
+    .credits .title h3{
+        font-size: 24px;
+    }
+
+    .credits ul li{
+        font-size: 16px;
     }
     
 }

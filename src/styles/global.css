@@ -632,9 +632,13 @@ main,
     font-family: var(--global-font-primary);
 }
 
+.credits ul {
+    padding-inline-start: 20px;
+}
+
 .credits ul li{
     list-style: none;
-    margin:0;
+    margin-bottom:5px;
 }
 
 .credits ul li a{
@@ -969,6 +973,11 @@ main,
     .work-project .image img{
         height: 428px;
     }
+
+    .credits ul li{
+        margin-bottom:0;
+    }
+
     .credits .image img{
         height: 625px;
         object-position: 90% 65%;

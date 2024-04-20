@@ -564,10 +564,6 @@ main,
     overflow: hidden;
 }
 
-.work-project{
-    padding: 15px 0;
-}
-
 .work-project a{
     text-decoration: underline;
 }
@@ -590,7 +586,7 @@ main,
     object-position: center;
 }
 
-.credits{
+.credits {
     font-size: 12px;
     font-family: var(--global-font-secondary);
     margin-bottom: 0;
@@ -615,7 +611,7 @@ main,
 .credits .title h3{
     font-family: var(--global-font-secondary);
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .credits .column {

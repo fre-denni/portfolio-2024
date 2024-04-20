@@ -1,17 +1,17 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
 title: 'HACKO'
-time: '10-2022 to 05-2023'
+time: '10-22 to 05-23'
 description: 'Open Source Fermenter Kit'
 card-description: 'design an open-source fermenter toolkit for plant based food'
 image:
     url: '/images/hacko-heroshot.jpg'
     alt: 'heroshot'
 made: 'with Distributed Design'
-role: ["Hardware Interface", "Software Designer", "UX Research"]
+role: ["Hardware & Software Design", "UX Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["POLIFACTORY WEBSITE", "DISTRIBUTED DESIGN"]
+taglinks: ["Project files", "Distributed Design"]
 tags: ["prototyping", "dataviz", "coding"]
 ---
 <section class="row">

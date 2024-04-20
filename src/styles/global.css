@@ -70,7 +70,7 @@ a:hover{
     color: var(--global-secondary);
 }
 
-ul{
+ul {
     margin: 0 0 15px;
     display: block;
     list-style-type: disc;
@@ -423,7 +423,7 @@ main,
 	margin: 20px 0 10px;
 }
 
-.footer .column p{
+.footer .column p {
     font-size: 15px;
 }
 
@@ -463,12 +463,12 @@ main,
     width: 25px;
 }
 
-.column .smiley p{
+.column .smiley p {
     align-items: center;
     justify-content: center;
 }
 
-.footer .action-call p{
+.footer .action-call p {
     font-size: 27px;
     line-height: 110%;
     font-style: normal;
@@ -590,6 +590,12 @@ main,
     object-position: center;
 }
 
+.credits{
+    font-size: 12px;
+    font-family: var(--global-font-secondary);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
 
 .credits .title .text{
     text-align: left;
@@ -601,13 +607,19 @@ main,
 }
 
 .credits .title h1{
-    text-transform: uppercase;
+    font-family: var(--global-font-primary);
+    font-size: 48px;
+    letter-spacing: -0.08rem;
 }
 
 .credits .title h3{
     font-family: var(--global-font-secondary);
     font-size: 1rem;
     font-weight: 300;
+}
+
+.credits .column {
+    margin-bottom: 10px;
 }
 
 .credits .image{
@@ -617,25 +629,21 @@ main,
     margin: 10px 0;
 }
 
-.credits p{
+.credits p {
     margin:0;
     line-height: 1;
-    font-size: 15px;
-}
-
-.credits ul{
-    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: var(--global-font-primary);
 }
 
 .credits ul li{
     list-style: none;
-    margin-bottom:5px;
-    font-size: 12px;
+    margin:0;
 }
 
 .credits ul li a{
     text-decoration: underline;
-    font-weight:500;
+    text-transform: uppercase;
 }
 
 .credits .image img{
@@ -974,8 +982,8 @@ main,
         font-size: 24px;
     }
 
-    .credits ul li{
-        font-size: 16px;
+    .credits{
+        font-size: 15px;
     }
     
 }

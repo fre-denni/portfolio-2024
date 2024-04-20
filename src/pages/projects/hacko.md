@@ -32,7 +32,7 @@ HACKO is an open-source fermenter of bran developed for the Distributed Design P
 
 <div class="image">
 
-![heroshot](/images/hacko-heroshot.jpg)
+![heroshot](/images/hacko-1.png)
 
 </div>
 
@@ -58,7 +58,7 @@ All project files are visible on the [Polifactory website](https://www.polifacto
 
 <div class="image">
 
-![hacko heroshot](/images/hacko-heroshot.jpg)
+![hacko interface](/images/hacko-2.png)
 
 </div>
 

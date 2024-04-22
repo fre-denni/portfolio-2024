@@ -203,6 +203,10 @@ main,
     text-align: center;
 }
 
+.page-about{
+    padding: 0 50px;
+}
+
 .small-1-4 {
 	width: 25%;
 }
@@ -579,11 +583,30 @@ main,
     max-width: 475px;
 }
 
+.page-about .inner{
+    width: 100%;
+    max-width: 475px;
+}
+
 .work-project .image{
     margin: 0 0 30px;
 }
 
 .work-project .image img{
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    object-position: center;
+}
+
+.page-about .image{
+    margin: 0 0 30px;
+}
+
+.page-about .image img{
     display: block;
     border-radius: 16px;
     overflow: hidden;
@@ -979,6 +1002,11 @@ main,
 
     .work-project .image img{
         height: 428px;
+    }
+
+    .page-about .image img{
+        height: 625px;
+        object-position: center;
     }
 
     .credits ul li{

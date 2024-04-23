@@ -10,7 +10,6 @@ layout: ../layouts/AboutLayout.astro
 
 ## Ciao!
 
-
 I’m Federico, an Interaction Designer that likes to find opportunities in complex problems, break them down and squeeze out products and experiences.
 
 Designer by day and Wannabe Developer by night,

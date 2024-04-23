@@ -9,10 +9,19 @@ const allProjects = await Astro.glob('../pages/projects/*.md');
 <BaseLayout>
   <div class="page-home">
     <Tagline/>
-    <!--qui va dashboard progetti work -->
-    <ul>
-      {allProjects.map((projects) => <ProjectCard url={projects.url} title={projects.frontmatter.title} />)}    
-    </ul>
+    <div class="work-display clearfix">
+      <div class="grid">
+        {allProjects.map((projects) => 
+            <ProjectCard 
+                url={projects.url} 
+                img={projects.frontmatter.image.url} 
+                alt={projects.frontmatter.image.alt} 
+                description={projects.frontmatter.card} 
+                collab={projects.frontmatter.made} 
+                title={projects.frontmatter.title} />
+        )}
+      </div>  
+    </div>
     <div class="shortcut">
       <a href="/experiments/">i wanna see other projects!</a>
     </div>

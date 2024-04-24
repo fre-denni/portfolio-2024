@@ -1,13 +1,12 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'HACKO'
-time: '10-22 to 05-23'
+title: 'ARTEC'
+time: '02-23 to 09-23'
 description: 'Open Source Fermenter Kit'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'make an AR art experience detecting emotion using machine learning'
 image:
-    url: '/images/hacko-heroshot.jpg'
+    url: '/images/artec.gif'
     alt: 'heroshot'
-made: 'with Distributed Design'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]

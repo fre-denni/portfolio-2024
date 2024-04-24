@@ -3,7 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: 'YOGI'
 time: 'three weeks project'
 description: 'Digital AI nose for the woods'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'teaching AI to protect woods from fire'
 image:
     url: '/images/hacko-2.png'
     alt: 'heroshot'

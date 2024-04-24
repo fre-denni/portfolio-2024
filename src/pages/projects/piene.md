@@ -3,11 +3,11 @@ layout: ../../layouts/ProjectLayout.astro
 title: 'PIENE'
 time: 'one week project'
 description: 'Open Source Fermenter Kit'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'hacking a fidget toy to tells us to stop stressing && enjoy life'
 image:
     url: '/images/about.jpg'
     alt: 'heroshot'
-made: 'with Distributed Design'
+made: 'with EPFAL+ECAL'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]

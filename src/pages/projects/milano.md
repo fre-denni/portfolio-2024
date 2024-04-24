@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'HACKO'
+title: 'MILANO PARTECIPA'
 time: '10-22 to 05-23'
 description: 'Open Source Fermenter Kit'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'design a platform for the city to listen && grow with its citizen'
 image:
     url: '/images/hacko-heroshot.jpg'
     alt: 'heroshot'
-made: 'with Distributed Design'
+made: 'with Milano Municipality'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]

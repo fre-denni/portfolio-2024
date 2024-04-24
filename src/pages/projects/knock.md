@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'PIENE'
+title: 'KNOCKNOCK'
 time: 'one week project'
 description: 'Open Source Fermenter Kit'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'connecting remote workers as they would do in presence'
 image:
-    url: '/images/hacko-2.png'
+    url: '/images/knocknock.gif'
     alt: 'heroshot'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]

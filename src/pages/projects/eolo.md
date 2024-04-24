@@ -1,13 +1,12 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'PIENE'
+title: 'EOLO'
 time: 'one week project'
 description: 'Open Source Fermenter Kit'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'making a puzzle-platform game for children as a disguise for a spirometry test'
 image:
     url: '/images/about.jpg'
     alt: 'heroshot'
-made: 'with Distributed Design'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]

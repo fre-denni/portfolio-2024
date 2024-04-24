@@ -2,13 +2,22 @@
 import ExperimentsCard from "../components/Card/ExperimentsCard.astro"
 import Concept from "../components/Content/Concept.astro"
 import BaseLayout from "../layouts/BaseLayout.astro"
+
+const allPost = await Astro.glob('../pages/experiments/*.md');
+
 ---
 
 <BaseLayout>
   <div class="page-experiment">
     <Concept/>
   </div>
-  <div class="experiments-project">
-    <ExperimentsCard/>    
+  <div class="work-project">
+    {allPost.map((projects) =>
+        <ExperimentsCard
+        content={projects.Content}
+        img={projects.frontmatter.image.url}
+        alt={projects.frontmatter.image.alt}
+        /> 
+    )}  
   </div>
 </BaseLayout>

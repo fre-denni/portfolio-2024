@@ -1,5 +1,6 @@
 ---
 title: 'Poetic'
+date: '20-03-2024'
 image:
     url: '/images/about.jpg'
     alt: 'poetic'

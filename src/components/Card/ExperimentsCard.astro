@@ -1,0 +1,17 @@
+---
+import {Content, frontmatter} from '../../pages/experiments/poetic.md';
+---
+
+<article class="row">
+    <div class="column large-2-5">
+        <div class="inner">
+            <Content/>
+        </div>
+    </div>
+    <div class="column large-3-5">
+        <div class="image">
+            <img src={frontmatter.image.url} alt={frontmatter.image.alt}>
+        </div>
+    </div>
+</article>
+<hr/>

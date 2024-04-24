@@ -1,11 +1,11 @@
 ---
-const {Content, img, alt} = Astro.props; 
+const {img, alt} = Astro.props; 
 ---
 
 <article class="row">
     <div class="column large-1-2">
         <div class="inner">
-            {Content}
+            <slot/>
         </div>
     </div>
     <div class="column large-1-2">

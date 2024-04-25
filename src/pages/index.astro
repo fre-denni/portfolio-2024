@@ -1,14 +1,17 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Tagline from "../components/Content/Tagline.astro";
 
+import Tagline from "../components/Content/Tagline.astro";
 import ProjectCard from "../components/Card/ProjectCard.astro";
+import TagBar from "../components/Tag/TagBar.astro";
+
 const allProjects = await Astro.glob('../pages/projects/*.md');
 ---
 
 <BaseLayout>
   <div class="page-home">
     <Tagline/>
+    <TagBar/>
     <div class="work-display clearfix">
       <div class="grid">
         {allProjects.map((projects) => 

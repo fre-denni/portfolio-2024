@@ -266,6 +266,7 @@ main,
 }
 
 .tag-bar .tag-selected{
+    transition: ease-in 0.1s all;
     color: var(--global-background);
     background-color: var(--global-primary);
     box-shadow: 
@@ -1276,5 +1277,3 @@ main,
 		font-size: 36px;
 	}
 }
-
-/*--COMPUTER--*/

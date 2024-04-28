@@ -1,6 +1,6 @@
 ---
-const {buttonName} = Astro.props;
+const {buttonName, tag} = Astro.props;
 ---
 
-<button class="tag selected">{buttonName}</button>
+<button class={tag}>{buttonName}</button>
 <!--make also unselected tag -->

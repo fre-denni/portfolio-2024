@@ -11,7 +11,9 @@ const allProjects = await Astro.glob('../pages/projects/*.md');
 <BaseLayout>
   <div class="page-home">
     <Tagline/>
-    <TagBar/>
+    <div class="container tag-home">
+      <TagBar/>
+    </div>
     <div class="work-display clearfix">
       <div class="grid">
         {allProjects.map((projects) => 

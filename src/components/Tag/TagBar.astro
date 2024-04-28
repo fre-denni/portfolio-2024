@@ -3,13 +3,14 @@ import Tag from "./Tag.astro";
 //qui è da aggiungere il trigger per lo script
 ---
 
+<!--change one of them to hardware interface design -->
 <div class="tag-container">
     <div class="tag-bar">
-        <Tag buttonName="Show All"/>
-        <Tag buttonName="AI"/>
-        <Tag buttonName="Prototyping"/>
-        <Tag buttonName="Digital Art"/>
-        <Tag buttonName="UX Research"/>
-        <Tag buttonName="Design Systems"/>
+        <Tag buttonName="All" tag="tag-selected"/>
+        <Tag buttonName="Prototyping" tag="tag-unselected"/>
+        <Tag buttonName="AI" tag="tag-unselected" />
+        <Tag buttonName="Digital Art" tag="tag-unselected" />
+        <Tag buttonName="UX Research" tag="tag-unselected" />
+        <Tag buttonName="Design Systems" tag="tag-unselected"/>
     </div>
 </div>

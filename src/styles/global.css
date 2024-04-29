@@ -206,7 +206,7 @@ main,
 /*Add also tag unselected and selected*/
 .tag-home{
     max-width: fit-content;
-    margin: 25px auto 50px;
+    margin: 25px auto 30px;
 }
 
 .tag-container .tag-bar{
@@ -1155,6 +1155,10 @@ main,
 
     .page-home .tagline-box .tagline-description, .page-experiment .tagline-box .tagline-experiments{
         max-width: 640px;
+    }
+
+    .tag-home{
+        margin: 25px auto 50px;
     }
 
     .tag-container .tag-bar{

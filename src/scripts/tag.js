@@ -56,4 +56,7 @@ document.addEventListener('astro:page-load', () => {
             allButton.classList.add('tag-selected');
         }
     }
+
+    filteredProjects = filterProjects(allProjects, selectedTags);
 });
+

@@ -240,6 +240,7 @@ main,
     0  -9px 0 -3px var(--global-primary),
     0   9px 0 -3px var(--global-primary)
   ;
+    cursor: pointer;
 }
 
 .tag-bar .tag-unselected, .tag-bar .tag-selected{
@@ -428,7 +429,8 @@ main,
     z-index:999;
     text-align: center;
     transition: all 0.6s ease;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    clip-path: polygon( 76.191% 0%,76.191% 8.13%,84.127% 8.13%,84.127% 16.26%,92.064% 16.26%,92.064% 24.39%,100% 24.39%,100% 75.61%,92.064% 75.61%,92.064% 83.74%,84.127% 83.74%,84.127% 91.87%,76.191% 91.87%,76.191% 100%,23.81% 100%,23.81% 91.87%,15.873% 91.87%,15.873% 83.74%,7.937% 83.74%,7.937% 75.61%,0% 75.61%,0% 24.39%,7.937% 24.39%,7.937% 16.26%,15.873% 16.26%,15.873% 8.13%,23.81% 8.13%,23.81% 0%,76.191% 0% );
     cursor: pointer;
 }
 
@@ -679,10 +681,23 @@ main,
 .page-home .item .inner h2 {
 	display: inline-block;
 	background-color: var(--global-background);
-	padding: 10px 25px;
+	padding: 5px 12px;
 	font-size: 18px;
 	line-height: 120%;
-	border-radius: 25px;
+	/*border-radius: 25px;*/
+    box-shadow: 
+    0   -8px 0  -4px var(--global-background),
+    0   -16px 0  -8px var(--global-background),
+    0   8px 0  -4px var(--global-background),
+    0   16px 0  -8px var(--global-background),
+    
+    2.5px 0 0 2.5px var(--global-background),
+    -2.5px 0 0 2.5px var(--global-background),
+    0   -8px 0 0 var(--global-background),
+    0   8px 0  0 var(--global-background),
+    0  -19px 0 -6px var(--global-background),
+    0   19px 0 -6px var(--global-background)
+  ;
 	color: var(--global-primary);
 	transition: all 0.3s ease
 }

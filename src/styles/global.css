@@ -221,6 +221,7 @@ main,
     display: inline-block;
     border: none;
     background: none;
+    color: var(--global-primary);
     background-color: var(--global-background);
     font-size: 12px;
     font-weight: 600;

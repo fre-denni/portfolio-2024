@@ -286,10 +286,6 @@ main,
   ;
 }
 
-.page-about{
-    padding: 0 50px;
-}
-
 .small-1-4 {
 	width: 25%;
 }
@@ -307,6 +303,7 @@ main,
 .header{
     position: relative;
     height: 60px;
+    margin-bottom: 15px;
 }
 
 .header-main{
@@ -412,7 +409,7 @@ main,
 }
 
 .hamburger {
-    background-color: var(--global-secondary);
+    background-color: var(--global-background);
     display: block;
     position: absolute;
     border: 0;
@@ -631,8 +628,13 @@ main,
     padding-right: 7px;
 }
 
+.image{
+    clip-path: polygon( 0.012% 96.445%,0.771% 96.445%,0.771% 97.768%,1.521% 97.768%,1.521% 98.877%,2.416% 98.877%,2.416% 100%,97.596% 100%,97.596% 98.877%,98.491% 98.877%,98.491% 97.768%,99.241% 97.768%,99.241% 96.445%,100% 96.445%,100% 3.634%,99.241% 3.634%,99.241% 2.31%,98.491% 2.31%,98.491% 1.201%,97.596% 1.201%,97.596% 0.087%,2.416% 0.087%,2.416% 1.201%,1.521% 1.201%,1.521% 2.31%,0.771% 2.31%,0.771% 3.634%,0.012% 3.634%,0.012% 96.445% );
+}
+
 .page-home .item .image {
-    border-radius: 16px;
+    /*border-radius: 16px;*/
+    clip-path: polygon( 0.012% 96.445%,0.771% 96.445%,0.771% 97.768%,1.521% 97.768%,1.521% 98.877%,2.416% 98.877%,2.416% 100%,97.596% 100%,97.596% 98.877%,98.491% 98.877%,98.491% 97.768%,99.241% 97.768%,99.241% 96.445%,100% 96.445%,100% 3.634%,99.241% 3.634%,99.241% 2.31%,98.491% 2.31%,98.491% 1.201%,97.596% 1.201%,97.596% 0.087%,2.416% 0.087%,2.416% 1.201%,1.521% 1.201%,1.521% 2.31%,0.771% 2.31%,0.771% 3.634%,0.012% 3.634%,0.012% 96.445% );
 }
 
 .page-home .item .inner {
@@ -712,13 +714,20 @@ main,
 	transform: scale(1.05)
 }
 
+.item .description{
+    display: inline-block;
+    align-items: start;
+    margin: 0 10px 25px;
+}
+
 .item .description p{
-    font-size: 18px;
+    font-size: 16px;
+    margin:0;
 }
 
 .item .description h3{
-    margin-bottom: 0;
-    font-size: 18px;
+    font-size: 16px;
+    margin: 0;
 }
 
 .clearfix::after {
@@ -789,7 +798,7 @@ main,
 
 .work-project .image img{
     display: block;
-    border-radius: 16px;
+    /*border-radius: 16px*/;
     overflow: hidden;
     width: 100%;
     height: auto;
@@ -803,7 +812,7 @@ main,
 
 .page-about .image img{
     display: block;
-    border-radius: 16px;
+    /*border-radius: 16px;*/
     overflow: hidden;
     width: 100%;
     height: auto;
@@ -846,7 +855,8 @@ main,
 .credits .image{
     display: block;
     width: 100%;
-    border-radius: 16px;
+    /*border-radius: 16px;*/
+    clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
     margin: 10px 0;
 }
 
@@ -873,8 +883,9 @@ main,
 
 .credits .image img{
     width: 100%;
-    border-radius: 16px;
+    /*border-radius: 16px;*/
     overflow: hidden;
+    clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
     object-fit: cover;
     object-position: center;
 }
@@ -1087,6 +1098,7 @@ main,
 
     .header{
         height:180px;
+        margin-bottom: 0;
     }
 
     .header-main{
@@ -1149,6 +1161,13 @@ main,
         font-size: 15px;
 		margin: 0 30px 0 0;
 	}
+
+    
+    .item .description{
+        display: inline-block;
+        align-items: start;
+        margin: 0 10px 0;
+    }
 
     .description-homepage .div-description-project {
         font-size: 1rem;
@@ -1213,9 +1232,13 @@ main,
         height: 428px;
     }
 
+    .page-about{
+        padding: 0 50px;
+    }
+
     .page-about .image img{
-        height: 625px;
-        object-position: center;
+        height: 450px;
+        object-position: top;
     }
 
     .credits ul li{

@@ -3,9 +3,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const {frontmatter} = Astro.props;
 ---
 
-<!--RICORDATI DI MODIFICARE TUTTI I LINK DEGLI AHREF DA ABOUT.ASTRO A ABOUT.MD -->
-<!--aggiungi questo layout al file md -->
-
 <BaseLayout>
     <div class="page-about">
         <div class="container">
@@ -13,4 +10,9 @@ const {frontmatter} = Astro.props;
         </div>
     </div>
     <hr />
+    <div class="cv">
+        <div><!-- here goes the skills--></div>
+        <div><!-- here goes the experiences--></div>
+        <div><!-- here goes something interactive && fun--></div>
+    </div>
 </BaseLayout>

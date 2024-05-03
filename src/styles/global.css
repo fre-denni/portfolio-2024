@@ -812,6 +812,13 @@ main,
     max-width: 475px;
 }
 
+.page-about .inner h2{
+    font-family: var(--global-font-secondary);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
 .work-project .image{
     margin: 0 0 30px;
 }

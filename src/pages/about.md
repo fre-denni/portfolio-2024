@@ -1,5 +1,10 @@
 ---
 layout: ../layouts/AboutLayout.astro
+skillset:
+    services: [""]
+    skill: [""]
+    tech: [""]
+experiences: [""]
 ---
 
 <section class="row">

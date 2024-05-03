@@ -68,6 +68,8 @@ a:active{
 
 a:hover{
     color: var(--global-secondary);
+    transition: ease-in 0.1s all;
+    transform: translate(0, 1%);
 }
 
 ul {
@@ -107,6 +109,8 @@ hr{
 .header-nav .site-menu ul li a:hover{
     background-color: transparent;
     color: var(--global-secondary);
+    transition: ease-in 0.1s all;
+    transform: translate(0, 5%);
 }
 
 .header-nav .site-menu ul li.menu-active a {
@@ -114,6 +118,21 @@ hr{
     color: var(--global-secondary);
 }
 
+.header-btn{
+    padding: 20px 0;
+    position: absolute;
+    right: 65px;
+    top:10px;
+    color: var(--global-background);
+    text-decoration: underline;
+    padding: 10px;
+    border:none;
+    font-size: 18px;
+}
+
+.header-btn:hover{
+	opacity: 1
+}
 
 .header-nav .site-menu ul li a:after {
     content: ',';
@@ -245,11 +264,12 @@ main,
 }
 
 .tag-bar .tag-unselected, .tag-bar .tag-selected{
-    padding: 4px .8rem;
+    padding: 2px .8rem;
 }
 
 .tag-bar .tag-unselected:hover{
     transition: ease-in 0.1s all;
+    transform: translate(0, 5%);
     color: var(--global-secondary);
     background-color: var(--global-background);
     box-shadow: 
@@ -684,8 +704,8 @@ main,
 .page-home .item .inner h2 {
 	display: inline-block;
 	background-color: var(--global-background);
-	padding: 5px 12px;
-	font-size: 18px;
+	padding: 2px 6px;
+	font-size: 16px;
 	line-height: 120%;
 	/*border-radius: 25px;*/
     box-shadow: 
@@ -1130,6 +1150,12 @@ main,
         padding: 10px 2px;
         font-size: 32px;
         transition: none;
+    }
+
+    .header-btn{
+        right: 18px;
+        top: 20px;
+        z-index: 2;
     }
     
     .hamburger{

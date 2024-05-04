@@ -1,13 +1,15 @@
 ---
-const {title, url, description, collab, img, alt} = Astro.props;
+import { getCollection } from "astro:content";
 
-const frontMatter= projects.data;
-let tags = frontMatter.tags;
-tags = tags.join(" ");
+const {title, url, description, collab, img, alt} = Astro.props;
+const Projects = await getCollection("projects", ({data}) => {
+    let tags = data.tags;
+    return tags = tags.join(" ");
+});
 
 ---
 <!--adesso si può fare la card -->
-<div class=`column medium-1-2 large-1-3 xxlarge-1-4 card ${tags}`>
+<div class={`column medium-1-2 large-1-3 xxlarge-1-4 card ${Projects}`}>
     <a href={url} class="item">
         <div class="image">
             <img src={img} alt={alt}>

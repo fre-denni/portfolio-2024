@@ -2,4 +2,4 @@
 const {style, tag} = Astro.props;
 ---
 <!--class={style} see how to add it back -->
-<button data-type={tag} id="blogFilter">{tag}</button>
+<button data-type={tag} id="blogFilter" class={style}>{tag}</button>

@@ -1,17 +1,16 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
-title: 'EOLO'
-time: 'one week project'
+title: 'ARTEC'
+time: '02-23 to 09-23'
 description: 'Open Source Fermenter Kit'
-card: 'making a puzzle-platform game for children as a disguise for a spirometry test'
+card: 'make an AR art experience detecting emotion using machine learning'
 image:
-    url: '/images/about.jpg'
+    url: '/images/artec.gif'
     alt: 'heroshot'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["prototyping"]
+tags: ["AI", "art"]
 ---
 <section class="row">
 
@@ -81,3 +80,4 @@ To diminish energy waste an e-ink display is used.
 </div>
 
 </section>
+

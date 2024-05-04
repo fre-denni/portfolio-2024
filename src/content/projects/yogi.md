@@ -1,17 +1,17 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
-title: 'JUNKER'
-time: '10-22 to 05-23'
-description: 'Open Source Fermenter Kit'
-card: 'redesign an app for conscious waste management for everyone'
+title: 'YOGI'
+time: 'three weeks project'
+description: 'Digital AI nose for the woods'
+card: 'teaching AI to protect woods from fire'
 image:
-    url: '/images/hacko-heroshot.jpg'
+    url: '/images/hacko-2.png'
     alt: 'heroshot'
+made: 'with ELISAVA'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["design system", "ux"]
+tags: ["prototyping","ai"]
 ---
 <section class="row">
 
@@ -81,4 +81,3 @@ To diminish energy waste an e-ink display is used.
 </div>
 
 </section>
-

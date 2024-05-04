@@ -5,9 +5,10 @@ import Tagline from "../components/Content/Tagline.astro";
 import ProjectCard from "../components/Card/ProjectCard.astro";
 import TagBar from "../components/Tag/TagBar.astro";
 
+import { getCollection } from "astro:content";
 import {filterProjects} from "../scripts/filter.js"
 
-const allProjects = await Astro.glob('../pages/projects/*.md');
+const allProjects = await getCollection("projects");
 let selectedTags = ['All']; // starts with 'All' selected
 let filteredProjects = filterProjects(allProjects, selectedTags);
 ---
@@ -22,12 +23,12 @@ let filteredProjects = filterProjects(allProjects, selectedTags);
       <div class="grid">
         {filteredProjects.map((projects) => 
             <ProjectCard
-                url={projects.url} 
-                img={projects.frontmatter.image.url} 
-                alt={projects.frontmatter.image.alt} 
-                description={projects.frontmatter.card} 
-                collab={projects.frontmatter.made} 
-                title={projects.frontmatter.title} />
+                url={`/projects/${projects.slug}/`} 
+                img={projects.data.image.url} 
+                alt={projects.data.image.alt} 
+                description={projects.data.card} 
+                collab={projects.data.made} 
+                title={projects.data.title} />
         )}
       </div>  
     </div>

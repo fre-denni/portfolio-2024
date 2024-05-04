@@ -1,17 +1,17 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
-title: 'KNOCKNOCK'
-time: 'one week project'
+title: 'MILANO PARTECIPA'
+time: '10-22 to 05-23'
 description: 'Open Source Fermenter Kit'
-card: 'connecting remote workers as they would do in presence'
+card: 'design a platform for the city to listen && grow with its citizen'
 image:
-    url: '/images/knocknock.gif'
+    url: '/images/hacko-heroshot.jpg'
     alt: 'heroshot'
+made: 'with Milano Municipality'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["prototyping", "ux"]
+tags: ["design system", "ux"]
 ---
 <section class="row">
 
@@ -81,3 +81,4 @@ To diminish energy waste an e-ink display is used.
 </div>
 
 </section>
+

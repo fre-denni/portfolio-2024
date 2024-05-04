@@ -1,17 +1,17 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
-title: 'ZOBEIDE'
-time: '10-22 to 05-23'
+title: 'PIENE'
+time: 'one week project'
 description: 'Open Source Fermenter Kit'
-card: 'using generative AI to translate dreams to cities'
+card: 'hacking a fidget toy to tells us to stop stressing && enjoy life'
 image:
-    url: '/images/hacko-heroshot.jpg'
+    url: '/images/about.jpg'
     alt: 'heroshot'
+made: 'with EPFAL+ECAL'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["ai", "art"]
+tags: ["ux", "prototyping"]
 ---
 <section class="row">
 
@@ -81,4 +81,3 @@ To diminish energy waste an e-ink display is used.
 </div>
 
 </section>
-

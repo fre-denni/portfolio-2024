@@ -1,17 +1,16 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
-title: 'ARTEC'
-time: '02-23 to 09-23'
+title: 'KNOCKNOCK'
+time: 'one week project'
 description: 'Open Source Fermenter Kit'
-card: 'make an AR art experience detecting emotion using machine learning'
+card: 'connecting remote workers as they would do in presence'
 image:
-    url: '/images/artec.gif'
+    url: '/images/knocknock.gif'
     alt: 'heroshot'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["AI", "art"]
+tags: ["prototyping", "ux"]
 ---
 <section class="row">
 
@@ -81,4 +80,3 @@ To diminish energy waste an e-ink display is used.
 </div>
 
 </section>
-

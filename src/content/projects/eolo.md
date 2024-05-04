@@ -1,17 +1,16 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
-title: 'POETIC INTERFACES'
-time: '10-22 to 05-23'
+title: 'EOLO'
+time: 'one week project'
 description: 'Open Source Fermenter Kit'
-card: 'using LLMs to explore new ways to present data and improve our understanding of it'
+card: 'making a puzzle-platform game for children as a disguise for a spirometry test'
 image:
-    url: '/images/hacko-heroshot.jpg'
+    url: '/images/about.jpg'
     alt: 'heroshot'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["dataviz","ai"]
+tags: ["prototyping"]
 ---
 <section class="row">
 
@@ -81,4 +80,3 @@ To diminish energy waste an e-ink display is used.
 </div>
 
 </section>
-

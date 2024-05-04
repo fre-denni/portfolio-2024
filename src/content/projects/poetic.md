@@ -10,7 +10,7 @@ role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["dataviz","ai"]
+tags: ["Show All","AI","Prototyping"]
 ---
 <section class="row">
 

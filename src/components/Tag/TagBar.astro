@@ -1,14 +1,28 @@
 ---
+import { getCollection } from "astro:content";
 import Tag from "./Tag.astro";
+
+
+const Projects = await getCollection("projects");
+const tags = Projects.map((p) => p.data.tags).flat();
+
+const uniqueTags = [...new Set(tags)];
 ---
 
+<!--modify the code to add class depending on tag.js code -->
+<!--remember to add All WOrk tag to all tags -->
+
 <div class="tag-container">
-    <div class="tag-bar">
-        <Tag buttonName="All Work" tag="tag-selected"/>
-        <Tag buttonName="Prototyping" tag="tag-unselected"/>
-        <Tag buttonName="AI" tag="tag-unselected" />
-        <Tag buttonName="Digital Art" tag="tag-unselected" />
-        <Tag buttonName="UX Research" tag="tag-unselected" />
-        <Tag buttonName="Design Systems" tag="tag-unselected"/>
+    <div class="tag-bar" id="tags" data-tags={uniqueTags}>
+        {uniqueTags.map((tag) => <Tag {tag}/>)}
     </div>
 </div>
+
+
+<!--vecchio codice per scaramanzia -->
+<!--Tag buttonName="All Work" tag="tag-selected"/>
+<Tag buttonName="Prototyping" tag="tag-unselected"/>
+<Tag buttonName="AI" tag="tag-unselected" />
+<Tag buttonName="Digital Art" tag="tag-unselected" />
+<Tag buttonName="UX Research" tag="tag-unselected" />
+<Tag buttonName="Design Systems" tag="tag-unselected"/-->

@@ -1,6 +1,5 @@
 ---
-const {buttonName, tag} = Astro.props;
+const {style, tag} = Astro.props;
 ---
-
-<button class={tag}>{buttonName}</button>
-<!--make also unselected tag -->
+<!--class={style} see how to add it back -->
+<button data-type={tag} id="blogFilter">{tag}</button>

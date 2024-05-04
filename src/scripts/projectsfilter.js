@@ -1,3 +1,4 @@
+document.addEventListener('astro:page-load', () => {
 function hideBlogs(evt) {
     let selectedTag = evt.currentTarget.getAttribute("data-type");
     let tagElement = document.getElementById("tags");
@@ -22,4 +23,5 @@ function hideBlogs(evt) {
   const input = document.querySelectorAll("#blogFilter");
   input.forEach((e) => {
     e.addEventListener("click", hideBlogs);
-  });
+  })
+});

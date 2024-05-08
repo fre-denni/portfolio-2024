@@ -56,25 +56,7 @@ document.addEventListener('astro:page-load', () => {
 
         filterProjects();
     }
-
-    /*function filterProjects(){
-        if(tagArray.includes('All Work')) {
-            projectCards.forEach(card => {
-                card.style.display = '';
-            });
-        } else {
-            projectCards.forEach(card => {
-                let cardTags = card.className.split(' ');
-                let cardTagStr = cardTags.join(' ');
-                if (tagArray.some(tag => cardTagStr.includes(tag))) {
-                    card.style.display = '';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-    }*/
-
+    
     function filterProjects(){
         if(tagArray.includes('All Work')) {
             projectCards.forEach(card => {

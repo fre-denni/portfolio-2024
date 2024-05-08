@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-//import {filterProjects} from "../scripts/filter.js"
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 
@@ -10,8 +9,6 @@ import TagBar from "../components/Tag/TagBar.astro";
 
 const allProjects = await getCollection("projects");
 
-//let selectedTags = ['All Work']; // starts with 'All' selected
-//let filteredProjects = filterProjects(allProjects, selectedTags);
 ---
 
 <BaseLayout>

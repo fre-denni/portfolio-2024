@@ -57,7 +57,7 @@ document.addEventListener('astro:page-load', () => {
         filterProjects();
     }
 
-    function filterProjects(){
+    /*function filterProjects(){
         if(tagArray.includes('All Work')) {
             projectCards.forEach(card => {
                 card.style.display = '';
@@ -65,14 +65,43 @@ document.addEventListener('astro:page-load', () => {
         } else {
             projectCards.forEach(card => {
                 let cardTags = card.className.split(' ');
-                if (tagArray.some(tag => cardTags.includes(tag))) {
+                let cardTagStr = cardTags.join(' ');
+                if (tagArray.some(tag => cardTagStr.includes(tag))) {
                     card.style.display = '';
                 } else {
                     card.style.display = 'none';
                 }
             });
         }
+    }*/
+
+    function filterProjects(){
+        if(tagArray.includes('All Work')) {
+            projectCards.forEach(card => {
+                card.style.display = '';
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                }, 50); // Small delay to allow the display property to take effect
+            });
+        } else {
+            projectCards.forEach(card => {
+                let cardTags = card.className.split(' ');
+                let cardTagsStr = cardTags.join(' ');
+                if (tagArray.some(tag => cardTagsStr.includes(tag))) {
+                    card.style.display = '';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                    }, 50); // Small delay to allow the display property to take effect
+                } else {
+                    card.style.opacity = '0';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300); // Match this with the duration specified in your CSS transition
+                }
+            });
+        }
     }
+    
 
     filterProjects();
 })

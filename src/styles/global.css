@@ -722,7 +722,7 @@ main,
     0   19px 0 -6px var(--global-background)
   ;
 	color: var(--global-primary);
-	transition: all 0.3s ease
+	transition: all 0.3s ease;
 }
 
 .page-home .item:hover .inner {
@@ -748,6 +748,10 @@ main,
 .item .description h3{
     font-size: 16px;
     margin: 0;
+}
+
+.card{
+    transition: all 0.3s ease-in;
 }
 
 .clearfix::after {

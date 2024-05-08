@@ -75,5 +75,4 @@ document.addEventListener('astro:page-load', () => {
     }
 
     filterProjects();
-
 })

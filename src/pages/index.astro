@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import {filterProjects} from "../scripts/filter.js"
+//import {filterProjects} from "../scripts/filter.js"
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 
@@ -10,8 +10,8 @@ import TagBar from "../components/Tag/TagBar.astro";
 
 const allProjects = await getCollection("projects");
 
-let selectedTags = ['All Work']; // starts with 'All' selected
-let filteredProjects = filterProjects(allProjects, selectedTags);
+//let selectedTags = ['All Work']; // starts with 'All' selected
+//let filteredProjects = filterProjects(allProjects, selectedTags);
 ---
 
 <BaseLayout>
@@ -22,8 +22,9 @@ let filteredProjects = filterProjects(allProjects, selectedTags);
     </div>
     <div class="work-display clearfix">
       <div class="grid">
-        {filteredProjects.map((projects) => 
+        {allProjects.map((projects) => 
             <ProjectCard
+                style={`column medium-1-2 large-1-3 xxlarge-1-4 card ${projects.data.tags.join(" ")}`}
                 url={`/projects/${projects.slug}/`} 
                 img={projects.data.image.url} 
                 alt={projects.data.image.alt} 

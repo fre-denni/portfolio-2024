@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import Tag from "./Tag.astro";
 
-
 const Projects = await getCollection("projects");
 const tags = Projects.map((p) => p.data.tags).flat();
 
@@ -11,9 +10,11 @@ const uniqueTags = [...new Set(tags)];
 
 <!--modify the code to add class depending on tag.js code -->
 <!--remember to add All WOrk tag to all tags -->
+<!--in teoria id=filter-tab non mi dovrebbe servire, lascio qui come reference -->
 
 <div class="tag-container">
-    <div class="tag-bar" id="tags" data-tags={uniqueTags}>
+    <div class="tag-bar" data-tags={uniqueTags}>
+        <Tag tag="All Work" style="tag-selected"/>
         {uniqueTags.map((tag) => 
         <Tag 
             tag={tag} 

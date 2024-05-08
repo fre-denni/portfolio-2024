@@ -1,8 +1,8 @@
 ---
-import { getCollection } from "astro:content";
+//import { getCollection } from "astro:content";
 
-const {title, url, description, collab, img, alt} = Astro.props;
-const Projects = await getCollection("projects",({data}) => {
+const {title, url, description, collab, img, alt, style} = Astro.props;
+/*const Projects = await getCollection("projects",({data}) => {
     return{
         ...data,
         tags: data.tags.join(" ")
@@ -10,11 +10,11 @@ const Projects = await getCollection("projects",({data}) => {
 });
 
 // Map over the Projects array and join the tags with a space
-const projectTags = Projects.map(project => project.data.tags.join(" ")).join(" ");
-
+const projectTags = Projects.map(project => project.data.tags.join(" ")).join(" "); <-- non devo aggiungerlo qui*/
+//logica --> aggiungi un prop per una tag nello stile, oppure non lavorare di stile, ma aggiungi un data-type?
 ---
 
-<div class={`column medium-1-2 large-1-3 xxlarge-1-4 card ${projectTags}`}>
+<div class={style}>
     <a href={url} class="item">
         <div class="image">
             <img src={img} alt={alt}>

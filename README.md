@@ -37,7 +37,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 ## Lavoro da fare
 
-> Divise per importanza
+> Divise per importanza <br/>
 > Bisogna 🏃🏃🏃
 
 - Aggiungere progetti consigliati a pagina progetto

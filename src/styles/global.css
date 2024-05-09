@@ -416,15 +416,15 @@ main,
 
 .logo{
     content: url('/logo-idle.svg');
-    width: fit-content;
+    width: 100%;
     cursor:pointer;
 }
 
 .logo:hover, .logo:active {
     content: url('/logo-hover.svg');
     position: relative;
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    /*height: fit-content;*/
     cursor:pointer;
 }
 

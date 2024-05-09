@@ -5,8 +5,6 @@
 
 Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
----
-
 ## Bug noti
 
 > Qui una lista di tutti i bug che vengono riportati
@@ -32,8 +30,6 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 - anche qua non view transition
 
 - quando si clicca sul logo nella pagina principale, non ricarica la pagina
-
----
 
 ## Lavoro da fare
 

@@ -9,7 +9,7 @@ const uniqueTags = [...new Set(tags)];
 ---
 
 <div class="tag-container">
-    <div class="tag-bar" data-tags={uniqueTags}>
+    <div class="tag-bar">
         <Tag tag="All Work" style="tag-selected"/>
         {uniqueTags.map((tag) => 
         <Tag 

@@ -38,6 +38,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - Aggiungere progetti consigliati a pagina progetto
     - carosello per mobile/ lista di 3 per tablet/computer
+- Progetti consigliati/nuovi per ordinare i progetti sull'homepage
 - Layout pagina about
     - sezione interattiva
         - *tirare fuori idee*

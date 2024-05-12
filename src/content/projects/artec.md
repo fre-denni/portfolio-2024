@@ -1,5 +1,5 @@
 ---
-title: 'ARTEC'
+title: 'ART.E.C.'
 time: '02-23 to 09-23'
 description: 'AR/AI Art Experience'
 card: 'make an AR art experience detecting emotion using machine learning'

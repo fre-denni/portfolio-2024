@@ -1,0 +1,18 @@
+---
+const {title, url, img, alt, description} = Astro.props;
+---
+<div class="slide">
+    <div>
+        <li style="width:100%; display:inline-block;">
+            <a href={url} class="item">
+                <div class="image">
+                    <img src={img} alt={alt}>
+                </div>
+                <div class="inner">
+                    <h2>{title}</h2>
+                    <p class="work-label">{description}</p>
+                </div>
+            </a>
+        </li>
+    </div>
+</div>

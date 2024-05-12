@@ -1,7 +1,31 @@
 ---
+import { getCollection } from "astro:content";
+
+import TagCard from "../components/Card/TagCard.astro";
 import BaseLayout from "./BaseLayout.astro";
-const {frontmatter} = Astro.props;
+const {frontmatter} = Astro.props; //here the frontmatter of the displayed project in this page
+
+const Projects = await getCollection("projects");
+// Filter out the current project
+const otherProjects = Projects.filter(p => p.data.title !== frontmatter.title);
+
+function compareTags(projectTags, otherProjectTags) {
+    return otherProjectTags.filter(tag => projectTags.includes(tag));
+}
+
+// For each project, calculate the number of common tags with the current project
+const projectsWithCommonTags = otherProjects.map(p => ({
+    ...p,
+    commonTags: compareTags(frontmatter.tags, p.data.tags)
+}));
+
+// Sort the projects by the number of common tags (in descending order)
+const sortedProjects = projectsWithCommonTags.sort((a, b) => b.commonTags.length - a.commonTags.length);
+
+// Select the top 3 projects
+const Suggested = sortedProjects.slice(0, 3);
 ---
+
 <BaseLayout>
     <div class="credits">
         <div class="row">
@@ -47,10 +71,23 @@ const {frontmatter} = Astro.props;
     </div>
     <div class="work-related">
         <section class="row small-padding">
-            <div class="column small-1-4">
-                <p>More projects</p>
+            <div class="column large-1-4">
+                <p>Similar projects</p>
             </div>
-            <div class="column small-3-4">
+            <div class="column large-3-4">
+                <ul class="work-slider">
+                    <div class="draggable">
+                        <div class="track">
+                            {Suggested.map(p => <TagCard 
+                                url={`/projects/${p.slug}/`}
+                                title={p.data.title}
+                                img={p.data.image.url} 
+                                alt={p.data.image.alt} 
+                                description={p.data.card} 
+                            />)}
+                        </div>
+                    </div>
+                </ul>
             </div>
         </section>
     </div>

@@ -146,7 +146,7 @@ hr{
 .container{
    max-width: 3000px;
    margin: 0 auto;
-   padding: 0 14px; 
+   padding: 0 14px;
 }
 
 .wrapper {
@@ -165,6 +165,11 @@ hr{
 .row.small-padding {
 	margin-left: -7px;
 	margin-right: -7px;
+}
+
+.row.small-padding .column {
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .row.no-padding {
@@ -922,6 +927,11 @@ main,
     object-position: center;
 }
 
+.work-related{
+    border-top: 2px solid var(--global-primary);
+    padding: 15px 0 0;
+}
+
 @media only screen and (min-width:768px) {
 	.medium-1-10 {
 		width: 10%;
@@ -1254,11 +1264,11 @@ main,
     }
 
     .work-project{
-        padding: 0 50px 50px;
+        padding: 0 2% 50px;
     }
     
     .credits{
-        margin: 0 50px 10px 50px;
+        margin: 0 2% 50px;
     }
 
     .credits .title .text{
@@ -1294,6 +1304,12 @@ main,
 
     .credits{
         font-size: 15px;
+    }
+
+    .work-related{
+        padding: 15px 0 0;
+        margin: 0 2% 0;
+        border-top: 2px solid var(--global-primary);
     }
     
 }

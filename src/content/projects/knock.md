@@ -1,7 +1,7 @@
 ---
 title: 'KNOCKNOCK'
 time: 'one week project'
-description: 'Open Source Fermenter Kit'
+description: 'Destroy the barriers'
 card: 'connecting remote workers as they would do in presence'
 image:
     url: '/images/knocknock.gif'

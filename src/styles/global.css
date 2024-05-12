@@ -934,7 +934,7 @@ main,
 }
 
 .work-related .work-slider{
-    display: block;
+    overflow-x: auto;
     list-style-type: none;
     padding: 0;
     margin: 0 -15px 15px 0;
@@ -983,7 +983,7 @@ main,
 }
 
 .work-related .item h2{
-    font-size: 19px;
+    font-size: 1rem;
     font-weight: 400;
     padding: 10px 0 0;
     margin: 0;
@@ -992,6 +992,7 @@ main,
 
 .work-label{
     color: var(--global-secondary);
+    font-size: 1rem;
     display: inline-block;
     padding: 0 0 10px;
     margin: 0;

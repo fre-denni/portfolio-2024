@@ -1,7 +1,7 @@
 ---
 title: 'EOLO'
 time: 'one week project'
-description: 'Open Source Fermenter Kit'
+description: 'Game for disabili'
 card: 'making a puzzle-platform game for children as a disguise for a spirometry test'
 image:
     url: '/images/about.jpg'

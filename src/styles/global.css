@@ -830,6 +830,10 @@ main,
     letter-spacing: -0.8px;
 }
 
+.work-project{
+    margin-bottom: 15px;
+}
+
 .work-project .image{
     margin: 0 0 30px;
 }
@@ -955,7 +959,7 @@ main,
     display: inline-block;
     padding: 0 15px 0 0;
     outline: none;
-    max-width: 33%;
+    max-width: 100%;
 }
 
 .slide img{
@@ -1389,6 +1393,7 @@ main,
 
     .work-related .work-slider .slide{
         padding: 0 7px;
+        max-width: 33%;
     }
     
 }

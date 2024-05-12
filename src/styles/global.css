@@ -8,7 +8,7 @@
     --global-primary: #000;
     --global-secondary: #999;
     --global-secondary-hover: #6a6a6a;
-    --global-select: #EE805A;
+    --global-select: #c31d03;
     --global-font-primary:'Geist Sans', 'Arial', sans-serif;
     --global-font-secondary:'Geist Mono','Courier', monospace;
 }
@@ -693,6 +693,59 @@ main,
     outline: none;
     display: block;
     margin: 0 0 14px;
+}
+
+.page-home .item.spicy::before, .page-home .item.new::before{
+    position: absolute;
+    content:'';
+    background: var(--global-primary);
+    height:28px;
+    width:28px;
+    top: 2rem;
+    right: -0.25rem;
+    transform: rotate(45deg);
+}
+
+.page-home .item.spicy::after{
+    position:absolute;
+    content: '🔥 Spicy Content!';
+    top: 15px;
+    right: -0.625rem;
+    padding: 0.5rem;
+    width: fit-content;
+    background: var(--global-select);
+    color: var(--global-background);
+    font-family: var(--global-font-secondary);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100%;
+    z-index: 1;
+}
+
+.page-home .item.new::after{
+    position:absolute;
+    content: 'New!';
+    top: 15px;
+    right: -0.625rem;
+    padding: 0.5rem;
+    width: fit-content;
+    background: var(--global-secondary);
+    color: var(--global-background);
+    font-family: var(--global-font-secondary);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100%;
+    z-index: 1;
+}
+
+.page-home .item.none::before,
+.page-home .item.none::after {
+  display: none;
+  content: '';
 }
 
 .page-home .item .inner {

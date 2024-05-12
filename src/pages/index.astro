@@ -7,9 +7,16 @@ import Tagline from "../components/Content/Tagline.astro";
 import ProjectCard from "../components/Card/ProjectCard.astro";
 import TagBar from "../components/Tag/TagBar.astro";
 
-const allProjects = await getCollection("projects");
+let allProjects = await getCollection("projects");
 
-//const customOrder = ['hacko', 'knock', 'eolo','yogi','poetic', 'milano', 'junkers','piene','artec', 'sommelier', 'zobeide']
+// Sort the projects based on the "type" field
+allProjects = allProjects.sort((a, b) => {
+  if (a.data.type === 'Spicy' || (a.data.type === 'New' && b.data.type !== 'Spicy')) return -1;
+  if (b.data.type === 'Spicy' || (b.data.type === 'New' && a.data.type !== 'Spicy')) return 1;
+  if (a.data.type === 'None' && b.data.type !== 'None') return 1;
+  if (b.data.type === 'None' && a.data.type !== 'None') return -1;
+  return 0;
+});
 
 ---
 
@@ -29,7 +36,9 @@ const allProjects = await getCollection("projects");
                 alt={projects.data.image.alt} 
                 description={projects.data.card} 
                 collab={projects.data.made} 
-                title={projects.data.title} />
+                title={projects.data.title}
+                type = {projects.data.type.toLowerCase()}
+                />
         )}
       </div>  
     </div>

@@ -11,6 +11,7 @@ team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Lu
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
 tags: ["AI","UX Research"]
+type: "None"
 ---
 <section class="row">
 

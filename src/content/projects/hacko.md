@@ -1,5 +1,5 @@
 ---
-title: 'HACKO'
+title: 'HACKO 🍛'
 time: '10-22 to 05-23'
 description: 'Open Source Fermenter Kit'
 card: 'design an open-source fermenter toolkit for plant based food'
@@ -12,6 +12,7 @@ team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Lu
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
 tags: ["Prototyping"]
+type: "None"
 ---
 <section class="row">
 

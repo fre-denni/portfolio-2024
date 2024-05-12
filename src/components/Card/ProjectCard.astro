@@ -1,9 +1,9 @@
 ---
-const {title, url, description, collab, img, alt, style} = Astro.props;
+const {title, url, description, collab, img, alt, style, type} = Astro.props;
 ---
 
 <div class={style}>
-    <a href={url} class="item">
+    <a href={url} class={`item ${type}`}>
         <div class="image">
             <img src={img} alt={alt}>
             <div class="inner">

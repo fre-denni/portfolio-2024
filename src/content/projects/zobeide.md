@@ -2,7 +2,7 @@
 title: 'ZOBEIDE'
 time: '10-22 to 05-23'
 description: 'Dream Visualizer'
-card: 'using generative AI to translate dreams to cities'
+card: 'and using generative AI to translate dreams to cities'
 image:
     url: '/images/hacko-heroshot.jpg'
     alt: 'heroshot'

@@ -748,6 +748,7 @@ main,
 .item .description p{
     font-size: 16px;
     margin:0;
+    color: var(--global-secondary);
 }
 
 .item .description h3{
@@ -971,6 +972,10 @@ main,
     transition: ease 0.3s all;
 }
 
+.work-related .item:hover{
+    color:var(--global-secondary);
+}
+
 .work-related .item img{
     display: block;
     width: 100%;
@@ -983,7 +988,6 @@ main,
     padding: 10px 0 0;
     margin: 0;
     line-height: 110%;
-    color: var(--global-primary);
 }
 
 .work-label{

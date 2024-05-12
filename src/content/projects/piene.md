@@ -1,7 +1,7 @@
 ---
 title: 'PIENE'
 time: 'one week project'
-description: 'Open Source Fermenter Kit'
+description: 'Hack a fidget toy'
 card: 'hacking a fidget toy to tells us to stop stressing && enjoy life'
 image:
     url: '/images/about.jpg'

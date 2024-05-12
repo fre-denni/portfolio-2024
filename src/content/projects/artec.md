@@ -1,7 +1,7 @@
 ---
 title: 'ARTEC'
 time: '02-23 to 09-23'
-description: 'Open Source Fermenter Kit'
+description: 'AR/AI Art Experience'
 card: 'make an AR art experience detecting emotion using machine learning'
 image:
     url: '/images/artec.gif'

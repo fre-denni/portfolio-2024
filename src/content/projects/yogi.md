@@ -1,7 +1,7 @@
 ---
 title: 'YOGI'
 time: 'three weeks project'
-description: 'Digital AI nose for the woods'
+description: 'Edge AI for IoT'
 card: 'teaching AI to protect woods from fire'
 image:
     url: '/images/hacko-2.png'

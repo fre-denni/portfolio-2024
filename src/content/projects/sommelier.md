@@ -1,7 +1,7 @@
 ---
 title: 'SOMMELIER'
 time: '10-22 to 05-23'
-description: 'Open Source Fermenter Kit'
+description: 'Future Aperitivo Experience'
 card: 'design an art experience to understand what relation we will have with future food systems '
 image:
     url: '/images/hacko-heroshot.jpg'

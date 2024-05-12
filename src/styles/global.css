@@ -932,6 +932,68 @@ main,
     padding: 15px 0 0;
 }
 
+.work-related .work-slider{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 -15px 15px 0;
+    outline: none;
+    position: relative;
+}
+
+.track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-related .work-slider .slide{
+    display: inline-block;
+    padding: 0 15px 0 0;
+    outline: none;
+    max-width: 33%;
+}
+
+.slide img{
+    display: block;
+}
+
+.work-related .item{
+    display: block;
+    margin: 0 0 10px;
+    color: var(--global-primary);
+    text-decoration: none;
+    position: relative;
+    outline: none;
+    transition: ease 0.3s all;
+}
+
+.work-related .item img{
+    display: block;
+    width: 100%;
+    transition: ease 0.3s all;
+}
+
+.work-related .item h2{
+    font-size: 19px;
+    font-weight: 400;
+    padding: 10px 0 0;
+    margin: 0;
+    line-height: 110%;
+    color: var(--global-primary);
+}
+
+.work-label{
+    color: var(--global-secondary);
+    display: inline-block;
+    padding: 0 0 10px;
+    margin: 0;
+}
+
+
 @media only screen and (min-width:768px) {
 	.medium-1-10 {
 		width: 10%;
@@ -976,6 +1038,10 @@ main,
 	.medium-3-4 {
 		width: 75%;
 	}
+
+    .work-related .item{
+        margin: 0 0 20px;
+    }
 }
 
 @media only screen and (min-width:1024px) {
@@ -1311,14 +1377,22 @@ main,
         margin: 0 2% 0;
         border-top: 2px solid var(--global-primary);
     }
+
+    .work-related .work-slider{
+        margin: 0 -7px 15px;
+    }
+
+    .work-related .work-slider .slide{
+        padding: 0 7px;
+    }
     
 }
 
-
+/* QUI CI STA IL PROBLEMA CON iOS (probabilmente) */
 @media only screen and (min-width:1024px) {
 	
     .footer {
-		padding: 100px 0 1px;
+		padding: 25px 0 1px;
 	}
 
 	.footer .action-call {
@@ -1365,6 +1439,10 @@ main,
 	.footer .copy {
 		order: 6;
 	}
+
+    .work-related .item{
+        margin: 0 0 30px;
+    }
 }
 
 

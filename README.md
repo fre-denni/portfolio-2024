@@ -36,8 +36,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 > Divise per importanza <br/>
 > Bisogna 🏃🏃🏃
 
-- Aggiungere progetti consigliati a pagina progetto
-    - carosello per mobile/ lista di 3 per tablet/computer
+- ~~Aggiungere progetti consigliati a pagina progetto~~
 - Progetti consigliati/nuovi per ordinare i progetti sull'homepage
 - Layout pagina about
     - sezione interattiva
@@ -49,4 +48,19 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
     - quadrato, rettangolo basso e rettangolo alto
     - cambia view transition per l'heroshot
 - Pulisci css
+    - Tipografia && importare font giusti
+    - Cambiare tutte le dimensioni a responsive (rem && %)
+    - Fare variabili di testo globali
+    - Fare contorno immagine responsive (quadrato, rettangolare basso, rettangolare alto)
+        - aggiustare tutti i casini con le immagini
 - 💃 Content Time! 💃
+    - Obsidian setup && Scrivere content && raccogliere immagini
+
+## Lavoro futuro!
+
+> Progetti post-deployment
+
+- Carosello per progetti consigliati su mobile
+- Carosello immagini per heroshot && immagini progetto && immagini su homepage
+- Cambiare progetti da markdown --> mdx
+    - "<Image>" astro component

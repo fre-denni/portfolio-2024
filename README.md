@@ -37,7 +37,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 > Bisogna 🏃🏃🏃
 
 - ~~Aggiungere progetti consigliati a pagina progetto~~
-- Progetti consigliati/nuovi per ordinare i progetti sull'homepage
+- ~~Progetti consigliati/nuovi per ordinare i progetti sull'homepage~~
 - Layout pagina about
     - sezione interattiva
         - *tirare fuori idee*

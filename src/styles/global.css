@@ -706,7 +706,7 @@ main,
 
 .page-home .item.spicy::after{
     position:absolute;
-    content: '🔥 Spicy Content!';
+    content: 'Spicy Content!';
     top: 18px;
     right: -0.625rem;
     padding: 0.5rem;

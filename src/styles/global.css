@@ -21,6 +21,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -145,10 +146,13 @@ hr{
    max-width: 3000px;
    margin: 0 auto;
    padding: 0 14px;
+   scroll-snap-align: start;
 }
 
 .wrapper {
     position: relative;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 .row {

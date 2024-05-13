@@ -52,7 +52,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
     - Cambiare tutte le dimensioni a responsive (rem && %)
     - Fare variabili di testo globali
     - Fare contorno immagine responsive (quadrato, rettangolare basso, rettangolare alto)
-        - aggiustare tutti i casini con le immagini
+        - aggiustare tutti i casini con le immagini (lazy loading, different dimension, blah blah)
 - Commenta Codice e costruisci una buona documentazione sul processo
 - 💃 Content Time! 💃
     - Obsidian setup && Scrivere content && raccogliere immagini

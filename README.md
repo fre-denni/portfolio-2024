@@ -46,13 +46,14 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
     - sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive
     - quadrato, rettangolo basso e rettangolo alto
-    - cambia view transition per l'heroshot
+    - aggiungi snap-scrolling su y axis
 - Pulisci css
     - Tipografia && importare font giusti
     - Cambiare tutte le dimensioni a responsive (rem && %)
     - Fare variabili di testo globali
     - Fare contorno immagine responsive (quadrato, rettangolare basso, rettangolare alto)
         - aggiustare tutti i casini con le immagini
+- Commenta Codice e costruisci una buona documentazione sul processo
 - 💃 Content Time! 💃
     - Obsidian setup && Scrivere content && raccogliere immagini
 

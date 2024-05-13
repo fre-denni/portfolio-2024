@@ -47,6 +47,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive
     - quadrato, rettangolo basso e rettangolo alto
     - aggiungi snap-scrolling su y axis
+- Aggiusta immagini (lazy loading, different size, content collection)
 - Pulisci css
     - Tipografia && importare font giusti
     - Cambiare tutte le dimensioni a responsive (rem && %)

@@ -887,6 +887,7 @@ main,
     margin:0;
     padding: 0;
     width: 100%;
+    max-width: none;
 }
 
 .page-about .inner h2{
@@ -899,7 +900,7 @@ main,
 }
 
 .cv{
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .cv .link{
@@ -946,7 +947,6 @@ main,
 
 .page-about .image img{
     display: block;
-    /*border-radius: 16px;*/
     overflow: hidden;
     width: 100%;
     height: auto;
@@ -1492,10 +1492,13 @@ main,
         padding: 0 7px;
         max-width: 33%;
     }
+
+    .cv{
+        margin-bottom: 50px;
+    }
     
 }
 
-/* QUI CI STA IL PROBLEMA CON iOS (probabilmente) */
 @media only screen and (min-width:1024px) {
 	
     .footer {
@@ -1549,6 +1552,20 @@ main,
 
     .work-related .item{
         margin: 0 0 30px;
+    }
+
+    .page-about .image{
+        margin: 0 0 30px;
+    }
+    
+    .page-about .image img{
+        height: 450px;
+        object-fit:cover;
+        object-position: top;
+    }
+
+    .page-about .inner{
+        max-width: 550px;
     }
 }
 

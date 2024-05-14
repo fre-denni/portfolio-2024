@@ -891,6 +891,8 @@ main,
 
 .work-project .image{
     margin: 0 0 30px;
+    height: fit-content;
+    width: fit-content;
 }
 
 .work-project .image img{
@@ -1411,11 +1413,12 @@ main,
     }
 
     .page-about{
-        padding: 0 50px;
+        padding: 0 2%;
     }
 
     .page-about .image img{
-        height: 450px;
+        height: fit-content;
+        margin: 10px 0 0;
         object-position: top;
     }
 

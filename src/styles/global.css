@@ -869,19 +869,19 @@ main,
 
 .work-project .inner{
     width: 100%;
-    max-width: 475px;
 }
 
 .page-about .inner{
+    margin:0;
+    padding: 0;
     width: 100%;
-    max-width: 475px;
 }
 
 .page-about .inner h2{
     font-family: var(--global-font-secondary);
     text-transform: uppercase;
     margin-bottom: 5px;
-    font-size: 32px;
+    font-size: 24px;
     letter-spacing: -0.8px;
 }
 
@@ -897,7 +897,6 @@ main,
 
 .work-project .image img{
     display: block;
-    /*border-radius: 16px*/;
     overflow: hidden;
     width: 100%;
     height: auto;
@@ -937,7 +936,7 @@ main,
 
 .credits .title h1{
     font-family: var(--global-font-primary);
-    font-size: 48px;
+    font-size: 1.8rem;
     letter-spacing: -0.08rem;
 }
 
@@ -1406,6 +1405,10 @@ main,
     .credits .title .text{
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    .credits .title h1{
+        font-size: 3rem;
     }
 
     .work-project .image img{

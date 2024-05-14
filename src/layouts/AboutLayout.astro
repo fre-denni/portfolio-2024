@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Social from "../components/Footer/Social.astro";
+
 const {frontmatter} = Astro.props;
 ---
 
@@ -14,6 +16,20 @@ const {frontmatter} = Astro.props;
                 <div class="column medium-1-2 large-1-2">
                     <div class="image">
                         <img loading="lazy" src={frontmatter.profilepic.url} alt={frontmatter.profilepic.alt} width="1280" height="914"/>
+                    </div>
+                    <div class="row small-padding">
+                        <div class="column small-1-4">
+                            <h3>Look at my stats!</h3>
+                        </div>
+                        <div class="column small-1-4">
+                            <Social platform={frontmatter.platform.readcv} username={frontmatter.username.readcv}/>
+                        </div>
+                        <div class="column small-1-4">
+                            <Social platform={frontmatter.platform.linkedin} username={frontmatter.username.linkedin}/>
+                        </div>
+                        <div class="column small-1-4">
+                            <Social platform={frontmatter.platform.github} username={frontmatter.username.github}/>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Social from "../components/Footer/Social.astro";
 
+import {Content as Curriculum} from '../components/Content/cv.md'
+
 const {frontmatter} = Astro.props;
 ---
 
@@ -33,5 +35,8 @@ const {frontmatter} = Astro.props;
                 </div>
             </section>
             <hr />
+            <section class="row">
+                <Curriculum/>
+            </section>
     </div>
 </BaseLayout>

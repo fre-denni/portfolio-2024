@@ -5,9 +5,18 @@ const {frontmatter} = Astro.props;
 
 <BaseLayout>
     <div class="page-about">
-        <div class="container">
-            <slot/>
-        </div>
+            <section class="row">
+                    <div class="column medium-1-2 large-1-2">
+                        <div class="inner">
+                            <slot/>
+                        </div>
+                    </div>
+                <div class="column medium-1-2 large-1-2">
+                    <div class="image">
+                        <img loading="lazy" src={frontmatter.profilepic.url} alt={frontmatter.profilepic.alt} width="1280" height="914"/>
+                    </div>
+                </div>
+            </section>
     </div>
     <hr />
     <div class="cv">

@@ -1,7 +1,10 @@
 ---
 const {platform, username} = Astro.props;
+
+let img = platform;
+img = img.replace(/\./g, '-');
 ---
 <div class="link">
-    <img class=`${platform}-img` alt=`logo ${platform}`>
+    <img class=`${img}-img` alt=`logo ${platform}`>
     <a href={`https://www.${platform}.com/${username}`} target="_blank">{platform}</a>
 </div>

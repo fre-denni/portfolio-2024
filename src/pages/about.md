@@ -1,17 +1,17 @@
 ---
 layout: ../layouts/AboutLayout.astro
-platform:
-    readcv: 'read.cv'
-    linkedin: 'linkedin'
-    github: 'github'
-username:
-    readcv: 'fre_denni'
-    linkedin: 'in/federico-denni'
-    github: 'fre-denni'
+socials:
+  - platform: 'read.cv'
+    username: 'fre_denni'
+  - platform: 'linkedin'
+    username: 'in/federico-denni'
+  - platform: 'github'
+    username: 'fre-denni'  
 profilepic:
     url: "/images/about.jpg"
     alt: "sexy profile pic"
 ---
+
 
 
 ## Jack-of-all-trades <br/> && Masters of Fuffa

@@ -587,6 +587,11 @@ main,
     width: 25px;
 }
 
+.link .read-cv-img{
+    content:url('/readcv.svg');
+    width:25px;
+}
+
 .column .smiley p {
     align-items: center;
     justify-content: center;
@@ -890,6 +895,30 @@ main,
     margin-bottom: 5px;
     font-size: 24px;
     letter-spacing: -0.8px;
+    font-weight: 600;
+}
+
+.cv{
+    margin-bottom: 20px;
+}
+
+.cv .link{
+    display:flex;
+    align-items: center;
+    width: auto;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.cv .link a{
+    color: var(--global-primary);
+}
+
+.cv h3{
+    font-family: var(--global-font-secondary);
+    letter-spacing:-1px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .work-project{

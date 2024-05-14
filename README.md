@@ -11,7 +11,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 ### iOS
 
-- spaziatura strana su i link del footer, specialmente quelli riferenti ad i link social, probabile causa sono le immagini, non ci sono stili specifici per quei link, ma solo in generale
+- ~~spaziatura strana su i link del footer, specialmente quelli riferenti ad i link social, probabile causa sono le immagini, non ci sono stili specifici per quei link, ma solo in generale~~
 
 - Non c'è view transition, ma è normale, visto che non c'è l'API, o si aspetta o si può sostituire in un altro modo
 

@@ -10,6 +10,9 @@ socials:
 profilepic:
     url: "/images/about.jpg"
     alt: "sexy profile pic"
+upto: "Enjoy my last semester at Politecnico di Milano and working on my thesis!"
+love: "Cooking, Hiking && Trekking, Movies && Obscure Cinema Facts, plus I'm a black belt History Enjoyer"
+obs: "People renovating little houses, plus every youtube videos with micro-controllers"
 ---
 
 ## Jack-of-all-trades && <br/> Masters of Fuffa

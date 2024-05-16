@@ -146,13 +146,10 @@ hr{
    max-width: 3000px;
    margin: 0 auto;
    padding: 0 14px;
-   scroll-snap-align: start;
 }
 
 .wrapper {
     position: relative;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
 }
 
 .row {
@@ -556,9 +553,14 @@ main,
     margin: 0 5px 0 0;
     height: auto;
     width: auto;
+    max-width: 25px;
     padding: 2px;
 }
 
+.link a {
+    display: flex;
+    align-items: center;
+}
 
 .link .hand-img{
     content:url('/hand.svg');

@@ -5,6 +5,8 @@ let img = platform;
 img = img.replace(/\./g, '-');
 ---
 <div class="link">
-    <img class=`${img}-img` alt=`logo ${platform}`>
-    <a href={`https://www.${platform}.com/${username}`} target="_blank">{platform}</a>
+    <a href={`https://www.${platform}.com/${username}`} target="_blank">
+        <img class=`${img}-img` alt=`logo ${platform}`>
+        {platform}
+    </a>
 </div>

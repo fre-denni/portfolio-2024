@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Social from "../components/Footer/Social.astro";
 import Interest from "../components/Content/Interest.astro";
+import ProjectCard from "../components/Card/ProjectCard.astro"
 
 import {Content as Experience} from '../components/Content/cv.md'
 const {frontmatter} = Astro.props;
@@ -9,52 +10,65 @@ const {frontmatter} = Astro.props;
 
 <BaseLayout>
     <div class="page-about">
-            <section class="row des">
-                <div class="column medium-1-2 large-1-2">
-                    <div class="image">
-                        <img loading="lazy" src={frontmatter.profilepic.url} alt={frontmatter.profilepic.alt} width="1280" height="914"/>
-                    </div>
+        <section class="row des">
+            <div class="column medium-1-2 large-1-2">
+                <div class="image">
+                    <img loading="lazy" src={frontmatter.profilepic.url} alt={frontmatter.profilepic.alt} width="1280" height="914"/>
                 </div>
-                <div class="column medium-1-2 large-1-2">
-                    <div class="inner">
-                        <slot/>
-                    </div>
+            </div>
+            <div class="column medium-1-2 large-1-2">
+                <div class="inner">
+                    <slot/>
                 </div>
-            </section>
-            <section class="row">
-                <div class="interests">
-                    <Interest title="💻 What I'm up to" content={frontmatter.upto}/>
-                    <Interest title="👀 What I love" content={frontmatter.love}/>
-                    <Interest title="😵 I'm obsessed with" content={frontmatter.obs} link={frontmatter.link.url} text={frontmatter.link.text}/>
-                </div>
-            </section>
-            <hr/>
-            <section class="row">
-                <div class="column medium-1-3 large-3-10 ">
-                    <div class="cv">
-                        <div class="row no-padding">
-                            <div class="column large-1-2">
-                                <h1>My journey so far... </h1>
-                                <div class="image">
-                                    <img loading="lazy" src={frontmatter.cvpic.url} alt={frontmatter.cvpic.alt}/>
-                                </div>
-                                <p class="alt">This is me trying not to butcher my speech at the <a href="">Gentler Future Festival</a> at Lisboa, September 2023</p>
-                                <h3>Lets connect!</h3>
+            </div>
+        </section>
+        <section class="row">
+            <div class="interests">
+                <Interest title="What I'm up to" content={frontmatter.upto}/>
+                <Interest title="What I love" content={frontmatter.love}/>
+                <Interest title="What I'm obsessed with" content={frontmatter.obs} link={frontmatter.link.url} text={frontmatter.link.text}/>
+            </div>
+        </section>
+        <hr/>
+        <section class="row">
+            <div class="column large-3-4">
+                <h2>My journey so far... </h2>
+            </div>
+            <div class="column medium-1-3 large-3-10 ">
+                <div class="cv">
+                    <div class="row no-padding">
+                        <div class="column large-1-2">
+                            <div class="image">
+                                <img loading="lazy" src={frontmatter.cvpic.url} alt={frontmatter.cvpic.alt}/>
                             </div>
-                            <div class="column small-1-2 medium-1-2">
-                                {frontmatter.socials.map(social => (
-                                    <Social platform={social.platform} username={social.username} width="1280" height="914"/>
-                                ))}
-                            </div>
+                            <p class="alt">This is me trying not to butcher my speech at the <a href="">Gentler Future Festival</a> at Lisboa, September 2023</p>
+                            <h3>Lets connect!</h3>
+                        </div>
+                        <div class="column small-1-2 medium-1-2">
+                            {frontmatter.socials.map(social => (
+                                <Social platform={social.platform} username={social.username} width="1280" height="914"/>
+                            ))}
                         </div>
                     </div>
                 </div>
-                <div class="column medium-2-3 large-2-3 journey">
-                    <Experience/> <!-- sistemare spazio tra titoli e paragrafi -->
-                </div>
-            </section>
-            <hr/>
-            <section class="row">
-            </section>
+            </div>
+            <div class="column medium-2-3 large-2-3 journey">
+                <Experience/>
+            </div>
+        </section>
+        <hr/>
+        <section class="row">
+            <div class="column">
+                <h2>Side-Quests</h2>
+            </div>
+            <!--ProjectCard
+                style="column medium-1-4 large-1-4 xxlarge-1-4 card"
+                img="/images/cv.jpg"
+                alt="digital garden"
+                description="I'm building a digital garden!"
+                collab="To host all the different ideas that are in my mind"
+                title="W.I.P. 🚧" 
+            /-->
+        </section>
     </div>
 </BaseLayout>

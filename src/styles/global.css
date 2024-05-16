@@ -102,8 +102,10 @@ button{
 
 hr{
     border: 1px solid var(--global-primary);
-    margin: 0 0 30px 0;
+    margin: 0 0 15px 0;
 }
+
+
 
 .header-nav .site-menu ul li a:hover{
     background-color: transparent;
@@ -878,15 +880,29 @@ main,
     width: 100%;
 }
 
-.page-about .des .inner{
+.des{
+    margin-top:0;
+}
+
+.page-about .inner{
     margin:0;
     padding: 0;
     width: 100%;
     max-width: none;
 }
 
+.page-about h2{
+    font-family: var(--global-font-secondary);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 32px;
+    letter-spacing: -0.8px;
+    font-weight: 600;  
+}
+
 .page-about .interests{
-    margin: 0 15px 15px 0;
+    margin: 10px 0 30px 0;
     width: 100%;
 }
 
@@ -919,30 +935,6 @@ main,
     font-weight: 600;
 }
 
-.cv{
-    margin-bottom: 35px;
-}
-
-.cv .link{
-    display:flex;
-    align-items: center;
-    width: auto;
-    margin: 0 0 5px 0;
-    padding: 0;
-}
-
-.cv .link a{
-    color: var(--global-primary);
-}
-
-.cv h3{
-    font-family: var(--global-font-secondary);
-    margin: 0;
-    padding-top: 0;
-    letter-spacing:-1px;
-    font-size: 18px;
-    font-weight: 600;
-}
 
 .work-project{
     margin-bottom: 15px;
@@ -1011,7 +1003,6 @@ main,
 .credits .image{
     display: block;
     width: 100%;
-    /*border-radius: 16px;*/
     clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
     margin: 10px 0;
 }
@@ -1039,7 +1030,6 @@ main,
 
 .credits .image img{
     width: 100%;
-    /*border-radius: 16px;*/
     overflow: hidden;
     clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
     object-fit: cover;
@@ -1115,6 +1105,69 @@ main,
     padding: 0 0 10px;
     margin: 0;
 }
+
+.cv{
+    display:inline-flex;
+    width: 100%;
+}
+
+.cv div{
+    width: 100%;
+}
+
+.cv h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+}
+
+.cv .image{
+    margin-bottom: 20px;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+
+.cv .image img{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    object-position: center;
+}
+
+.cv .alt{
+    font-family: var(--global-font-secondary);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+.cv .link{
+    width: auto;
+    margin: 0 0 5px 0;
+}
+
+.cv .link a{
+    color: var(--global-primary);
+}
+
+.cv .alt a{
+    text-decoration: underline;
+}
+
+.cv h3{
+    font-family: var(--global-font-secondary);
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    letter-spacing:-1px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 
 
 @media only screen and (min-width:768px) {
@@ -1477,6 +1530,14 @@ main,
         padding: 0 2%;
     }
 
+    .page-about .inner{
+        padding-left: 10%;
+    }
+
+    .page-about h2{
+        margin-top: 20px;
+    }
+
     .page-about .image img{
         height: fit-content;
         margin: 10px 0 0;
@@ -1518,10 +1579,28 @@ main,
     .cv{
         margin-bottom: 50px;
     }
+
+    .page-about .interests{
+        margin: 0 0 60px 0;
+    }
+
+    .page-about .journey{
+        display: flex;
+        flex-direction: column;
+        padding: 45px 0 0 10%;
+    }
+
+    .des{
+        margin-top:20px;
+    }
     
 }
 
 @media only screen and (min-width:1024px) {
+
+    hr {
+        margin: 0 0 30px 0;
+    }
 	
     .footer {
 		padding: 25px 0 1px;
@@ -1586,8 +1665,18 @@ main,
         object-position: top;
     }
 
-    .page-about .interests{
-        margin: 0 0 30px 0;
+    .page-about .inner{
+        max-width: 600px;
+    }
+
+    .cv .image{
+        margin-bottom: 20px;
+    }
+
+    .cv .image img{
+        height: 250px;
+        padding: 0;
+        margin: 0;
     }
 
     .page-about .interest .inner{
@@ -1598,8 +1687,8 @@ main,
     .page-about .interest .inner h3{
         font-size: 20px;
     }
-}
 
+}
 
 @media only screen and (min-width:1220px) {
 	.footer .action-call p {

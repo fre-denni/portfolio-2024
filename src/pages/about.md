@@ -18,7 +18,7 @@ link:
   text: "guy"
 ---
 
-## Jack-of-all-trades && <br/> Masters of Fuffa
+## About Me
 
 Ciao! I’m Federico, an Interaction Designer that likes to find opportunities in complex problems, break them down and squeeze out products and experiences.
 Designer by day and Wannabe Developer by night,

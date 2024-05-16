@@ -21,7 +21,6 @@ const {frontmatter} = Astro.props;
                     </div>
                 </div>
             </section>
-            <hr/>
             <section class="row">
                 <div class="interests">
                     <Interest title="💻 What I'm up to" content={frontmatter.upto}/>
@@ -29,6 +28,7 @@ const {frontmatter} = Astro.props;
                     <Interest title="😵 I'm obsessed with" content={frontmatter.obs} link={frontmatter.link.url} text={frontmatter.link.text}/>
                 </div>
             </section>
+            <hr/>
             <section class="row">
                 <div class="column medium-1-3 large-3-10 ">
                     <div class="cv">
@@ -36,7 +36,7 @@ const {frontmatter} = Astro.props;
                             <div class="column large-1-2">
                                 <h1>My journey so far... </h1>
                                 <div class="image">
-                                    <img loading="lazy" src={frontmatter.profilepic.url} alt={frontmatter.profilepic.alt}/>
+                                    <img loading="lazy" src={frontmatter.cvpic.url} alt={frontmatter.cvpic.alt}/>
                                 </div>
                                 <p class="alt">This is me trying not to butcher my speech at the <a href="">Gentler Future Festival</a> at Lisboa, September 2023</p>
                                 <h3>Lets connect!</h3>
@@ -55,7 +55,6 @@ const {frontmatter} = Astro.props;
             </section>
             <hr/>
             <section class="row">
-
             </section>
     </div>
 </BaseLayout>

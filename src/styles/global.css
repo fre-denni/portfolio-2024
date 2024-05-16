@@ -880,9 +880,6 @@ main,
     width: 100%;
 }
 
-.des{
-    margin-top:0;
-}
 
 .page-about .inner{
     margin:0;
@@ -902,7 +899,7 @@ main,
 }
 
 .page-about .interests{
-    margin: 10px 0 30px 0;
+    margin: 0 0 15px 0;
     width: 100%;
 }
 
@@ -1167,8 +1164,6 @@ main,
     font-size: 18px;
     font-weight: 600;
 }
-
-
 
 @media only screen and (min-width:768px) {
 	.medium-1-10 {
@@ -1581,17 +1576,13 @@ main,
     }
 
     .page-about .interests{
-        margin: 0 0 60px 0;
+        margin: 0 0 40px 0;
     }
 
     .page-about .journey{
         display: flex;
         flex-direction: column;
         padding: 45px 0 0 10%;
-    }
-
-    .des{
-        margin-top:20px;
     }
     
 }
@@ -1660,13 +1651,17 @@ main,
     }
     
     .page-about .image img{
-        height: 450px;
+        height: 350px;
         object-fit:cover;
-        object-position: top;
+        object-position: center;
     }
 
     .page-about .inner{
         max-width: 600px;
+    }
+
+    .cv {
+        margin-top: 30px;
     }
 
     .cv .image{
@@ -1677,6 +1672,8 @@ main,
         height: 250px;
         padding: 0;
         margin: 0;
+        object-fit:cover;
+        object-position: top;
     }
 
     .page-about .interest .inner{

@@ -8,9 +8,12 @@ socials:
   - platform: 'github'
     username: 'fre-denni'  
 profilepic:
-    url: "/images/about.jpg"
+    url: "/images/about.jpeg"
     alt: "sexy profile pic"
-upto: "Enjoy my last semester at Politecnico di Milano and working on my thesis!"
+cvpic:
+    url: "/images/cv.jpg"
+    alt: "professional sexy profile pic"
+upto: "Enjoying my last semester at Politecnico di Milano and working on my thesis!"
 love: "Open-source projects, cooking, hiking, obscure movies facts && old-school rap"
 obs: "People renovating little houses, game development logs and whatever pass to the mind of this"
 link:

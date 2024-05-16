@@ -24,7 +24,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 ### Mozilla
 
-- I bottoni delle tag hanno un aspetto molto low quality, inoltre il font è sbagliato
+- ~~I bottoni delle tag hanno un aspetto molto low quality, inoltre il font è sbagliato~~ Da cambiare un pò le dimensioni delle varie box-shadow, font cambiato
 
 - ~~il social link per instagram fa la microinterazione a differenza di altri browser~~ (adesso lo fanno tutti)
 
@@ -39,13 +39,14 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - ~~Aggiungere progetti consigliati a pagina progetto~~
 - ~~Progetti consigliati/nuovi per ordinare i progetti sull'homepage~~
-- Layout pagina about
+- ~~Layout pagina about~~
     - ~~sezione interattiva~~
         - ~~tirare fuori idee~~
-    - Completa cv.md e impaginazione (script per automatizzare?)
-        - vedi come ha fatto tizio
-        - non aggiungere storia, aggiungi esperienze + cose che ti piacciono a griglia
+    - ~~Completa cv.md e impaginazione (script per automatizzare?)~~
+        - ~~vedi come ha fatto tizio~~
+        - ~~non aggiungere storia, aggiungi esperienze + cose che ti piacciono a griglia~~
     - ~~aggiungi link sotto immagine (read.cv && altri utili)~~
+    - Sezione side-quests
 - Aggiungi hidden header che si scopre quando scrolli verso l'alto
     - aggiungi component ad header (hidden-menu)
         - classi dovrebbero essere container -> site-menu -> e poi menu --> li con position fixed e un border bottom

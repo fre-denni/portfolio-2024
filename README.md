@@ -15,10 +15,11 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - Non c'è view transition, ma è normale, visto che non c'è l'API, o si aspetta o si può sostituire in un altro modo
 
-- I padding sono fissi su dimensioni tablet, da cambiare in percentuale
+- ~~I padding sono fissi su dimensioni tablet, da cambiare in percentuale~~
 
 > **IMPORTANTE**
-> da far testare su un safari da macbook
+> ~~da far testare su un safari da macbook~~
+> fatto, funziona di cristo
 
 
 ### Mozilla
@@ -39,9 +40,10 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 - ~~Aggiungere progetti consigliati a pagina progetto~~
 - ~~Progetti consigliati/nuovi per ordinare i progetti sull'homepage~~
 - Layout pagina about
-    - sezione interattiva
-        - *tirare fuori idee*
-    - aggiungi link sotto immagine (read.cv && altri utili)
+    - ~~sezione interattiva~~
+        - ~~tirare fuori idee~~
+    - Completa cv.md e impaginazione (script per automatizzare?)
+    - ~~aggiungi link sotto immagine (read.cv && altri utili)~~
 - Aggiungere pagina 404
     - sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive

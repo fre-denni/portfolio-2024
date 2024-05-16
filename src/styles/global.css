@@ -2,7 +2,7 @@
 /*--GENERAL--*/
 
 :root{
-    --global-background: #fff;
+    --global-background: #f1f1f1;
     --global-primary: #000;
     --global-secondary: #999;
     --global-secondary-hover: #6a6a6a;
@@ -152,6 +152,7 @@ hr{
 
 .wrapper {
     position: relative;
+    padding: 0;
 }
 
 .row {
@@ -880,7 +881,6 @@ main,
     width: 100%;
 }
 
-
 .page-about .inner{
     margin:0;
     padding: 0;
@@ -1522,7 +1522,7 @@ main,
     }
 
     .page-about{
-        padding: 0 2%;
+        padding: 0;
     }
 
     .page-about .inner{
@@ -1584,6 +1584,11 @@ main,
         flex-direction: column;
         padding: 45px 0 0 10%;
     }
+
+    .wrapper {
+        padding: 0 7%;
+    }
+    
     
 }
 

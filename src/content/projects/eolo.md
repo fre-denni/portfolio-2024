@@ -4,7 +4,7 @@ time: 'one week project'
 description: 'Game for disabili'
 card: 'making a puzzle-platform game for children as a disguise for a spirometry test'
 image:
-    url: '/images/about.jpg'
+    url: '/images/about.jpeg'
     alt: 'heroshot'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]

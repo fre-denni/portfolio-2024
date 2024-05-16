@@ -4,7 +4,7 @@ time: 'one week project'
 description: 'Hack a fidget toy'
 card: 'hacking a fidget toy to tells us to stop stressing && enjoy life'
 image:
-    url: '/images/about.jpg'
+    url: '/images/about.jpeg'
     alt: 'heroshot'
 made: 'with EPFAL+ECAL'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]

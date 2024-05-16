@@ -3,9 +3,16 @@ const {platform, username} = Astro.props;
 
 let img = platform;
 img = img.replace(/\./g, '-');
+
+let url = '';
+if(platform === 'read.cv') {
+    url = `https://www.${platform}/${username}`;
+} else {
+    url = `https://www.${platform}.com/${username}`;
+}
 ---
 <div class="link">
-    <a href={`https://www.${platform}.com/${username}`} target="_blank">
+    <a href={url} target="_blank">
         <img class=`${img}-img` alt=`logo ${platform}`>
         {platform}
     </a>

@@ -26,7 +26,7 @@ const {frontmatter} = Astro.props;
                 <div class="interests">
                     <Interest title="What I'm up to 💻" content={frontmatter.upto}/>
                     <Interest title="What I love 😋" content={frontmatter.love}/>
-                    <Interest title="Currently obsessed with 😵" content={frontmatter.obs}/>
+                    <Interest title="Currently obsessed with 😵" content={frontmatter.obs} link={frontmatter.link.url} text={frontmatter.link.text}/>
                 </div>
             </section>
             <hr/>

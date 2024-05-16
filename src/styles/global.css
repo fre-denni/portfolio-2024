@@ -903,6 +903,12 @@ main,
     letter-spacing: -0.5px;
 }
 
+.page-about .interest .inner a{
+    margin:0;
+    padding: 0;
+    text-decoration: underline;
+}
+
 .page-about .inner h2{
     font-family: var(--global-font-secondary);
     text-transform: uppercase;

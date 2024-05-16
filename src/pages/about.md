@@ -11,7 +11,7 @@ profilepic:
     url: "/images/about.jpg"
     alt: "sexy profile pic"
 upto: "Enjoy my last semester at Politecnico di Milano and working on my thesis!"
-love: "Cooking, Hiking && Trekking, Movies && Obscure Cinema Facts, plus I'm a black belt History Enjoyer"
+love: "Open-source projects, cooking, hiking, obscure movies facts && old-school rap"
 obs: "People renovating little houses, game development logs and whatever pass to the mind of this"
 link:
   url: "https://www.youtube.com/watch?v=eA0neTHUN6M"

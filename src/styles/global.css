@@ -887,6 +887,7 @@ main,
 
 .page-about .interests{
     margin: 0 15px 15px 0;
+    width: 100%;
 }
 
 .page-about .interest .inner{
@@ -1591,7 +1592,7 @@ main,
 
     .page-about .interest .inner{
         max-width: 475px;
-        padding: 0 40px;
+        padding-right: 40px;
     }
 
     .page-about .interest .inner h3{

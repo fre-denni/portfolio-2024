@@ -61,7 +61,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
     - Fare variabili di testo globali
     - Fare contorno immagine responsive (quadrato, rettangolare basso, rettangolare alto)
         - aggiustare tutti i casini con le immagini
-            1. imposta altezza e larghezza
+            1. imposta altezza e larghezza (vedi lavoro fatto per immagini page-about)
             2. crea delle immagini a differenti dimensioni e qualità (1280x914, 400x286, 768x549)
                 - fai src set
                 - abbina anche il clip-path proporzionato

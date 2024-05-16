@@ -254,6 +254,18 @@ main,
     margin-bottom: .75rem;
     text-align: center;
     padding: calc(8px - 2px) 2px;
+    -moz-box-shadow:    
+    0   -4px 0  -2px var(--global-background),
+    0   -8px 0  -4px var(--global-background),
+    0   4px 0  -2px var(--global-background),
+    0   8px 0  -4px var(--global-background),
+  
+    1px 0 0 1px var(--global-primary),
+    -1px 0 0 1px var(--global-primary),
+    0   -4px 0 0 var(--global-primary),
+    0   4px 0  0 var(--global-primary),
+    0  -9px 0 -3px var(--global-primary),
+    0   9px 0 -3px var(--global-primary);
     box-shadow: 
     0   -4px 0  -2px var(--global-background),
     0   -8px 0  -4px var(--global-background),
@@ -265,8 +277,7 @@ main,
     0   -4px 0 0 var(--global-primary),
     0   4px 0  0 var(--global-primary),
     0  -9px 0 -3px var(--global-primary),
-    0   9px 0 -3px var(--global-primary)
-  ;
+    0   9px 0 -3px var(--global-primary);
     cursor: pointer;
 }
 
@@ -279,6 +290,18 @@ main,
     transform: translate(0, 5%);
     color: var(--global-secondary);
     background-color: var(--global-background);
+    -moz-box-shadow: 
+    0   -4px 0  -2px var(--global-background),
+    0   -8px 0  -4px var(--global-background),
+    0   4px 0  -2px var(--global-background),
+    0   8px 0  -4px var(--global-background),
+    
+    1px 0 0 1px var(--global-secondary),
+    -1px 0 0 1px var(--global-secondary),
+    0   -4px 0 0 var(--global-secondary),
+    0   4px 0  0 var(--global-secondary),
+    0  -9px 0 -3px var(--global-secondary),
+    0   9px 0 -3px var(--global-secondary);
     box-shadow: 
     0   -4px 0  -2px var(--global-background),
     0   -8px 0  -4px var(--global-background),
@@ -290,14 +313,26 @@ main,
     0   -4px 0 0 var(--global-secondary),
     0   4px 0  0 var(--global-secondary),
     0  -9px 0 -3px var(--global-secondary),
-    0   9px 0 -3px var(--global-secondary)
-  ;
+    0   9px 0 -3px var(--global-secondary);
 }
 
 .tag-bar .tag-selected{
     transition: ease-in 0.1s all;
     color: var(--global-background);
     background-color: var(--global-primary);
+    -moz-box-shadow:  
+    0   -4px 0  -2px var(--global-primary),
+    0   -8px 0  -4px var(--global-primary),
+    0   4px 0  -2px var(--global-primary),
+    0   8px 0  -4px var(--global-primary),
+    
+    1px 0 0 1px var(--global-primary),
+    -1px 0 0 1px var(--global-primary),
+    0   -4px 0 0 var(--global-primary),
+    0   4px 0  0 var(--global-primary),
+    0  -9px 0 -3px var(--global-primary),
+    0   9px 0 -3px var(--global-primary)
+  ;
     box-shadow: 
     0   -4px 0  -2px var(--global-primary),
     0   -8px 0  -4px var(--global-primary),
@@ -431,7 +466,6 @@ main,
     content: url('/logo-hover.svg');
     position: relative;
     width: 100%;
-    /*height: fit-content;*/
     cursor:pointer;
 }
 
@@ -454,7 +488,6 @@ main,
     z-index:999;
     text-align: center;
     transition: all 0.6s ease;
-    /*border-radius: 50%;*/
     clip-path: polygon( 76.191% 0%,76.191% 8.13%,84.127% 8.13%,84.127% 16.26%,92.064% 16.26%,92.064% 24.39%,100% 24.39%,100% 75.61%,92.064% 75.61%,92.064% 83.74%,84.127% 83.74%,84.127% 91.87%,76.191% 91.87%,76.191% 100%,23.81% 100%,23.81% 91.87%,15.873% 91.87%,15.873% 83.74%,7.937% 83.74%,7.937% 75.61%,0% 75.61%,0% 24.39%,7.937% 24.39%,7.937% 16.26%,15.873% 16.26%,15.873% 8.13%,23.81% 8.13%,23.81% 0%,76.191% 0% );
     cursor: pointer;
 }
@@ -789,7 +822,19 @@ main,
 	padding: 2px 6px;
 	font-size: 16px;
 	line-height: 120%;
-	/*border-radius: 25px;*/
+    -moz-box-shadow:
+    0   -8px 0  -4px var(--global-background),
+    0   -16px 0  -8px var(--global-background),
+    0   8px 0  -4px var(--global-background),
+    0   16px 0  -8px var(--global-background),
+    
+    2.5px 0 0 2.5px var(--global-background),
+    -2.5px 0 0 2.5px var(--global-background),
+    0   -8px 0 0 var(--global-background),
+    0   8px 0  0 var(--global-background),
+    0  -19px 0 -6px var(--global-background),
+    0   19px 0 -6px var(--global-background)
+  ;
     box-shadow: 
     0   -8px 0  -4px var(--global-background),
     0   -16px 0  -8px var(--global-background),
@@ -813,7 +858,7 @@ main,
 }
 
 .page-home .item .inner h2:hover {
-	transform: scale(1.05)
+	transform: scale(1.05);
 }
 
 .item .description{
@@ -1506,6 +1551,7 @@ main,
         font-size: 15px;
         margin-bottom: 0;
         padding: 4px 1rem;
+        font-family: var(--global-font-primary);
     }
        
     .main-content img{

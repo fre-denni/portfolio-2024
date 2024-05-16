@@ -26,7 +26,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - I bottoni delle tag hanno un aspetto molto low quality, inoltre il font è sbagliato
 
-- il social link per instagram fa la microinterazione a differenza di altri browser
+- ~~il social link per instagram fa la microinterazione a differenza di altri browser~~ (adesso lo fanno tutti)
 
 - anche qua non view transition
 

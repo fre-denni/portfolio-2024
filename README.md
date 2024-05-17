@@ -15,6 +15,8 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - Non c'è view transition, ma è normale, visto che non c'è l'API, o si aspetta o si può sostituire in un altro modo
 
+- non compare il favicon
+
 - ~~I padding sono fissi su dimensioni tablet, da cambiare in percentuale~~
 
 > **IMPORTANTE**

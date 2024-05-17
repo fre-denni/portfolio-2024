@@ -715,11 +715,25 @@ main,
 }
 
 .page-home .item .image {
-    /*border-radius: 16px;*/
+    clip-path: polygon( 0.012% 96.445%,0.771% 96.445%,0.771% 97.768%,1.521% 97.768%,1.521% 98.877%,2.416% 98.877%,2.416% 100%,97.596% 100%,97.596% 98.877%,98.491% 98.877%,98.491% 97.768%,99.241% 97.768%,99.241% 96.445%,100% 96.445%,100% 3.634%,99.241% 3.634%,99.241% 2.31%,98.491% 2.31%,98.491% 1.201%,97.596% 1.201%,97.596% 0.087%,2.416% 0.087%,2.416% 1.201%,1.521% 1.201%,1.521% 2.31%,0.771% 2.31%,0.771% 3.634%,0.012% 3.634%,0.012% 96.445% );
+}
+
+.page-about .item .image{
     clip-path: polygon( 0.012% 96.445%,0.771% 96.445%,0.771% 97.768%,1.521% 97.768%,1.521% 98.877%,2.416% 98.877%,2.416% 100%,97.596% 100%,97.596% 98.877%,98.491% 98.877%,98.491% 97.768%,99.241% 97.768%,99.241% 96.445%,100% 96.445%,100% 3.634%,99.241% 3.634%,99.241% 2.31%,98.491% 2.31%,98.491% 1.201%,97.596% 1.201%,97.596% 0.087%,2.416% 0.087%,2.416% 1.201%,1.521% 1.201%,1.521% 2.31%,0.771% 2.31%,0.771% 3.634%,0.012% 3.634%,0.012% 96.445% );
 }
 
 .page-home .item .inner {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
+    transition: all 0.3s ease;
+    opacity: 0;
+    z-index: 99;
+}
+
+.page-about .item .inner{
     position: absolute;
     top: 50%;
     text-align: center;
@@ -744,7 +758,12 @@ main,
     display: block;
 }
 
-.page-home .item {
+.page-about .item .image img{
+    width: 100%;
+    display: block;   
+}
+
+.page-home .item, .page-about .item {
     text-decoration: none;
     position: relative;
     outline: none;
@@ -805,7 +824,7 @@ main,
   content: '';
 }
 
-.page-home .item .inner {
+.page-home .item .inner, .page-about .item .inner {
     position: absolute;
     top: 50%;
     text-align: center;
@@ -816,7 +835,7 @@ main,
     z-index: 99;
 }
 
-.page-home .item .inner h2 {
+.page-home .item .inner h2, .page-about .item .inner h2 {
 	display: inline-block;
 	background-color: var(--global-background);
 	padding: 2px 6px;
@@ -852,12 +871,12 @@ main,
 	transition: all 0.3s ease;
 }
 
-.page-home .item:hover .inner {
+.page-home .item:hover .inner, .page-about .item:hover .inner{
 	transform: translate(0, -50%);
 	opacity: 1
 }
 
-.page-home .item .inner h2:hover {
+.page-home .item .inner h2:hover, .page-about .item .inner h2:hover {
 	transform: scale(1.05);
 }
 

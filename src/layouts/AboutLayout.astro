@@ -2,7 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Social from "../components/Footer/Social.astro";
 import Interest from "../components/Content/Interest.astro";
-import ProjectCard from "../components/Card/ProjectCard.astro"
+//import ProjectCard from "../components/Card/ProjectCard.astro"
+//import TagCard from "../components/Card/TagCard.astro";
 
 import {Content as Experience} from '../components/Content/cv.md'
 const {frontmatter} = Astro.props;
@@ -57,11 +58,27 @@ const {frontmatter} = Astro.props;
             </div>
         </section>
         <hr/>
+         <!--need custom component card + text underline, devi riguardare come hai fatto la tag card -->
         <section class="row grid">
             <div class="column">
                 <h2>Side-Quests</h2>
             </div>
-                <div class="column medium-1-4 large-1-4 xxlarge-1-4 card">
+                <!--div class="column">
+                    <ul class="work-slider">
+                        <div class="draggable">
+                            <div class="track">
+                               <TagCard
+                                    url=""
+                                    title="Digital Garden (W.I.P. 🚧)"
+                                    img="/images/cv.jpg"
+                                    alt="digital garden"
+                                    description="Building an oasis for my thoughts to roam free!"
+                                />
+                            </div>
+                        </div>
+                    </ul>
+                </div-->
+                <!--div class="column medium-1-4 large-1-4 xxlarge-1-4 card">
                     <a href="" class="item">
                         <div class="image">
                             <img src="/images/cv.jpg" alt="digital gardening">
@@ -74,7 +91,7 @@ const {frontmatter} = Astro.props;
                             <p>A functional space to share ideas and open-source projects</p>
                         </div>
                     </a>
-                </div>
+                </div-->
             <!--ProjectCard
                 style="column medium-1-4 large-1-4 xxlarge-1-4 card"
                 img="/images/cv.jpg"

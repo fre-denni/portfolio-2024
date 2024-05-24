@@ -49,15 +49,19 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
         - ~~non aggiungere storia, aggiungi esperienze + cose che ti piacciono a griglia~~
     - ~~aggiungi link sotto immagine (read.cv && altri utili)~~
     - Sezione side-quests
+        - custom card component
+        - iniziare a costruire link?
+
 - Aggiungi hidden header che si scopre quando scrolli verso l'alto
     - aggiungi component ad header (hidden-menu)
         - classi dovrebbero essere container -> site-menu -> e poi menu --> li con position fixed e un border bottom
         - script che lo nasconde tranne quando navighi da giù in su e tranne quando arrivi in cima (magari z-index sotto l'header)
-- Aggiungere pagina 404
+- Aggiungere pagina 404 (link to anche per le side quests)
     - sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive
     - quadrato, rettangolo basso e rettangolo alto
     - aggiungi snap-scrolling su y axis
+
 - Pulisci css
     - Tipografia && importare font giusti
     - Cambiare tutte le dimensioni a responsive (rem && %)
@@ -69,7 +73,8 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
                 - fai src set
                 - abbina anche il clip-path proporzionato
             3. imposta a tutte le immagini
-- Commenta Codice e costruisci una buona documentazione sul processo
+        
+- Commenta Codice e costruisci una buona documentazione sul processo (immagini sopratutto!)
 - 💃 Content Time! 💃
     - Obsidian setup && Scrivere content && raccogliere immagini
 

@@ -105,8 +105,6 @@ hr{
     margin: 0 0 15px 0;
 }
 
-
-
 .header-nav .site-menu ul li a:hover{
     background-color: transparent;
     color: var(--global-secondary);
@@ -693,19 +691,8 @@ main,
     margin-right: -7px;
 }
 
-.page-about .grid{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -7px;
-    margin-right: -7px;
-}
 
 .page-home .work-display .grid .column{
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-.page-about .grid .column{
     padding-left: 7px;
     padding-right: 7px;
 }
@@ -967,8 +954,8 @@ main,
 .page-about h2{
     font-family: var(--global-font-secondary);
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 24px;
     letter-spacing: -0.8px;
     font-weight: 600;  
@@ -1008,6 +995,11 @@ main,
     font-weight: 600;
 }
 
+.quests .inner h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
 
 .work-project{
     margin-bottom: 15px;
@@ -1039,6 +1031,10 @@ main,
     height: auto;
     object-fit:cover;
     object-position: center;
+}
+
+.quests .image{
+    margin: 0 0 15px;
 }
 
 .page-about .journey h3{
@@ -1216,7 +1212,7 @@ main,
     object-position: center;
 }
 
-.cv .alt{
+.cv .alt, .quests .alt{
     font-family: var(--global-font-secondary);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -1294,6 +1290,7 @@ main,
     .work-related .item{
         margin: 0 0 20px;
     }
+
 }
 
 @media only screen and (min-width:1024px) {
@@ -1611,8 +1608,8 @@ main,
         padding-left: 10%;
     }
 
-    .page-about h2{
-        margin-top: 20px;
+    .quests .inner{
+        padding:0;
     }
 
     .page-about .image img{
@@ -1740,6 +1737,16 @@ main,
     .page-about .image img{
         height: 350px;
         object-fit:cover;
+        object-position: center;
+    }
+
+    .quests .image{
+        margin: 0 0 15px;
+    }
+
+    .quests .image img{
+        height: 200px;
+        object-fit: cover;
         object-position: center;
     }
 

@@ -2,10 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Social from "../components/Footer/Social.astro";
 import Interest from "../components/Content/Interest.astro";
-//import ProjectCard from "../components/Card/ProjectCard.astro"
-//import TagCard from "../components/Card/TagCard.astro";
+import QuestCard from "../components/Card/QuestCard.astro";
 
 import {Content as Experience} from '../components/Content/cv.md'
+
 const {frontmatter} = Astro.props;
 ---
 
@@ -57,49 +57,83 @@ const {frontmatter} = Astro.props;
                 <Experience/>
             </div>
         </section>
-        <hr/>
-         <!--need custom component card + text underline, devi riguardare come hai fatto la tag card -->
-        <section class="row grid">
+        <hr />
+        <section class="row">
             <div class="column">
                 <h2>Side-Quests</h2>
             </div>
-                <!--div class="column">
-                    <ul class="work-slider">
-                        <div class="draggable">
-                            <div class="track">
-                               <TagCard
-                                    url=""
-                                    title="Digital Garden (W.I.P. 🚧)"
-                                    img="/images/cv.jpg"
-                                    alt="digital garden"
-                                    description="Building an oasis for my thoughts to roam free!"
-                                />
-                            </div>
-                        </div>
-                    </ul>
-                </div-->
-                <!--div class="column medium-1-4 large-1-4 xxlarge-1-4 card">
-                    <a href="" class="item">
-                        <div class="image">
-                            <img src="/images/cv.jpg" alt="digital gardening">
-                            <div class="inner">
-                                <h2>Digital Garden (W.I.P. 🚧)</h2>
-                            </div>
-                        </div>
-                        <div class="description">
-                            <h3>Building an oasis for my thoughts to roam free!</h3>
-                            <p>A functional space to share ideas and open-source projects</p>
-                        </div>
-                    </a>
-                </div-->
-            <!--ProjectCard
-                style="column medium-1-4 large-1-4 xxlarge-1-4 card"
-                img="/images/cv.jpg"
-                alt="digital garden"
-                description="I'm building a digital garden!"
-                collab="To host all the different ideas that are in my mind"
-                title="W.I.P. 🚧" 
-            /-->
+            <div class="column">
+                <div class="row quests">
+                    <QuestCard
+                        url=""
+                        img="/images/hacko-1.png"
+                        alt="digital garden"
+                        title="Building a Digital Garden!"
+                        description="A functional space to share ideas and open-source projects"
+                    />
+                    <QuestCard
+                        url=""
+                        img="/images/hacko-2.png"
+                        alt="cheffo"
+                        title="Building my Chef blog!"
+                        description="I'm building a space where to collect and share my recipe, with interactive tools, a good excuse to learn Hugo and the mdx language"
+                    />
+                    <QuestCard
+                        url=""
+                        img="/images/knocknock.gif"
+                        alt="docs"
+                        title="Improve my documentation!"
+                        description="I've built this website from scratch, with no pochi grattacapi, so I decided to improve"
+                    />
+                    <QuestCard
+                        url=""
+                        img="/images/knocknock.gif"
+                        alt="docs"
+                        title="Improve my documentation!"
+                        description="I've built this website from scratch, with no pochi grattacapi, so I decided to improve"
+                    />
+                </div>
+            </div>
         </section>
+        <hr />
     </div>
 </BaseLayout>
+
+
+<!--div class="column">
+    <ul class="work-slider">
+        <div class="draggable">
+            <div class="track">
+                <TagCard
+                    url=""
+                    title="Digital Garden (W.I.P. 🚧)"
+                    img="/images/cv.jpg"
+                    alt="digital garden"
+                    description="Building an oasis for my thoughts to roam free!"
+                />
+            </div>
+        </div>
+    </ul>
+</div-->
+<!--div class="column medium-1-4 large-1-4 xxlarge-1-4 card">
+    <a href="" class="item">
+        <div class="image">
+            <img src="/images/cv.jpg" alt="digital gardening">
+            <div class="inner">
+                <h2>Digital Garden (W.I.P. 🚧)</h2>
+            </div>
+        </div>
+        <div class="description">
+            <h3>Building an oasis for my thoughts to roam free!</h3>
+            <p>A functional space to share ideas and open-source projects</p>
+        </div>
+    </a>
+</div-->
+<!--ProjectCard
+style="column medium-1-4 large-1-4 xxlarge-1-4 card"
+img=""
+alt="digital garden"
+description="I'm building a digital garden!"
+collab="To host all the different ideas that are in my mind"
+title="W.I.P. 🚧" 
+/-->

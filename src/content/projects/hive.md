@@ -2,16 +2,16 @@
 title: 'HIVE'
 time: '10-22 to 05-23'
 description: '3D Printing sound'
-card: 'design an open-source fermenter toolkit for plant based food'
+card: 'design a 3D printable vase using 1mms of bee sound'
 image:
     url: '/images/hacko-heroshot.jpg'
     alt: 'heroshot'
-made: 'with Distributed Design'
+made: 'with Superforma && YOOX'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
 links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
 taglinks: ["Project files", "Distributed Design"]
-tags: ["Prototyping"]
+tags: ["Prototyping", "Digital Art"]
 type: "None"
 ---
 <section class="row">

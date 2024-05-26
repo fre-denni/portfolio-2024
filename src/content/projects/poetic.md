@@ -4,7 +4,7 @@ time: '10-22 to 05-23'
 description: 'Using AI for weather'
 card: 'using LLMs to explore new ways to present data and improve our understanding of it'
 image:
-    url: '/images/hacko-heroshot.jpg'
+    url: '/images/poetic-heroshot.png'
     alt: 'heroshot'
 role: ["Hardware & Software Design", "UX/UI Design", "Research"]
 team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]

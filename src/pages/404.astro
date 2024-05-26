@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Comp from "../components/Content/Matter.jsx"
+import Tagline from "../components/Content/Tagline.astro";
+
+---
+
+<BaseLayout>
+    <Tagline/>
+    <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '600px',
+        overflow: 'hidden'
+        }}>
+      <Comp client:load />
+    </div>
+  </BaseLayout>
+  

@@ -865,6 +865,33 @@ main,
 
 .page-home .item .inner h2:hover, .page-about .item .inner h2:hover {
 	transform: scale(1.05);
+    background-color: #fff;
+    -moz-box-shadow:
+    0   -8px 0  -4px #fff,
+    0   -16px 0  -8px #fff,
+    0   8px 0  -4px #fff,
+    0   16px 0  -8px #fff,
+    
+    2.5px 0 0 2.5px #fff,
+    -2.5px 0 0 2.5px #fff,
+    0   -8px 0 0 #fff,
+    0   8px 0  0 #fff,
+    0  -19px 0 -6px #fff,
+    0   19px 0 -6px #fff
+  ;
+    box-shadow: 
+    0   -8px 0  -4px #fff,
+    0   -16px 0  -8px #fff,
+    0   8px 0  -4px #fff,
+    0   16px 0  -8px #fff,
+    
+    2.5px 0 0 2.5px #fff,
+    -2.5px 0 0 2.5px #fff,
+    0   -8px 0 0 #fff,
+    0   8px 0  0 #fff,
+    0  -19px 0 -6px #fff,
+    0   19px 0 -6px #fff
+  ;
 }
 
 .item .description{
@@ -1771,6 +1798,10 @@ main,
         margin: 0;
         object-fit:cover;
         object-position: top;
+    }
+
+    .quests{
+        margin-bottom: 20px;
     }
 
     .page-about .interest .inner{

@@ -48,9 +48,9 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
         - ~~vedi come ha fatto tizio~~
         - ~~non aggiungere storia, aggiungi esperienze + cose che ti piacciono a griglia~~
     - ~~aggiungi link sotto immagine (read.cv && altri utili)~~
-    - Sezione side-quests
-        - custom card component
-        - iniziare a costruire link?
+    - ~~Sezione side-quests~~
+        - ~~custom card component~~
+        - ~~iniziare a costruire link?~~
 
 - Aggiungi hidden header che si scopre quando scrolli verso l'alto
     - aggiungi component ad header (hidden-menu)
@@ -60,7 +60,6 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
     - sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive
     - quadrato, rettangolo basso e rettangolo alto
-    - aggiungi snap-scrolling su y axis
 
 - Pulisci css
     - Tipografia && importare font giusti

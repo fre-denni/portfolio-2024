@@ -20,7 +20,7 @@ function Man() {
     let img;
 
     p.preload = function() {
-    img = p.loadImage("/public/favicon.svg");
+    img = p.loadImage("/me.png");
     }
 
     class Particle extends VerletParticle2D {
@@ -79,6 +79,16 @@ function Man() {
         this.springs.push(new Spring(lFoot, lKnee, 80, 0.05));
         this.springs.push(new Spring(rFoot, rKnee, 80, 0.05));
         this.head.lock();
+
+        }
+
+        handleMouse() {
+            if (p.mouseIsPressed) {
+                this.head.lock();
+                this.head.x = p.mouseX;
+                this.head.y = p.mouseY;
+                this.head.unlock();
+            }
         }
 
         dance() {
@@ -145,9 +155,18 @@ function Man() {
 
         p.draw = function() {
             p.background(241, 241, 241);
+
+            p.fill(0);
+            p.textSize(32);
+            p.textAlign(p.CENTER); // Center the text
+            p.text("Prova", p.height / 2 );
+
             physics.update();
             skeleton.show();
             skeleton.dance();
+
+            skeleton.handleMouse();
+        
         }
         
         p.windowResized = function() {

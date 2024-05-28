@@ -10,7 +10,6 @@ function Man() {
 
     const sketch = (p) => {
 
-    // "Importing" the classes we need
     let { Vec2D, Rect } = toxi.geom;
     let { VerletPhysics2D, VerletParticle2D, VerletSpring2D, VerletMinDistanceSpring2D } = toxi.physics2d;
     let { GravityBehavior } = toxi.physics2d.behaviors;
@@ -39,7 +38,6 @@ function Man() {
     class Skeleton {
         constructor(x, y) {
         this.x = x;
-        //this.y = y;
         this.y = y + p.height /2;
         this.particles = [];
         this.springs = [];
@@ -92,9 +90,7 @@ function Man() {
         }
 
         dance() {
-        //this.head.x = this.x + p.sin(p.frameCount * 0.25) * 16;
         this.head.x = p.width / 2 + p.sin(p.frameCount * 0.25) * 16;
-        //this.head.y = this.y + p.cos(p.frameCount * 0.25) * 16;
         this.head.y = p.height / 2 + p.cos(p.frameCount * 0.25) * 16;
         }
 
@@ -138,6 +134,7 @@ function Man() {
         p.setup = function() {
             let canvas = p.createCanvas(p.windowWidth, p.windowHeight);
             canvas.parent(canvasRef.current);
+            p.clear();
 
             // Make the world
             physics = new VerletPhysics2D();
@@ -155,11 +152,6 @@ function Man() {
 
         p.draw = function() {
             p.background(241, 241, 241);
-
-            p.fill(0);
-            p.textSize(32);
-            p.textAlign(p.CENTER); // Center the text
-            p.text("Prova", p.height / 2 );
 
             physics.update();
             skeleton.show();

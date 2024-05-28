@@ -20,7 +20,7 @@ function Man() {
     let img;
 
     p.preload = function() {
-    img = p.loadImage("./me.png");
+    img = p.loadImage("/public/favicon.svg");
     }
 
     class Particle extends VerletParticle2D {
@@ -31,15 +31,16 @@ function Man() {
         }
 
         show() {
-        fill(0);
-        circle(this.x, this.y, this.r * 2);
+        p.fill(0);
+        p.circle(this.x, this.y, this.r * 2);
         }
     }
 
     class Skeleton {
         constructor(x, y) {
         this.x = x;
-        this.y = y;
+        //this.y = y;
+        this.y = y + p.height /2;
         this.particles = [];
         this.springs = [];
         this.hsprings = [];
@@ -81,16 +82,18 @@ function Man() {
         }
 
         dance() {
-        this.head.x = this.x + sin(frameCount * 0.25) * 16;
-        this.head.y = this.y + cos(frameCount * 0.25) * 16;
+        //this.head.x = this.x + p.sin(p.frameCount * 0.25) * 16;
+        this.head.x = p.width / 2 + p.sin(p.frameCount * 0.25) * 16;
+        //this.head.y = this.y + p.cos(p.frameCount * 0.25) * 16;
+        this.head.y = p.height / 2 + p.cos(p.frameCount * 0.25) * 16;
         }
 
         show() {
-        imageMode(CENTER);
+        p.imageMode(p.CENTER);
         for (let s of this.springs) {
             s.show();
         }
-        image(img, this.head.x, this.head.y - 25, 50, 70);
+        p.image(img, this.head.x, this.head.y - 25, 50, 70);
         }
     }
 
@@ -102,10 +105,10 @@ function Man() {
         }
         
         show() {
-            stroke(112, 50, 126);
-            strokeWeight(8);
+            p.stroke(0, 0, 0);
+            p.strokeWeight(8);
         
-            line(this.a.x, this.a.y, this.b.x, this.b.y);
+            p.line(this.a.x, this.a.y, this.b.x, this.b.y);
         }
         }
         
@@ -116,9 +119,9 @@ function Man() {
         }
         
         show() {
-            stroke(0);
-            strokeWeight(0.5);
-            line(this.a.x, this.a.y, this.b.x, this.b.y);
+            p.stroke(0);
+            p.strokeWeight(0.5);
+            p.line(this.a.x, this.a.y, this.b.x, this.b.y);
         }
         }
         
@@ -141,7 +144,7 @@ function Man() {
         }
 
         p.draw = function() {
-            p.background(240, 99, 164);
+            p.background(241, 241, 241);
             physics.update();
             skeleton.show();
             skeleton.dance();
@@ -149,6 +152,7 @@ function Man() {
         
         p.windowResized = function() {
             p.resizeCanvas(p.windowWidth, p.windowHeight);
+            skeleton = new Skeleton(p.width / 2, p.height / 2);
         }
         }
         

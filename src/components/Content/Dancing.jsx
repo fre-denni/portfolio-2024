@@ -38,7 +38,7 @@ function Man() {
     class Skeleton {
         constructor(x, y) {
         this.x = x;
-        this.y = y + p.height /2;
+        this.y = y + p.height / 2;
         this.particles = [];
         this.springs = [];
         this.hsprings = [];
@@ -181,7 +181,7 @@ function Man() {
             justifyContent: 'center',
             alignItems: 'center',
             width: '100%',
-            height: '600px',
+            height: '100%',
             overflow: 'hidden'
             }}>
         </div>

@@ -57,7 +57,9 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
         - ~~script che lo nasconde tranne quando navighi da giù in su e tranne quando arrivi in cima (magari z-index sotto l'header)~~
 
 - ~~Aggiungere pagina 404 (link to anche per le side quests)~~
-    - sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train
+    - ~~sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train~~
+    - aggiungi testo
+
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive
     - quadrato, rettangolo basso e rettangolo alto
 
@@ -85,3 +87,4 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 - Carosello immagini per heroshot && immagini progetto && immagini su homepage
 - Cambiare progetti da markdown --> mdx
     - `<Image/>` astro component && Image collection
+- Più microinterazioni! Più componenti React con codice, più divertimento!

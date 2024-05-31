@@ -4,14 +4,17 @@ import Man from "../components/Content/Dancing.jsx";
 ---
 
 <BaseLayout>
-  <div class="error-page">
-        <h2>Ups!</h2>
-        <h3>Seems like this page doesn't exist!(yet)</h3>
-        <p>Maybe the path was written wrong or maybe the page is a work in process ;) <br/> in any case lets enjoy a lil dance</p>
-        <div class="error-contact">
-          <button>Contact me, if the error persist!</button>
-        </div>
-        <Man client:only="react"/>
+  <div class="row error-page">
+    <div class="column large-1-4 message">
+      <h2>Ups!</h2>
+      <h3>Seems like this page doesn't exist!(yet)</h3>
+      <p>Maybe the path was written wrong or maybe the page is a work in process ;) <br/> in any case lets enjoy a lil dance</p>
+      <div class="error-contact">
+        <button>Contact me, if the error persist!</button>
+      </div>
+    </div>
+    <div class="column large-3-4 animation">
+      <Man client:only="react"/>
     </div>
   </div>
 </BaseLayout>

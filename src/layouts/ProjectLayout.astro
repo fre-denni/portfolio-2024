@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from 'astro:assets';
 
 import TagCard from "../components/Card/TagCard.astro";
 import BaseLayout from "./BaseLayout.astro";
@@ -35,7 +36,7 @@ const Suggested = sortedProjects.slice(0, 3);
                     <h3>{frontmatter.description}</h3>
                 </div>
                 <div class="image">
-                    <img src={frontmatter.image.url} alt={frontmatter.image.alt} /> <!--find better proportions -->
+                    <Image src={frontmatter.image.url} alt={frontmatter.image.alt} height="914" width="1280"/> <!--find better proportions -->
                 </div>
             </div>
             <div class="column small-1-2 medium-1-4 large-1-4">

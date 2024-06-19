@@ -31,7 +31,7 @@ HACKO is an open-source fermenter of bran developed for the Distributed Design P
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![heroshot](/src/assets/cv.jpg)
 
 </div>
 

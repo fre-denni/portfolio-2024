@@ -27,7 +27,7 @@ tags:
   - Digital
   - Art
 type: None
-draft:
+draft: false
 ---
 <section class="row">
 

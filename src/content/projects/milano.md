@@ -28,8 +28,9 @@ tags:
   - Systems
   - UX
   - Research
-type: None
-draft:
+type:
+  - None
+draft: false
 ---
 <section class="row">
 

@@ -26,7 +26,7 @@ tags:
   - AI
   - Prototyping
 type: New
-draft:
+draft: false
 ---
 <section class="row">
 

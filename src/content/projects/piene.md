@@ -28,7 +28,7 @@ tags:
   - Research
   - Prototyping
 type: None
-draft:
+draft: false
 ---
 <section class="row">
 

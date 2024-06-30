@@ -26,8 +26,9 @@ tags:
   - AI
   - UX
   - Research
-type: None
-draft: false
+type:
+  - None
+draft: true
 ---
 
 ## Scope of the project

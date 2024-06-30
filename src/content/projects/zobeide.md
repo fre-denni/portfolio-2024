@@ -1,17 +1,32 @@
 ---
-title: 'ZOBEIDE'
-time: '10-22 to 05-23'
-description: 'Dream Visualizer'
-card: 'and using generative AI to translate dreams to cities'
+title: ZOBEIDE
+time: 10-22 to 05-23
+description: Dream Visualizer
+card: and using generative AI to translate dreams to cities
 image:
-    url: '/images/hacko-heroshot.jpg'
-    alt: 'heroshot'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["AI", "Prototyping"]
-type: "None"
+  url: /images/hacko-heroshot.jpg
+  alt: heroshot
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - AI
+  - Prototyping
+type: None
+draft:
 ---
 <section class="row">
 

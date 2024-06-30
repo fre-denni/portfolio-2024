@@ -1,17 +1,33 @@
 ---
-title: 'ART.E.C.'
-time: '02-23 to 09-23'
-description: 'AR/AI Art Experience'
-card: 'make an AR art experience detecting emotion using machine learning'
+title: ART.E.C.
+time: 02-23 to 09-23
+description: AR/AI Art Experience
+card: make an AR art experience detecting emotion using machine learning
 image:
-    url: '/images/artec.gif'
-    alt: 'heroshot'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["AI","UX Research"]
-type: "None"
+  url: /images/artec.gif
+  alt: heroshot
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - AI
+  - UX
+  - Research
+type: None
+draft: false
 ---
 
 ## Scope of the project

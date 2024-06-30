@@ -1,17 +1,33 @@
 ---
-title: 'SOMMELIER'
-time: '10-22 to 05-23'
-description: 'Future Aperitivo Experience'
-card: 'design an art experience to understand what relation we will have with future food systems '
+title: SOMMELIER
+time: 10-22 to 05-23
+description: Future Aperitivo Experience
+card: "design an art experience to understand what relation we will have with future food systems "
 image:
-    url: '/images/hacko-heroshot.jpg'
-    alt: 'heroshot'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["Prototyping", "Digital Art"]
-type: "None"
+  url: /images/hacko-heroshot.jpg
+  alt: heroshot
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - Prototyping
+  - Digital
+  - Art
+type: None
+draft:
 ---
 <section class="row">
 

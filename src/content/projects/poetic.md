@@ -1,17 +1,32 @@
 ---
-title: 'POETIC INTERFACES☀️'
-time: '10-22 to 05-23'
-description: 'Using AI for weather'
-card: 'using LLMs to explore new ways to present data and improve our understanding of it'
+title: POETIC INTERFACES☀️
+time: 10-22 to 05-23
+description: Using AI for weather
+card: using LLMs to explore new ways to present data and improve our understanding of it
 image:
-    url: '/images/poetic-heroshot.png'
-    alt: 'heroshot'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["AI","Prototyping"]
-type: "New"
+  url: /images/poetic-heroshot.png
+  alt: heroshot
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - AI
+  - Prototyping
+type: New
+draft:
 ---
 <section class="row">
 

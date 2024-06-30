@@ -1,17 +1,33 @@
 ---
-title: 'KNOCKNOCK'
-time: 'one week project'
-description: 'Destroy the barriers'
-card: 'connecting remote workers as they would do in presence'
+title: KNOCKNOCK
+time: one week project
+description: Destroy the barriers
+card: connecting remote workers as they would do in presence
 image:
-    url: '/images/knocknock.gif'
-    alt: 'heroshot'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["Prototyping", "UX Research"]
-type: "Spicy"
+  url: /images/knocknock.gif
+  alt: heroshot
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - Prototyping
+  - UX
+  - Research
+type: Spicy
+draft:
 ---
 <section class="row">
 

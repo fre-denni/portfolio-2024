@@ -1,17 +1,31 @@
 ---
-title: 'EOLO☁️'
-time: 'one week project'
-description: 'Game for disabili'
-card: 'making a puzzle-platform game for children as a disguise for a spirometry test'
+title: EOLO☁️
+time: one week project
+description: Game for disabili
+card: making a puzzle-platform game for children as a disguise for a spirometry test
 image:
-    url: '/images/about.jpeg'
-    alt: 'heroshot'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["Prototyping"]
-type: "None"
+  url: /images/about.jpeg
+  alt: heroshot
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - Prototyping
+type: None
+draft: false
 ---
 <section class="row">
 

@@ -1,18 +1,34 @@
 ---
-title: 'PIENE'
-time: 'one week project'
-description: 'Hack a fidget toy'
-card: 'hacking a fidget toy to tells us to stop stressing && enjoy life'
+title: PIENE
+time: one week project
+description: Hack a fidget toy
+card: hacking a fidget toy to tells us to stop stressing && enjoy life
 image:
-    url: '/images/about.jpeg'
-    alt: 'heroshot'
-made: 'with EPFAL+ECAL'
-role: ["Hardware & Software Design", "UX/UI Design", "Research"]
-team: ["Martina Comola", "Andrea Somenzi", "Valerio Libardo", "Gaia Rubino", "Luca Grosso"]
-links: ["https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/", "https://distributeddesign.eu/talent/hacko/"]
-taglinks: ["Project files", "Distributed Design"]
-tags: ["UX Research", "Prototyping"]
-type: "None"
+  url: /images/about.jpeg
+  alt: heroshot
+made: with EPFAL+ECAL
+role:
+  - Hardware & Software Design
+  - UX/UI Design
+  - Research
+team:
+  - Martina Comola
+  - Andrea Somenzi
+  - Valerio Libardo
+  - Gaia Rubino
+  - Luca Grosso
+links:
+  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
+  - https://distributeddesign.eu/talent/hacko/
+taglinks:
+  - Project files
+  - Distributed Design
+tags:
+  - UX
+  - Research
+  - Prototyping
+type: None
+draft:
 ---
 <section class="row">
 

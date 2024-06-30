@@ -3,7 +3,8 @@ import { getCollection } from "astro:content";
 import { Image } from 'astro:assets';
 
 import TagCard from "../components/Card/TagCard.astro";
-import BaseLayout from "./BaseLayout.astro";
+import Footer from "../components/Footer/Footer.astro";
+import HtmlLayout from "./HtmlLayout.astro";
 const {frontmatter} = Astro.props; //here the frontmatter of the displayed project in this page
 
 const Projects = await getCollection("projects");
@@ -27,71 +28,76 @@ const sortedProjects = projectsWithCommonTags.sort((a, b) => b.commonTags.length
 const Suggested = sortedProjects.slice(0, 3);
 ---
 
-<BaseLayout>
-    <div class="credits">
-        <div class="row">
-            <div class="column title">
-                <div class="text">
-                    <h1>{frontmatter.title}</h1>
-                </div>
-                <div class="image">
-                    <Image src={frontmatter.image.url} alt={frontmatter.image.alt} height="914" width="1280"/> <!--find better proportions -->
-                </div>
-            </div>
-            <div class="column small-1-2 medium-1-4 large-1-4">
-                <p>Period:
-                    <ul>
-                        <li>{frontmatter.time}</li>
-                    </ul>
-                </p>
-            </div>
-                <div class="column small-1-2 medium-1-4 large-1-4">
-                    <p>Role:</p>
-                    <ul>
-                        {frontmatter.role.map(role => <li>{role}</li>)}
-                    </ul>
-                </div>
-                <div class="column small-1-2 medium-1-4 large-1-4">
-                    <p>Team:</p>
-                    <ul>
-                        {frontmatter.team.map(member => <li>{member}</li>)}
-                    </ul>
-                </div>
-                <div class="column small-1-2 medium-1-4 large-1-4">
-                    <p>External Links:</p>
-                    <ul>
-                        {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="work-project">
-        <hr/>
-        <div class="inner">
-            <slot />
-        </div>
-    </div>
-    <div class="work-related">
-        <section class="row small-padding">
-            <div class="column large-1-4">
-                <p>Similar projects</p>
-            </div>
-            <div class="column large-3-4">
-                <ul class="work-slider">
-                    <div class="draggable">
-                        <div class="track">
-                            {Suggested.map(p => <TagCard 
-                                url={`/projects/${p.slug}/`}
-                                title={p.data.title}
-                                img={p.data.image.url} 
-                                alt={p.data.image.alt} 
-                                description={p.data.description} 
-                            />)}
+<HtmlLayout>
+    <main class="wrapper">
+        <div class="container">
+            <div class="credits">
+                <div class="row">
+                    <div class="column title">
+                        <div class="text">
+                            <h1>{frontmatter.title}</h1>
+                        </div>
+                        <div class="image">
+                            <Image src={frontmatter.image.url} alt={frontmatter.image.alt} height="914" width="1280"/> <!--find better proportions -->
                         </div>
                     </div>
-                </ul>
+                    <div class="column small-1-2 medium-1-4 large-1-4">
+                        <p>Period:
+                            <ul>
+                                <li>{frontmatter.time}</li>
+                            </ul>
+                        </p>
+                    </div>
+                        <div class="column small-1-2 medium-1-4 large-1-4">
+                            <p>Role:</p>
+                            <ul>
+                                {frontmatter.role.map(role => <li>{role}</li>)}
+                            </ul>
+                        </div>
+                        <div class="column small-1-2 medium-1-4 large-1-4">
+                            <p>Team:</p>
+                            <ul>
+                                {frontmatter.team.map(member => <li>{member}</li>)}
+                            </ul>
+                        </div>
+                        <div class="column small-1-2 medium-1-4 large-1-4">
+                            <p>External Links:</p>
+                            <ul>
+                                {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-    </div>
-</BaseLayout>
+            <div class="work-project">
+                <hr/>
+                <div class="inner">
+                    <slot />
+                </div>
+            </div>
+            <div class="work-related">
+                <section class="row small-padding">
+                    <div class="column large-1-4">
+                        <p>Similar projects</p>
+                    </div>
+                    <div class="column large-3-4">
+                        <ul class="work-slider">
+                            <div class="draggable">
+                                <div class="track">
+                                    {Suggested.map(p => <TagCard 
+                                        url={`/projects/${p.slug}/`}
+                                        title={p.data.title}
+                                        img={p.data.image.url} 
+                                        alt={p.data.image.alt} 
+                                        description={p.data.description} 
+                                    />)}
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <Footer/>
+    </main>
+</HtmlLayout>

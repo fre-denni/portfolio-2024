@@ -1,0 +1,28 @@
+---
+import '@fontsource/geist-mono/400.css'; //medium
+import '@fontsource/geist-mono/600.css'; //bold
+import '@fontsource/geist-sans/400.css'; //medium
+import '@fontsource/geist-sans/600.css'; //bold
+import '../styles/global.css'; //global styles
+import { ViewTransitions } from "astro:transitions"; //main animations
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} >
+    <title>Federico Denni</title>
+    <ViewTransitions/>
+  </head>
+  <body>
+    <slot/>
+  </body>
+  <script>
+    import "../scripts/menu.js";
+    import "../scripts/hidden-menu.js"
+    import "../scripts/navigation.js"
+    import "../scripts/tag-filter.js"
+  </script>
+</html>

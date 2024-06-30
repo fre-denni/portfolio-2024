@@ -24,13 +24,11 @@ taglinks:
   - Distributed Design
 tags:
   - AI
-  - UX
-  - Research
+  - UX-Research
 type:
   - None
 draft: true
 ---
-
 ## Scope of the project
 
 ARTEC is a project made for dancing in the streets

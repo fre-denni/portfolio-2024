@@ -13,37 +13,14 @@ taglinks: ["Project files", "Distributed Design"]
 tags: ["AI","UX Research"]
 type: "None"
 ---
-<section class="row">
-
-<div class="column large-2-5">
-
-<div class="inner">
 
 ## Scope of the project
 
 ARTEC is a project made for dancing in the streets
 
-</div>
-
-</div>
-
-<div class="column large-3-5">
-
-<div class="image">
-
 ![heroshot](../../assets/cv.jpg)
 
-</div>
-
-</div>
-
-</section>
-
 ---
-
-<section class="row">
-
-<div class="column large-2-5">
 
 Our brief consisted in developing a toolkit to be produced 
 in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
@@ -51,25 +28,9 @@ We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating wit
 
 All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
 
-</div>
-
-<div class="column large-3-5">
-
-<div class="image">
-
 ![hacko interface](../../assets/hacko-2.png)
 
-</div>
-
-</div>
-
-</section>
-
 ---
-
-<section class="row">
-
-<div class="column large-2-5">
 
 ### Interface Design
 
@@ -78,7 +39,4 @@ with the Hackos, mascots that communicate with their colors the status of the fe
 
 To diminish energy waste an e-ink display is used.
 
-</div>
-
-</section>
 

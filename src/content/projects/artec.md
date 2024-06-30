@@ -21,7 +21,7 @@ type: "None"
 
 ## Scope of the project
 
-HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
+ARTEC is a project made for dancing in the streets
 
 </div>
 
@@ -31,7 +31,7 @@ HACKO is an open-source fermenter of bran developed for the Distributed Design P
 
 <div class="image">
 
-![heroshot](/src/assets/cv.jpg)
+![heroshot](../../assets/cv.jpg)
 
 </div>
 
@@ -57,7 +57,7 @@ All project files are visible on the [Polifactory website](https://www.polifacto
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![hacko interface](../../assets/hacko-2.png)
 
 </div>
 

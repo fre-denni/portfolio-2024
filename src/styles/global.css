@@ -366,6 +366,11 @@ main,
     margin-bottom: 15px;
 }
 
+.header-proj{
+    position: relative;
+    margin-bottom: 15px;
+}
+
 .header-main{
     width: 100%;
     height:60px;
@@ -400,6 +405,12 @@ main,
     opacity: 0;
     transition: transform 0.3s ease-out, opacity 0.15s ease-out, visibility 0.3s ease-out;
     z-index: 1;
+}
+
+.project-nav{
+    height:auto;
+    width: 100%;
+    top:0;
 }
 
 .hidden-nav.visible{
@@ -439,6 +450,12 @@ main,
     transition: none;
     background-color: var(--global-background);
     border-bottom: 2px solid var(--global-primary);
+}
+
+.project-nav .site-menu{
+    width: 100%;
+    height:60px;
+    justify-content:center;
 }
 
 .header-nav .site-menu ul , .hidden-nav .site-menu ul{
@@ -529,6 +546,30 @@ main,
     cursor: pointer;
 }
 
+.x-btn {
+    background-color: var(--global-background);
+    display: block;
+    position: absolute;
+    border: 0;
+    top: 25px;
+    right: 15px;
+    color: var(--global-secondary);
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 40px;
+    height:40px;
+    outline: 0;
+    margin: 0;
+    padding: 0 9px;
+    z-index:999;
+    text-align: center;
+    text-align: center;
+    transition: all 0.6s ease;
+    clip-path: polygon( 76.191% 0%,76.191% 8.13%,84.127% 8.13%,84.127% 16.26%,92.064% 16.26%,92.064% 24.39%,100% 24.39%,100% 75.61%,92.064% 75.61%,92.064% 83.74%,84.127% 83.74%,84.127% 91.87%,76.191% 91.87%,76.191% 100%,23.81% 100%,23.81% 91.87%,15.873% 91.87%,15.873% 83.74%,7.937% 83.74%,7.937% 75.61%,0% 75.61%,0% 24.39%,7.937% 24.39%,7.937% 16.26%,15.873% 16.26%,15.873% 8.13%,23.81% 8.13%,23.81% 0%,76.191% 0% );
+    cursor: pointer;
+}
+
 .hamburger span{
     position: relative;
     top: 0;
@@ -540,12 +581,46 @@ main,
     transition: 300ms ease-in-out;
 }
 
+.x-btn span{
+    position: relative;
+    top:0;
+    display: block;
+    width: 22px;
+    height:2px;
+    margin-bottom: 4px;
+    background: var(--global-primary);
+    transition: 300ms ease-in-out;
+}
+
+.x-btn span:first-child{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.x-btn span:nth-child(2){
+    opacity: 0;
+    transform: scale(.5, .5);
+}
+
+.x-btn span:last-child{
+    -webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: -4px; 
+}
+
 .hamburger span:last-child{
     margin-bottom: 0;
 }
 
-.hamburger:active {
+.hamburger:active, .x-btn:active {
     background-color: var(--global-secondary);
+}
+
+.x-btn:hover{
+    background-color: var(--global-secondary);
+    transform: translate(0, 5%);
+	opacity: 1
 }
 
 .show-nav .hamburger {
@@ -1124,6 +1199,12 @@ main,
     margin-bottom: 20px;
 }
 
+.project-nav .text{
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
 .credits .title h1, .credits .title h3{
     margin: 5px;
 }
@@ -1140,15 +1221,11 @@ main,
     font-size: 1rem;
 }
 
-.credits .column {
-    margin-bottom: 10px;
-}
-
-.credits .image{
+.heroshot .image{
     display: block;
     width: 100%;
     clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .credits p {
@@ -1172,7 +1249,7 @@ main,
     text-transform: uppercase;
 }
 
-.credits .image img{
+.heroshot .image img{
     width: 100%;
     overflow: hidden;
     clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
@@ -1526,7 +1603,11 @@ main,
     body.show-nav{overflow:auto}
 
     .header{
-        height:180px;
+        height: 150px;
+        margin-bottom: 0;
+    }
+
+    .header-proj{
         margin-bottom: 0;
     }
 
@@ -1702,9 +1783,9 @@ main,
         margin-bottom:0;
     }
 
-    .credits .image img{
-        height: 625px;
-        object-position: 90% 65%;
+    .heroshot .image img{
+        height: 550px;
+        object-position: 80% 30%;
     }
 
     .credits .title h3{
@@ -1745,7 +1826,7 @@ main,
     }
 
     .wrapper {
-        padding: 0 15%;
+        padding: 0 10%;
     }
     
 }

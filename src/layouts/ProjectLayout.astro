@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 import TagCard from "../components/Card/TagCard.astro";
 import Footer from "../components/Footer/Footer.astro";
 import HtmlLayout from "./HtmlLayout.astro";
+import HeaderProj from "../components/HeaderProject/HeaderProj.astro";
 const {frontmatter} = Astro.props; //here the frontmatter of the displayed project in this page
 
 const Projects = await getCollection("projects");
@@ -29,48 +30,44 @@ const Suggested = sortedProjects.slice(0, 3);
 ---
 
 <HtmlLayout>
+    <HeaderProj title={frontmatter.title}/>
+    <div class="heroshot">
+        <div class="image">
+            <Image src={frontmatter.image.url} alt={frontmatter.image.alt} height="914" width="1280"/>
+        </div>
+    </div>
+    <div class="credits">
+        <div class="row">
+            <div class="column small-1-2 medium-1-4 large-1-4">
+                <p>Period:
+                    <ul>
+                        <li>{frontmatter.time}</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="column small-1-2 medium-1-4 large-1-4">
+                <p>Role:</p>
+                <ul>
+                    {frontmatter.role.map(role => <li>{role}</li>)}
+                </ul>
+            </div>
+            <div class="column small-1-2 medium-1-4 large-1-4">
+                <p>Team:</p>
+                <ul>
+                    {frontmatter.team.map(member => <li>{member}</li>)}
+                </ul>
+            </div>
+            <div class="column small-1-2 medium-1-4 large-1-4">
+                <p>External Links:</p>
+                <ul>
+                    {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
+                </ul>
+            </div>
+        </div>
+    </div>
     <main class="wrapper">
         <div class="container">
-            <div class="credits">
-                <div class="row">
-                    <div class="column title">
-                        <div class="text">
-                            <h1>{frontmatter.title}</h1>
-                        </div>
-                        <div class="image">
-                            <Image src={frontmatter.image.url} alt={frontmatter.image.alt} height="914" width="1280"/> <!--find better proportions -->
-                        </div>
-                    </div>
-                    <div class="column small-1-2 medium-1-4 large-1-4">
-                        <p>Period:
-                            <ul>
-                                <li>{frontmatter.time}</li>
-                            </ul>
-                        </p>
-                    </div>
-                        <div class="column small-1-2 medium-1-4 large-1-4">
-                            <p>Role:</p>
-                            <ul>
-                                {frontmatter.role.map(role => <li>{role}</li>)}
-                            </ul>
-                        </div>
-                        <div class="column small-1-2 medium-1-4 large-1-4">
-                            <p>Team:</p>
-                            <ul>
-                                {frontmatter.team.map(member => <li>{member}</li>)}
-                            </ul>
-                        </div>
-                        <div class="column small-1-2 medium-1-4 large-1-4">
-                            <p>External Links:</p>
-                            <ul>
-                                {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="work-project">
-                <hr/>
                 <div class="inner">
                     <slot />
                 </div>

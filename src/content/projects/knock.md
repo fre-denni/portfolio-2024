@@ -25,8 +25,7 @@ taglinks:
 tags:
   - Prototyping
   - UX-Research
-type:
-  - Spicy
+type: Spicy
 draft: true
 ---
 <section class="row">

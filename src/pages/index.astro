@@ -9,12 +9,13 @@ import TagBar from "../components/Tag/TagBar.astro";
 
 let allProjects = await getCollection("projects");
 
-// Sort the projects based on the "type" field
 allProjects = allProjects
 .filter((project) => project.data.draft !== false)
 .sort((a, b) => {
-  if (a.data.type === 'Spicy' || (a.data.type === 'New' && b.data.type !== 'Spicy')) return -1;
-  if (b.data.type === 'Spicy' || (b.data.type === 'New' && a.data.type !== 'Spicy')) return 1;
+  if (a.data.type === 'Spicy' && b.data.type !== 'Spicy') return -1;
+  if (b.data.type === 'Spicy' && a.data.type !== 'Spicy') return 1;
+  if (a.data.type === 'New' && b.data.type !== 'New' && b.data.type !== 'Spicy') return -1;
+  if (b.data.type === 'New' && a.data.type !== 'New' && a.data.type !== 'Spicy') return 1;
   if (a.data.type === 'None' && b.data.type !== 'None') return 1;
   if (b.data.type === 'None' && a.data.type !== 'None') return -1;
   return 0;

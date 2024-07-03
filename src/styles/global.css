@@ -876,7 +876,7 @@ main,
     margin: 0 0 14px;
 }
 
-.page-home .item.spicy::before, .page-home .item.new::before{
+.page-home .item.Spicy::before, .page-home .item.New::before{
     position: absolute;
     content:'';
     background: var(--global-primary);
@@ -887,7 +887,7 @@ main,
     transform: rotate(45deg);
 }
 
-.page-home .item.spicy::after{
+.page-home .item.Spicy::after{
     position:absolute;
     content: 'Spicy Content!';
     top: 18px;
@@ -905,7 +905,7 @@ main,
     z-index: 1;
 }
 
-.page-home .item.new::after{
+.page-home .item.New::after{
     position:absolute;
     content: 'New!';
     top: 18px;
@@ -923,8 +923,8 @@ main,
     z-index: 1;
 }
 
-.page-home .item.none::before,
-.page-home .item.none::after {
+.page-home .item.None::before,
+.page-home .item.None::after {
   display: none;
   content: '';
 }

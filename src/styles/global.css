@@ -34,7 +34,7 @@ body{
     width: 100%;
     height: 100%;
     margin:0;
-    font-size: 19px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     overflow-x: hidden;
@@ -368,7 +368,6 @@ main,
 
 .header-proj{
     position: relative;
-    margin-bottom: 15px;
 }
 
 .header-main{
@@ -551,8 +550,8 @@ main,
     display: block;
     position: absolute;
     border: 0;
-    top: 25px;
-    right: 15px;
+    top: 30px;
+    right: 30px;
     color: var(--global-secondary);
     font-weight: 700;
     font-size: 10px;
@@ -565,7 +564,7 @@ main,
     z-index:999;
     text-align: center;
     text-align: center;
-    transition: all 0.6s ease;
+    transition: all 0.3s ease;
     clip-path: polygon( 76.191% 0%,76.191% 8.13%,84.127% 8.13%,84.127% 16.26%,92.064% 16.26%,92.064% 24.39%,100% 24.39%,100% 75.61%,92.064% 75.61%,92.064% 83.74%,84.127% 83.74%,84.127% 91.87%,76.191% 91.87%,76.191% 100%,23.81% 100%,23.81% 91.87%,15.873% 91.87%,15.873% 83.74%,7.937% 83.74%,7.937% 75.61%,0% 75.61%,0% 24.39%,7.937% 24.39%,7.937% 16.26%,15.873% 16.26%,15.873% 8.13%,23.81% 8.13%,23.81% 0%,76.191% 0% );
     cursor: pointer;
 }
@@ -1078,8 +1077,12 @@ main,
 }
 
 .heroshot{
-    margin:0;
+    padding: 10px;
+    margin-bottom: 20px;
+    top: 0;
+    width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .work-project a{
@@ -1192,40 +1195,38 @@ main,
     font-family: var(--global-font-secondary);
     margin-bottom: 0;
     text-transform: uppercase;
+    padding: 0 10px;
 }
 
-.credits .title .text{
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.project-nav .text{
+.project-nav .text {
     text-align: left;
     margin-bottom: 20px;
     padding: 0 20px;
 }
 
-.credits .title h1, .credits .title h3{
-    margin: 5px;
+.project-nav .text h1, .project-nav .text h3 {
+    color: var(--global-background);
+    mix-blend-mode: screen;
 }
 
-.credits .title h1{
+.project-nav .text h1{
     font-family: var(--global-font-primary);
     font-size: 1.8rem;
     letter-spacing: -0.08rem;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
-.credits .title h3{
+.project-nav .text h3{
     font-family: var(--global-font-secondary);
     font-size: 1rem;
+    margin-top: 5px;
 }
 
 .heroshot .image{
     display: block;
     width: 100%;
-    clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
-    margin: 10px;
+    max-height: 550px;
 }
 
 .credits p {
@@ -1249,10 +1250,13 @@ main,
     text-transform: uppercase;
 }
 
+.heroshot .image{
+    clip-path: polygon( 0% 96.911%,1.144% 96.911%,1.145% 98.061%,2.275% 98.061%,2.275% 99.024%,3.624% 99.024%,3.624% 100%,96.376% 100%,96.376% 99.024%,97.725% 99.024%,97.725% 98.061%,98.855% 98.061%,98.855% 96.911%,100% 96.911%,100% 3.176%,98.856% 3.176%,98.855% 2.026%,97.725% 2.026%,97.725% 1.063%,96.376% 1.063%,96.376% 0.095%,3.625% 0.095%,3.625% 1.063%,2.276% 1.063%,2.276% 2.026%,1.145% 2.026%,1.145% 3.176%,0.001% 3.176%,0% 96.911% );
+}
+
 .heroshot .image img{
     width: 100%;
     overflow: hidden;
-    clip-path: polygon( 0.041% 97.289%,0.428% 97.289%,0.428% 98.298%,0.809% 98.298%,0.809% 99.144%,1.264% 99.144%,1.264% 100%,98.777% 100%,98.777% 99.144%,99.232% 99.144%,99.232% 98.298%,99.614% 98.298%,99.614% 97.289%,100% 97.289%,100% 2.784%,99.613% 2.784%,99.613% 1.775%,99.232% 1.775%,99.232% 0.929%,98.777% 0.929%,98.777% 0.08%,1.264% 0.08%,1.264% 0.929%,0.809% 0.929%,0.809% 1.775%,0.428% 1.775%,0.428% 2.784%,0.041% 2.784%,0.041% 97.289% );
     object-fit: cover;
     object-position: center;
 }
@@ -1783,6 +1787,10 @@ main,
         margin-bottom:0;
     }
 
+    .heroshot .image{
+        clip-path: polygon( 0.039% 96.913%,0.397% 96.913%,0.397% 98.062%,0.752% 98.062%,0.752% 99.025%,1.174% 99.025%,1.174% 100%,98.864% 100%,98.864% 99.025%,99.287% 99.025%,99.287% 98.062%,99.641% 98.062%,99.641% 96.913%,100% 96.913%,100% 3.246%,99.641% 3.246%,99.641% 2.097%,99.287% 2.097%,99.287% 1.134%,98.864% 1.134%,98.864% 0.166%,1.175% 0.166%,1.175% 1.134%,0.752% 1.134%,0.752% 2.097%,0.398% 2.097%,0.397% 3.246%,0.039% 3.246%,0.039% 96.913% );
+    }
+
     .heroshot .image img{
         height: 550px;
         object-position: 80% 30%;
@@ -1826,7 +1834,7 @@ main,
     }
 
     .wrapper {
-        padding: 0 10%;
+        padding: 0 20%;
     }
     
 }

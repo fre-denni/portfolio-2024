@@ -4,7 +4,7 @@ const {title, url, description, collab, img, alt, style, type} = Astro.props;
 
 <div class={style}>
     <a href={url} class={`item ${type}`}>
-        <div class="image">
+        <div class="image" transition:animate="slide">
             <img src={img} alt={alt}>
             <div class="inner">
                 <h2>{title}</h2>

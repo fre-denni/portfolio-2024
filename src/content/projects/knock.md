@@ -24,9 +24,9 @@ taglinks:
   - Distributed Design
 tags:
   - Prototyping
-  - UX
-  - Research
-type: Spicy
+  - UX-Research
+type:
+  - Spicy
 draft: false
 ---
 <section class="row">

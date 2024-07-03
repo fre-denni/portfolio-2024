@@ -24,9 +24,9 @@ taglinks:
   - Distributed Design
 tags:
   - Prototyping
-  - Digital
-  - Art
-type: None
+  - Digital-Art
+type:
+  - None
 draft: false
 ---
 <section class="row">

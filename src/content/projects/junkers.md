@@ -23,10 +23,8 @@ taglinks:
   - Project files
   - Distributed Design
 tags:
-  - Design
-  - Systems
-  - UX
-  - Research
+  - UX-Research
+  - Design-Systems
 type:
   - None
 draft: false

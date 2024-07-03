@@ -30,39 +30,10 @@ const Suggested = sortedProjects.slice(0, 3);
 ---
 
 <HtmlLayout>
-    <HeaderProj title={frontmatter.title}/>
+    <HeaderProj title={frontmatter.title} subhead={frontmatter.description}/>
     <div class="heroshot">
-        <div class="image">
+        <div class="image" transition:animate="slide">
             <Image src={frontmatter.image.url} alt={frontmatter.image.alt} height="914" width="1280"/>
-        </div>
-    </div>
-    <div class="credits">
-        <div class="row">
-            <div class="column small-1-2 medium-1-4 large-1-4">
-                <p>Period:
-                    <ul>
-                        <li>{frontmatter.time}</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="column small-1-2 medium-1-4 large-1-4">
-                <p>Role:</p>
-                <ul>
-                    {frontmatter.role.map(role => <li>{role}</li>)}
-                </ul>
-            </div>
-            <div class="column small-1-2 medium-1-4 large-1-4">
-                <p>Team:</p>
-                <ul>
-                    {frontmatter.team.map(member => <li>{member}</li>)}
-                </ul>
-            </div>
-            <div class="column small-1-2 medium-1-4 large-1-4">
-                <p>External Links:</p>
-                <ul>
-                    {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
-                </ul>
-            </div>
         </div>
     </div>
     <main class="wrapper">
@@ -72,29 +43,59 @@ const Suggested = sortedProjects.slice(0, 3);
                     <slot />
                 </div>
             </div>
-            <div class="work-related">
-                <section class="row small-padding">
-                    <div class="column large-1-4">
-                        <p>Similar projects</p>
+            <div class="credits">
+                <div class="row">
+                    <div class="column small-1-2 medium-1-4 large-1-4">
+                        <p>Period:
+                            <ul>
+                                <li>{frontmatter.time}</li>
+                            </ul>
+                        </p>
                     </div>
-                    <div class="column large-3-4">
-                        <ul class="work-slider">
-                            <div class="draggable">
-                                <div class="track">
-                                    {Suggested.map(p => <TagCard 
-                                        url={`/projects/${p.slug}/`}
-                                        title={p.data.title}
-                                        img={p.data.image.url} 
-                                        alt={p.data.image.alt} 
-                                        description={p.data.description} 
-                                    />)}
-                                </div>
-                            </div>
+                    <div class="column small-1-2 medium-1-4 large-1-4">
+                        <p>Role:</p>
+                        <ul>
+                            {frontmatter.role.map(role => <li>{role}</li>)}
                         </ul>
                     </div>
-                </section>
+                    <div class="column small-1-2 medium-1-4 large-1-4">
+                        <p>Team:</p>
+                        <ul>
+                            {frontmatter.team.map(member => <li>{member}</li>)}
+                        </ul>
+                    </div>
+                    <div class="column small-1-2 medium-1-4 large-1-4">
+                        <p>External Links:</p>
+                        <ul>
+                            {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
+                        </ul>
+                    </div>
+                </div>
             </div>
+    </main>
+    <div class="container">
+        <div class="work-related">
+            <section class="row small-padding">
+                <div class="column large-1-4">
+                    <p>Similar projects</p>
+                </div>
+                <div class="column large-3-4">
+                    <ul class="work-slider">
+                        <div class="draggable">
+                            <div class="track">
+                                {Suggested.map(p => <TagCard 
+                                    url={`/projects/${p.slug}/`}
+                                    title={p.data.title}
+                                    img={p.data.image.url} 
+                                    alt={p.data.image.alt} 
+                                    description={p.data.description} 
+                                />)}
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </section>
         </div>
         <Footer/>
-    </main>
+    </div>
 </HtmlLayout>

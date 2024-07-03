@@ -29,13 +29,13 @@ type:
   - None
 draft: true
 ---
-## Scope of the project
-
-ARTEC is a project made for dancing in the streets
-
-![heroshot](../../assets/cv.jpg)
+###  With ART.E.C. we aimed to discover how an art museum experience could change by introducing emotional computing in it. Through the use of facial expression databases and biometric sensors, we’ve built a machine-learning model, that could interpret the data in following the Russell emotion model.
 
 ---
+
+![artec-1](../../assets/hacko-heroshot.jpg)
+
+#### OUR WORK
 
 Our brief consisted in developing a toolkit to be produced 
 in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
@@ -43,7 +43,7 @@ We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating wit
 
 All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
 
-![hacko interface](../../assets/hacko-2.png)
+
 
 ---
 
@@ -53,5 +53,4 @@ The design of the interface is based on interacting
 with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
 
 To diminish energy waste an e-ink display is used.
-
 

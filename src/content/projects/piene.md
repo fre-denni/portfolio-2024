@@ -24,10 +24,10 @@ taglinks:
   - Project files
   - Distributed Design
 tags:
-  - UX
-  - Research
   - Prototyping
-type: None
+  - UX-Research
+type:
+  - None
 draft: false
 ---
 <section class="row">

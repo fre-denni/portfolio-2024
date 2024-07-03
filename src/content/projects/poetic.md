@@ -25,8 +25,9 @@ taglinks:
 tags:
   - AI
   - Prototyping
-type: New
-draft: false
+type:
+  - New
+draft: true
 ---
 <section class="row">
 

@@ -33,7 +33,11 @@ draft: true
 
 ---
 
+<div class="image">
+
 ![artec-1](../../assets/hacko-heroshot.jpg)
+
+</div>
 
 #### OUR WORK
 
@@ -53,4 +57,16 @@ The design of the interface is based on interacting
 with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
 
 To diminish energy waste an e-ink display is used.
+
+<div class="image">
+
+![artec-1](../../assets/hacko-heroshot.jpg)
+
+</div>
+
+<div class="image">
+
+![artec-1](../../assets/hacko-heroshot.jpg)
+
+</div>
 

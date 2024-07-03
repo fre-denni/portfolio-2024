@@ -796,6 +796,11 @@ main,
     line-height: normal;
 }
 
+.page-home .work-display{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .page-home .work-display .grid{
     display: flex;
@@ -1155,8 +1160,9 @@ main,
 
 .work-project .image{
     margin: 0 0 30px;
-    height: fit-content;
-    width: fit-content;
+    height: auto;
+    width: 100%;
+    margin: 20px 0;
 }
 
 .work-project .image img{
@@ -1257,7 +1263,7 @@ main,
 .heroshot .image img{
     width: 100%;
     overflow: hidden;
-    object-fit: cover;
+    object-fit:cover;
     object-position: center;
 }
 
@@ -1303,6 +1309,16 @@ main,
     position: relative;
     outline: none;
     transition: ease 0.3s all;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.work-related .image{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: center;
 }
 
 .work-related .item:hover{
@@ -1732,6 +1748,12 @@ main,
         padding: 4px 1rem;
         font-family: var(--global-font-primary);
     }
+
+    .page-home .work-display{
+        position: relative;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
        
     .main-content img{
         width: 100%;
@@ -1760,7 +1782,7 @@ main,
     }
 
     .work-project .image img{
-        height: 428px;
+        height: 400px;
     }
 
     .page-about{

@@ -5,18 +5,16 @@ import Man from "../components/Content/Dancing.jsx";
 
 <BaseLayout>
   <div class="row error-page">
-    <div class="column large-1-4 message">
-      <h2>Ups!</h2>
+    <div class="message">
+      <h2>Ups, <br/> a wild <span>404</span> appear!</h2>
       <h3>Seems like this page doesn't exist!(yet)</h3>
       <p>Maybe the path was written wrong or maybe the page is a work in progress ;) <br/> in any case lets enjoy a lil dance</p>
-      <div class="error-contact">
-        <button>Contact me, if the error persist!</button>
-      </div>
     </div>
-    <div class="column large-3-4 animation">
+    <div class="column animation">
       <Man client:only="react"/>
+    </div>
+    <div class="error-contact">
+      <a href="mailto:fredenni.git@gmail.com?subject=Hi!">Contact me, if the error persist!</a>
     </div>
   </div>
 </BaseLayout>
-
-<!--adjust spacing and animation canvas space-->

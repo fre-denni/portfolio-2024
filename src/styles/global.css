@@ -1834,7 +1834,7 @@ main,
     }
 
     .page-about .image img{
-        height: fit-content;
+        height: 350px;
         margin: 10px 0 0;
         object-position: top;
     }
@@ -1882,11 +1882,19 @@ main,
     .page-about .journey{
         display: flex;
         flex-direction: column;
-        padding: 0 0 0 10%;
+        padding: 0 0 0 5%;
     }
 
     .wrapper {
         padding: 0 20%;
+    }
+
+    .quests .image img{
+        height: 250px;
+        padding: 0;
+        margin: 0;
+        object-fit:cover;
+        object-position: top;
     }
     
 }
@@ -1972,13 +1980,7 @@ main,
         margin-bottom: 20px;
     }
 
-    .cv .image img, .quests .image img{
-        height: 250px;
-        padding: 0;
-        margin: 0;
-        object-fit:cover;
-        object-position: top;
-    }
+
 
     .quests{
         margin-bottom: 20px;
@@ -2000,4 +2002,8 @@ main,
 		max-width: 600px;
 		font-size: 36px;
 	}
+
+    .page-about .image img{
+        height: 300px;
+    }
 }

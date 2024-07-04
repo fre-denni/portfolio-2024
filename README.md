@@ -29,6 +29,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - 💃 Content Time! 💃
     - ~~Obsidian setup~~ && Scrivere content && raccogliere immagini
+    - decidere per colore header
 
 ## Lavoro futuro!
 

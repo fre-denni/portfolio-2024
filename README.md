@@ -26,13 +26,13 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 ### Mozilla
 
-- ~~I bottoni delle tag hanno un aspetto molto low quality, inoltre il font è sbagliato~~ Da cambiare un pò le dimensioni delle varie box-shadow, font cambiato
+- ~~I bottoni delle tag hanno un aspetto molto low quality, inoltre il font è sbagliato~~ ~~Da cambiare un pò le dimensioni delle varie box-shadow, font cambiato~~
 
 - ~~il social link per instagram fa la microinterazione a differenza di altri browser~~ (adesso lo fanno tutti)
 
-- anche qua non view transition
+- ~~anche qua non view transition~~
 
-- quando si clicca sul logo nella pagina principale, non ricarica la pagina
+- ~~quando si clicca sul logo nella pagina principale, non ricarica la pagina~~
 
 ## Lavoro da fare
 
@@ -58,7 +58,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - ~~Aggiungere pagina 404 (link to anche per le side quests)~~
     - ~~sarebbe carino aggiungere un'interazione tipo soft body seguendo esempio dancing man del the coding train~~
-    - aggiungi testo
+    - ~~aggiungi testo~~
 
 - Fare diverse dimensioni clip-path per immagini e farle cambiare in maniera responsive
     - quadrato, rettangolo basso e rettangolo alto
@@ -77,7 +77,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
         
 - Commenta Codice e costruisci una buona documentazione sul processo (immagini sopratutto!)
 - 💃 Content Time! 💃
-    - Obsidian setup && Scrivere content && raccogliere immagini
+    - ~~Obsidian setup~~ && Scrivere content && raccogliere immagini
 
 ## Lavoro futuro!
 
@@ -85,6 +85,4 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 
 - Carosello per progetti consigliati su mobile
 - Carosello immagini per heroshot && immagini progetto && immagini su homepage
-- Cambiare progetti da markdown --> mdx
-    - `<Image/>` astro component && Image collection
 - Più microinterazioni! Più componenti React con codice, più divertimento!

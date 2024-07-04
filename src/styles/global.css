@@ -944,7 +944,7 @@ main,
 	display: inline-block;
 	background-color: var(--global-background);
 	padding: 2px 6px;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 120%;
     -moz-box-shadow:
     0   -8px 0  -4px var(--global-background),
@@ -1021,7 +1021,7 @@ main,
 .item .description p{
     font-size: 16px;
     margin:0;
-    color: var(--global-secondary);
+    color: var(--global-secondary-hover);
 }
 
 .quests .description p{

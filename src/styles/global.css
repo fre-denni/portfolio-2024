@@ -1213,7 +1213,7 @@ main,
 }
 
 .project-nav .text h1, .project-nav .text h3 {
-    color: var(--global-primary);
+    color: var(--global-background);
     mix-blend-mode: screen;
 }
 
@@ -1229,12 +1229,6 @@ main,
     font-family: var(--global-font-secondary);
     font-size: 1rem;
     margin-top: 5px;
-}
-
-.heroshot .image{
-    display: block;
-    width: 100%;
-    max-height: 550px;
 }
 
 .credits p {
@@ -1264,14 +1258,19 @@ main,
 }
 
 .heroshot .image{
+    display: block;
+    width: 100%;
+    max-height: 550px;
+    position: relative; 
+    overflow: hidden;
     clip-path: polygon( 0% 96.911%,1.144% 96.911%,1.145% 98.061%,2.275% 98.061%,2.275% 99.024%,3.624% 99.024%,3.624% 100%,96.376% 100%,96.376% 99.024%,97.725% 99.024%,97.725% 98.061%,98.855% 98.061%,98.855% 96.911%,100% 96.911%,100% 3.176%,98.856% 3.176%,98.855% 2.026%,97.725% 2.026%,97.725% 1.063%,96.376% 1.063%,96.376% 0.095%,3.625% 0.095%,3.625% 1.063%,2.276% 1.063%,2.276% 2.026%,1.145% 2.026%,1.145% 3.176%,0.001% 3.176%,0% 96.911% );
 }
 
 .heroshot .image img{
+    position: relative;
     width: 100%;
-    overflow: hidden;
     object-fit:cover;
-    object-position: 60% 75%;
+    object-position: center;
 }
 
 .work-related{
@@ -1818,10 +1817,6 @@ main,
     .heroshot .image img{
         height: 550px;
         object-position: 80% 30%;
-    }
-
-    .credits .title h3{
-        font-size: 24px;
     }
 
     .credits{

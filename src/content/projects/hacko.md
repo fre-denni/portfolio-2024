@@ -4,7 +4,7 @@ time: 10-22 to 05-23
 description: Open Source Fermenter Kit
 card: design an open-source fermenter toolkit for plant based food
 image:
-  url: /images/hacko-heroshot.jpg
+  url: ../../assets/hacko-heroshot.jpeg
   alt: heroshot
 made: with Distributed Design
 role:

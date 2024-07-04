@@ -1,6 +1,6 @@
 # Personal Website Logbook 🐢
 
-> **Siamo ufficialmente al 90%**
+> **Siamo ufficialmente al 100%**
 > *Daje forte*
 
 Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
@@ -12,15 +12,6 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 ### iOS
 
 - non compare il favicon
-
-
-> **IMPORTANTE**
-> fatto, funziona di cristo
-
-
-### Mozilla
-
-- okey, dokey
 
 ## Lavoro da fare
 

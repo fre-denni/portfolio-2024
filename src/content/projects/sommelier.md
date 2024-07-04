@@ -25,8 +25,7 @@ taglinks:
 tags:
   - Prototyping
   - Digital-Art
-type:
-  - None
+type: None
 draft: false
 ---
 <section class="row">

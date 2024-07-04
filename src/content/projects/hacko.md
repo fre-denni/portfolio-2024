@@ -25,8 +25,7 @@ taglinks:
   - Distributed Design
 tags:
   - Prototyping
-type:
-  - None
+type: None
 draft: false
 ---
 <section class="row">

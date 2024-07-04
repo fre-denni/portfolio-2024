@@ -25,8 +25,7 @@ taglinks:
 tags:
   - UX-Research
   - Design-Systems
-type:
-  - None
+type: None
 draft: false
 ---
 <section class="row">

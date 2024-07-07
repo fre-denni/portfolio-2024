@@ -1,61 +1,54 @@
 ---
 title: ART.E.C.
 time: 02-23 to 09-23
-description: AR/AI Art Experience
+description: AR/AI Art Experiments
 card: make an AR art experience detecting emotion using machine learning
 image:
   url: /images/artec.gif
   alt: heroshot
 role:
-  - Hardware & Software Design
-  - UX/UI Design
   - Research
+  - Prototype development
+  - AI development
+  - Unity Prototype
 team:
-  - Martina Comola
-  - Andrea Somenzi
-  - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Samuele Cellura
+  - Mayukh Das
+  - Defne Kocamustafaogullari
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://drive.google.com/file/d/10_ZCTP0iYTRI_GaDrPT_cZuivqJFi-IH/view?usp=sharing
 taglinks:
-  - Project files
-  - Distributed Design
+  - Video Presentation
 tags:
   - AI
   - UX-Research
 type: None
 draft: true
 ---
-###  With ART.E.C. we aimed to discover how an art museum experience could change by introducing emotional computing in it. Through the use of facial expression databases and bio-metric sensors, we’ve built a machine-learning model, that could interpret the data in following the Russell emotion model.
+###  With ART.E.C. (Augmented Reality Trough Emotional Computing) we aimed to discover how an interactive art museum experience could change by introducing an emotional factor in it. Through the use of emotion recognition models and bio-metric sensors, we build an app that would react to the spectator emotion, by changing the appearance of the painting thanks to the power of AR.
 
 ---
+#### HOW EMOTIONS PLAYS IN ART EXPERIENCES?
 
 <div class="image">
 
-![artec-1](../../assets/hacko-heroshot.jpg)
+![keep the art](../../assets/hacko-heroshot.jpg)
 
 </div>
 
-#### OUR WORK
+We were tasked to find a novelty way to put emotion recognition models in art experiences, finding ways in which Since the beginning we decided that our objective would be to enhance the artworks **while maintaining the power of communication of the original artwork**, making little changes in the compositions, colors, or adding sounds with the scope of not overcoming the artworks, as it was already in the scope of the artist to makes the viewers reason and feel their message.
 
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
+<div class="image">
 
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
+![system work](../../assets/hacko-heroshot.jpg)
 
-
+</div>
 
 ---
 
-### Interface Design
+#### DEVELOPMENT
 
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
+In our experimentation we have taken three artworks
 
 <div class="image">
 

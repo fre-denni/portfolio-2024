@@ -28,7 +28,7 @@ tags:
 type: None
 draft: true
 ---
-###  With ART.E.C. we aimed to discover how an art museum experience could change by introducing emotional computing in it. Through the use of facial expression databases and biometric sensors, we’ve built a machine-learning model, that could interpret the data in following the Russell emotion model.
+###  With ART.E.C. we aimed to discover how an art museum experience could change by introducing emotional computing in it. Through the use of facial expression databases and bio-metric sensors, we’ve built a machine-learning model, that could interpret the data in following the Russell emotion model.
 
 ---
 

@@ -48,7 +48,7 @@ We were tasked to find a novelty way to put emotion recognition models in art ex
 
 #### DEVELOPMENT
 
-In our experimentation we have taken three artworks
+The first step was to define and made the emotion recognition model and we 
 
 <div class="image">
 

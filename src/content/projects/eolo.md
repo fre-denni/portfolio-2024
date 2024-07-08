@@ -34,7 +34,9 @@ draft: true
 
 </div>
 
-If you put a paper boat in a speck of water and blow on it using a straw, you could actually make it float away and make races with your friends to determine which boat is the fastest or, more realistically, which one of you has the best pulmonary capacity. In [spirometry](https://en.wikipedia.org/wiki/Spirometry) is common to have little games to play using your breath strength, to take away all the medical formalities and have a playful experience, and this inspired me to make a little game prototype, that could mirror the joy of a paper boat race.
+If you put a paper boat in a speck of water and blow on it using a straw, you could actually make it float away and make races with your friends to determine which boat is the fastest or, more realistically, which one of you has the best pulmonary capacity. 
+
+In [spirometry](https://en.wikipedia.org/wiki/Spirometry) is common to have little games to play using your breath strength, to take away all the medical formalities and have a playful experience, and this inspired me to make a little game prototype, that could mirror the joy of a paper boat race.
 
 ---
 #### THE GAMEPLAY
@@ -45,7 +47,11 @@ If you put a paper boat in a speck of water and blow on it using a straw, you co
 
 </div>
 
-In the gameplay the player has to evade dangerous perils and make it to the end of the level, while directing the flow of air in the correct position to move the raft along. The tests data are all collected on a company app for the doctors, that they could also use to set the difficulty of the game based on the results, in order to continue monitoring. In this [video](https://drive.google.com/file/d/144kGg2pp6XL8vJE-fbo_fQhEIdmfGszz/view?usp=sharing) you can see a demo gameplay.
+In the gameplay the player has to evade dangerous perils and make it to the end of the level, while directing the flow of air in the correct position to move the raft along. 
+
+The tests data are all collected on a company app for the doctors, that they could also use to set the difficulty of the game based on the results, in order to continue monitoring.
+
+In this [video](https://drive.google.com/file/d/144kGg2pp6XL8vJE-fbo_fQhEIdmfGszz/view?usp=sharing) you can see a demo gameplay.
 
 <div class="image">
 

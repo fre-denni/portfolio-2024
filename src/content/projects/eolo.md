@@ -28,7 +28,7 @@ draft: true
 
 #### PLAYFUL EXPERIENCE
 
-<div class="image" style="height:530px">
+<div class="image">
 
 ![immagine significativa](/images/hacko-1.png)
 
@@ -51,8 +51,6 @@ In the gameplay the player has to evade dangerous perils and make it to the end 
 
 The tests data are all collected on a company app for the doctors, that they could also use to set the difficulty of the game based on the results, in order to continue monitoring.
 
-<div style="padding: 0;position:relative;height:400px;width:100%;"><iframe src="https://player.vimeo.com/video/981205052?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Eolo Gameplay Demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
 <div class="image">
 
 ![game design](/images/hacko-1.png)
@@ -64,6 +62,11 @@ The tests data are all collected on a company app for the doctors, that they cou
 ![assets](/images/hacko-1.png)
 
 </div>
+
+Here an example of a gameplay
+
+<div style="margin: 10% 0 10% 0;
+position:relative;height:400px;width:100%;"><iframe src="https://player.vimeo.com/video/981205052?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Eolo Gameplay Demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ---
 

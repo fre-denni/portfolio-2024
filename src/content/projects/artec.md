@@ -16,8 +16,10 @@ team:
   - Mayukh Das
   - Defne Kocamustafaogullari
 links:
-  - https://drive.google.com/file/d/10_ZCTP0iYTRI_GaDrPT_cZuivqJFi-IH/view?usp=sharing
+  - https://drive.google.com/file/d/1E6rUKsZMTS4xq239IXRCzzSRbvqBiJ6i/view?usp=sharing
+  - https://vimeo.com/981345063?share=copy
 taglinks:
+  - Project Report
   - Video Presentation
 tags:
   - AI
@@ -32,23 +34,35 @@ draft: true
 
 We were tasked to find a novelty way to put emotion recognition models in art experiences, finding ways in which Since the beginning we decided that our objective would be to enhance the artworks **while maintaining the power of communication of the original artwork**, making little changes in the compositions, colors, or adding sounds with the scope of not overcoming the artworks, as it was already in the scope of the artist to makes the viewers reason and feel their message.
 
-
 <div class="image">
 <div style="padding:56.25% 0 0 0;position:relative;margin-bottom:30px;"><iframe src="https://player.vimeo.com/video/981345063?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ARTEC"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
-#### DEVELOPMENT
 
-The first step was to define and made the emotion recognition model and we 
+---
+#### DEVELOPMENT
 
 <div class="image">
 
-![artec-1](../../assets/hacko-heroshot.jpg)
+![testing](../../assets/hacko-heroshot.jpg)
 
 </div>
 
+We started by testing and collecting emotional response to artworks by measuring the facial changes and the BPMs  of our test subjects, and then we used this data, together with already existing and open to public facial expressions image databases, to mash together our emotion recognition model using [Teachable Machine](https://teachablemachine.withgoogle.com/).
+The emotion caught by the camera would then be compared with the BPM levels read trough a ring wearable, that would connect via Bluetooth to the phone.
+
 <div class="image">
 
-![artec-1](../../assets/hacko-heroshot.jpg)
+![how the system works](../../assets/hacko-heroshot.jpg)
+
+</div>
+
+The rest of the AR app was build with the Unity engine using [Vuforia](https://developer.vuforia.com/home), that we setted on 4 paintings that are present in Museo del 900 collection in Milano.
+
+For each painting we thought of ways that we could play with them without overcoming too much the original intent of the painting.
+
+<div class="image">
+
+![paintings](../../assets/hacko-heroshot.jpg)
 
 </div>
 

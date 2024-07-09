@@ -13,7 +13,7 @@ role:
 team:
   - Only me!
 links:
-  - https://drive.google.com/file/d/144kGg2pp6XL8vJE-fbo_fQhEIdmfGszz/view?usp=sharing
+  - https://vimeo.com/981205052?share=copy
 taglinks:
   - Video of the gameplay
 tags:
@@ -65,7 +65,7 @@ The tests data are all collected on a company app for the doctors, that they cou
 
 Here an example of a gameplay
 
-<div style="margin: 10% 0 10% 0;
+<div style="margin: 0 0 30px;
 position:relative;height:400px;width:100%;"><iframe src="https://player.vimeo.com/video/981205052?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Eolo Gameplay Demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ---

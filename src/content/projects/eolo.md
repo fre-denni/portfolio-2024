@@ -13,7 +13,7 @@ role:
 team:
   - Only me!
 links:
-  - https://vimeo.com/981205052?share=copy
+  - https://vimeo.com/981340667?share=copy
 taglinks:
   - Video of the gameplay
 tags:
@@ -28,15 +28,15 @@ draft: true
 
 #### PLAYFUL EXPERIENCE
 
+If you put a paper boat in a speck of water and blow on it using a straw, you could actually make it float away and make races with your friends to determine which boat is the fastest or, more realistically, which one of you has the best pulmonary capacity. 
+
+In [spirometry](https://en.wikipedia.org/wiki/Spirometry) is common to have little games to play using your breath strength, to take away all the medical formalities and have a playful experience, and this inspired me to make a little game prototype, that could mirror the joy of a paper boat race.
+
 <div class="image">
 
 ![immagine significativa](/images/hacko-1.png)
 
 </div>
-
-If you put a paper boat in a speck of water and blow on it using a straw, you could actually make it float away and make races with your friends to determine which boat is the fastest or, more realistically, which one of you has the best pulmonary capacity. 
-
-In [spirometry](https://en.wikipedia.org/wiki/Spirometry) is common to have little games to play using your breath strength, to take away all the medical formalities and have a playful experience, and this inspired me to make a little game prototype, that could mirror the joy of a paper boat race.
 
 ---
 #### THE GAMEPLAY
@@ -51,22 +51,9 @@ In the gameplay the player has to evade dangerous perils and make it to the end 
 
 The tests data are all collected on a company app for the doctors, that they could also use to set the difficulty of the game based on the results, in order to continue monitoring.
 
-<div class="image">
+Here you can see a gameplay example:
 
-![game design](/images/hacko-1.png)
-
-</div>
-
-<div class="image">
-
-![prova](../../assets/hacko-1.png)
-
-</div>
-
-Here an example of a gameplay
-
-<div class="image"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/981340667?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="eolo-gameplay-demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> </div>
-
+<div class="image"><div style="padding:56.25% 0 0 0;position:relative;margin-bottom:30px;"><iframe src="https://player.vimeo.com/video/981340667?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="eolo-gameplay-demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> </div>
 
 ---
 
@@ -80,5 +67,17 @@ For my purpose was enough but in a future development of this game it could be i
 <div class="image">
 
 ![vuvuzela](/images/hacko-1.png)
+
+</div>
+
+<div class="image">
+
+![game design](/images/hacko-1.png)
+
+</div>
+
+<div class="image">
+
+![prova](../../assets/hacko-1.png)
 
 </div>

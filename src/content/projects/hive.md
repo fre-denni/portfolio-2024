@@ -1,100 +1,51 @@
 ---
 title: HIVE
-time: 10-22 to 05-23
-description: 3D Printing sound
+time: Milan Design Week 2022
+description: Memory of life
 card: design a 3D printable vase using 1mms of bee sound
 image:
   url: /images/hacko-heroshot.jpg
   alt: heroshot
 made: with Superforma && YOOX
 role:
-  - Hardware & Software Design
-  - UX/UI Design
-  - Research
+  - Generative Design
+  - 3D modelling
+  - 3D printing
 team:
-  - Martina Comola
-  - Andrea Somenzi
-  - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Only me!
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://www.fuorisalone.it/it/2022/eventi/2298/YOOX-presenta-Multi-Form-FLUIDITY-IN-LIVING-SPACE
 taglinks:
-  - Project files
-  - Distributed Design
+  - Event link
 tags:
   - Prototyping
   - Digital-Art
 type: None
 draft: true
 ---
-<section class="row">
 
-<div class="column large-2-5">
+### How can we represent the memory of a natural life? Hive is an attempt to fixate in time one millisecond of sound from a bee buzzing,  a sound that we could easily not find anymore in the future, mirroring how we still find vases from ancient ages, narrating of cultures that are no longer presents.
+### The design and manufacturing were all made in occasion of an event during the Milan Design Week 2022, a collaboration between Superforma and YOOX, in which we produced together the vases in a live-event, and were then exposed in the space in Via Tortona.
 
-<div class="inner">
+---
+#### THE DEVELOPMENT
 
-## Scope of the project
-
-HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
-
-</div>
-
-</div>
-
-<div class="column large-3-5">
+From the sound track of a bee buzz, I extrapolated a sequence of it and then transformed a polar frequency of sound, resulting in round shapes that were transported into Fusion 360 to build the digital model of the vase. After adjusting it to meet the criteria of the production process, the vase was 3D printed during the week of the show, then dried in a process that lasted 2 days and baked for another 2.
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![hive-glamour shot 1](/images/hacko-1.png)
 
 </div>
-
-</div>
-
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
-
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
-
-</div>
-
-<div class="column large-3-5">
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![hive-glamour shot 2](/images/hacko-1.png)
 
 </div>
 
-</div>
+<div class="image">
 
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-### Interface Design
-
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
+![hive-glamour shot 3](/images/hacko-1.png)
 
 </div>
-
-</section>
-

@@ -28,9 +28,10 @@ tags:
 type: None
 draft: true
 ---
-### HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
+### HACKO is an open-source fermenter kit  developed for the Distributed Design Platform, in collaboration with Polifactory, the Fablab of Politecnico di Milano, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices and to promote methods of production of food at home. 
 
 ---
+#### THE FERMENTER KIT
 
 <div class="image">
 

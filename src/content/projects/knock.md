@@ -1,7 +1,7 @@
 ---
 title: KNOCKNOCK
 time: one week project
-description: Destroy the barriers
+description: For a closer remote working
 card: connecting remote workers as they would do in presence
 image:
   url: /images/knocknock.gif
@@ -28,74 +28,14 @@ tags:
 type: Spicy
 draft: true
 ---
-<section class="row">
 
-<div class="column large-2-5">
+### Scope of the project
 
-<div class="inner">
-
-## Scope of the project
+---
 
 HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
 
-</div>
 
-</div>
-
-<div class="column large-3-5">
-
-<div class="image">
-
-![heroshot](/images/hacko-1.png)
-
-</div>
-
-</div>
-
-</section>
-
-
-<div class="image"><iframe width="560" height="315" src="https://www.youtube.com/embed/ECF_Z-jAfG0?si=Idv6SEGhQBlSurUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="image"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/981958697?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knocknock"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 
 ---
-
-<section class="row">
-
-<div class="column large-2-5">
-
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
-
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
-
-</div>
-
-<div class="column large-3-5">
-
-<div class="image">
-
-![hacko interface](/images/hacko-2.png)
-
-</div>
-
-</div>
-
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-### Interface Design
-
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
-
-</div>
-
-</section>

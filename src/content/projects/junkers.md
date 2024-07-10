@@ -1,27 +1,26 @@
 ---
 title: JUNKER
-time: 10-22 to 05-23
-description: Open Source Fermenter Kit
+time: 2-23 to 3-23
+description: UX/UI Redesign
 card: redesign an app for conscious waste management for everyone
 image:
   url: /images/junker-heroshot.jpg
   alt: heroshot
 role:
-  - Hardware & Software Design
   - UX/UI Design
+  - Design System
   - Research
 team:
-  - Martina Comola
-  - Andrea Somenzi
-  - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Andrea Fiocca
+  - Romario Muça
+  - Nanna Høgsholt
+  - Lingjie Xu
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://www.figma.com/proto/pfcqCLBurY9Pv1ltxvjXz7/JUNKER---REDESIGN?content-scaling=responsive&kind=proto&node-id=242-38920&page-id=5%3A13053&scaling=contain&starting-point-node-id=216%3A10012&t=n0C4Tl5zvui7jHsc-1&viewport=1019%2C334%2C0.23
+  - https://www.junkerapp.it/recycling-is-easy-in-italy-just-a-blip-away-with-junker/
 taglinks:
-  - Project files
-  - Distributed Design
+  - Figma Prototype
+  - Official Junker Website
 tags:
   - UX-Research
   - Design-Systems

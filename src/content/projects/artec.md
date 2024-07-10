@@ -27,7 +27,7 @@ tags:
 type: None
 draft: true
 ---
-###  With ART.E.C. (Augmented Reality Trough Emotional Computing) we aimed to discover how an interactive art museum experience could change by introducing an emotional factor in it. Through the use of emotion recognition models and bio-metric sensors, we build an app that would react to the spectator emotion, by changing the appearance of the painting thanks to the power of AR.
+###  With ART.E.C. (Augmented Reality Trough Emotional Computing) we aimed to discover how an interactive art museum experience could change by introducing an emotional factor in it. Through the use of emotion recognition models and bio-metric sensors, we build an art installation that would react to the spectator emotion, by changing the appearance of the painting thanks to the power of AR.
 
 ---
 #### HOW EMOTIONS PLAYS IN ART EXPERIENCES?

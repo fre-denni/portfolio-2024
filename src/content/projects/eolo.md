@@ -21,10 +21,7 @@ tags:
 type: None
 draft: true
 ---
-### Eolo is a puzzle-platform game that works as a way to do a spirometry test by adding a playful spin on the game commands. In the game you are a castaway that is blocked on a lost island and found a magical vuvuzela that can bring forth the power of the winds to push the raft away to safety and home.
-### But be aware sailor, there are dangers in the water.
-
----
+### Eolo is a puzzle-platform game that works as a way to do a spirometry test by adding a playful spin on the game commands. In the game you are a castaway that is blocked on a lost island and found a magical vuvuzela that can bring forth the power of the winds to push the raft away to safety and home. But be aware sailor, there are dangers in the water.
 
 #### PLAYFUL EXPERIENCE
 

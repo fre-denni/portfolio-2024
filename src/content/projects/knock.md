@@ -4,7 +4,7 @@ time: from 09-23 to 01-24
 description: For a closer remote working
 card: connecting remote workers as they would do in presence
 image:
-  url: /images/knocknock.gif
+  url: /images/knocknock.png
   alt: heroshot
 role:
   - Hardware & Software Design
@@ -29,11 +29,8 @@ tags:
 type: Spicy
 draft: true
 ---
-### Hybrid working has recently become an increasingly important reality in the work market, however, the phenomenon brings with it a number of risks related to the inefficiency of digital tools in bridging the gap between the physical workspace and the home workspace. 
+### Hybrid working has recently become an increasingly important reality in the work market, however, the phenomenon brings with it a number of risks related to the inefficiency of digital tools in bridging the gap between the physical workspace and the home workspace. Knocknock aims to improve communication and collaboration, bringing the experience closer to that of a physical workspace.
 
-### Knocknock aims to improve communication and collaboration, bringing the experience closer to that of a physical workspace.
-
----
 
 <div class="image"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/981958697?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knocknock"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
 

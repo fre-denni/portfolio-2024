@@ -1,6 +1,6 @@
 ---
 title: PIENE
-time: one week project
+time: one week workshop
 description: Hack a fidget toy
 card: hacking a fidget toy to tells us to stop stressing && enjoy life
 image:
@@ -9,41 +9,23 @@ image:
 made: with EPFAL+ECAL
 role:
   - Hardware & Software Design
-  - UX/UI Design
-  - Research
+  - Prototype development
+  - Data visualization
 team:
-  - Martina Comola
-  - Andrea Somenzi
-  - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Romario Muça
+  - Valentina Callegari
+  - Andrea Maffei
+  - Anna Sokolova
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://epfl-ecal-lab.ch/2023/06/qualitative-data-workshop-at-politecnico-di-milano/
 taglinks:
-  - Project files
-  - Distributed Design
+  - EPFAL+ECAL Project Page
 tags:
   - Prototyping
-  - UX-Research
 type: None
 draft: true
 ---
-<section class="row">
-
-<div class="column large-2-5">
-
-<div class="inner">
-
-## Scope of the project
-
-HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
-
-</div>
-
-</div>
-
-<div class="column large-3-5">
+### PIENE is a self-tracking device with the objective of lightening up and having fun of burnouts, in order to make people more aware of the effects of overwork on their lives.  Is inspired by the popular Italian saying of connecting how swollen are testicles to the burdens of work. Our prompt was to ask:  “But how much actually?”
 
 <div class="image">
 
@@ -51,49 +33,29 @@ HACKO is an open-source fermenter of bran developed for the Distributed Design P
 
 </div>
 
-</div>
-
-</section>
-
 ---
 
-<section class="row">
+#### PROJECT DEVELOPMENT
 
-<div class="column large-2-5">
+This project was the response to the one-week-long Qualitative Design Workshop led by [EPFL+ECAL lab](https://epfl-ecal-lab.ch/), with the aim to reflect on the importance of qualified and nuanced expressions of self-tracking data.
 
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
-
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
-
-</div>
-
-<div class="column large-3-5">
+To do this we our data-collecting device is a soft fidget toy, usually used in stressful situations, shaped as a hearth/balls object, that simply collects the strength of the squeeze and compares it with the Google Calendar Activity.  The data is then shown as spheres that will steadily  cover your screen until it’s impossible to use.
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![heroshot](/images/hacko-1.png)
 
 </div>
 
-</div>
+<div class="image">
 
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-### Interface Design
-
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
+![heroshot](/images/hacko-1.png)
 
 </div>
 
-</section>
+<div class="image">
+
+![heroshot](/images/hacko-1.png)
+
+</div>
+

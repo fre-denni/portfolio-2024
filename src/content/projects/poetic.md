@@ -1,7 +1,7 @@
 ---
-title: POETIC INTERFACES☀️
-time: 10-22 to 05-23
-description: Using AI for weather
+title: POETIC INTERFACE
+time: one week project
+description: Generative Poems
 card: using LLMs to explore new ways to present data and improve our understanding of it
 image:
   url: /images/poetic-heroshot.png

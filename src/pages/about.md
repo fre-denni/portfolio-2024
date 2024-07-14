@@ -23,7 +23,8 @@ link:
 
 ## About Me
 
-Ciao! I’m Federico, an Interaction Designer that likes to find opportunities in complex problems, break them down and squeeze out products and experiences.
-Designer by day and Wannabe Developer by night,
-I enjoy exploring new tech, and use coding to resolve problems. <br/>
-I may have a obsession with microcontrollers.
+Ciao! I'm Federico, pleased to meet you! <br/>
+I'm an in-training interaction designer from Italy, working on products and interfaces trying to design meaningful moments for the present and the future, by having lots of fun while doing so.
+<br/>
+
+I like to explore new tools and technologies in my projects, learning from people so that I can narrate and develop my ideas better.

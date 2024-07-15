@@ -28,10 +28,10 @@ type: None
 draft: true
 ---
 
-### Junker is an app that aims to simplify waste sorting. By helping the user recognize products, it provides accurate breakdowns of the materials they’re made of and it offers information on waste collection showing nearby collection points for various types of waste.  Our exercise was to redesign the flow of usability, by testing it with users and find a way to improve on the app
+### Junker is an app that aims to simplify waste sorting. By helping the user recognize products, it provides accurate breakdowns of the materials they’re made of and it offers information on waste collection showing nearby collection points for various types of waste.  Our exercise was to redesign the flow of usability, by testing it with users and finding a way to improve the app
 
 
-In our process we redesigned the flow of interaction by re-clustering the information and testing the flow with our users. We then passed in recreating a new UI and Design System that could pass better this information and have a more modern and clean look.
+In our process, we redesigned the flow of interaction by re-clustering the information and testing the flow with our users. We then passed in recreating a new UI and Design System that could show better this information and have a more modern and clean look.
 
 <div class="image">
 

@@ -14,8 +14,8 @@ cvpic:
     url: "/images/cv.jpg"
     alt: "professional sexy profile pic"
 upto: "Enjoying my last semester at Politecnico di Milano and working on my thesis!"
-love: "Open-source projects, cooking, hiking, obscure movies facts, old school hiphop, and Duolingo memes"
-obs: "People renovating little houses, game devlogs and whatever pass to the mind of this"
+love: "Open-source projects, cooking, hiking, obscure movies facts, old school hip-hop, and Duolingo memes"
+obs: "People renovating little houses, game devlogs and whatever passes to the mind of this"
 link:
   url: "https://www.youtube.com/watch?v=eA0neTHUN6M"
   text: "guy"

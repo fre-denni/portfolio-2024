@@ -27,11 +27,9 @@ tags:
 type: None
 draft: true
 ---
-With ART.E.C. (Augmented Reality Trough Emotional Computing) we aimed to discover how an interactive art museum experience could change by introducing an emotional factor in it. 
+### With ART.E.C. (Augmented Reality Trough Emotional Computing) we aimed to discover how an interactive art museum experience could change by introducing an emotional factor. <br/> Through the use of emotion recognition models and bio-metric sensors, we built an art installation that would react to the spectator's emotion, by changing the appearance of the painting thanks to the power of AR.
 
-Through the use of emotion recognition models and bio-metric sensors, we build an art installation that would react to the spectator emotion, by changing the appearance of the painting thanks to the power of AR.
-
-#### HOW EMOTIONS PLAYS IN ART EXPERIENCES?
+#### HOW EMOTIONS PLAY IN ART EXPERIENCES?
 
 We were tasked to find a novelty way to put emotion recognition models in art experiences, finding ways in which Since the beginning we decided that our objective would be to enhance the artworks **while maintaining the power of communication of the original artwork**, making little changes in the compositions, colors, or adding sounds with the scope of not overcoming the artworks, as it was already in the scope of the artist to makes the viewers reason and feel their message.
 
@@ -48,8 +46,8 @@ We were tasked to find a novelty way to put emotion recognition models in art ex
 
 </div>
 
-We started by testing and collecting emotional response to artworks by measuring the facial changes and the BPMs  of our test subjects, and then we used this data, together with already existing and open to public facial expressions image databases, to mash together our emotion recognition model using [Teachable Machine](https://teachablemachine.withgoogle.com/).
-The emotion caught by the camera would then be compared with the BPM levels read trough a ring wearable, that would connect via Bluetooth to the phone.
+We started by testing and collecting emotional responses to artworks by measuring the facial changes and the BPMs of our test subjects, and then we used this data, together with already existing and open-to-public facial expressions image databases, to mash together our emotion recognition model using [Teachable Machine](https://teachablemachine.withgoogle.com/).
+The emotion caught by the camera would then be compared with the BPM levels read through a ring wearable, that would connect via Bluetooth to the phone.
 
 <div class="image">
 
@@ -57,9 +55,9 @@ The emotion caught by the camera would then be compared with the BPM levels read
 
 </div>
 
-The rest of the AR app was build with the Unity engine using [Vuforia](https://developer.vuforia.com/home), that we setted on 4 paintings that are present in Museo del 900 collection in Milano.
+The rest of the AR app was built with the Unity engine using [Vuforia](https://developer.vuforia.com/home), which we set on 4 paintings that are present in the Museo del 900 collection in Milano.
 
-For each painting we thought of ways that we could play with them without overcoming too much the original intent of the painting.
+For each painting, we thought of ways that we could play with them without overcoming too much of the original intent of the painting.
 
 <div class="image">
 

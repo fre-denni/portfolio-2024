@@ -39,7 +39,7 @@ draft: true
 Knocking on someone’s door is an act of courtesy that alerts and lets you know that a conversation is about to happen, giving you time to prepare.  Similarly, in our device knocking is the very action that allows you to reach another user.
 
 Our main objective was to make a product for [Digital Wellbeing](https://blog.google/products/android/search-jomo-new-research-digital-wellbeing/); we refer by this expression to all those aspects related to a healthy and efficient use of digital tools.
-We designed to aim to bring back the **immediacy of communicating between colleagues in presence**, making the workflow more stimulating, more natural and less focused on desktop software, allowing young workers to get the most out of their work experience even from home.
+We designed to aim to bring back the **immediacy of communicating between colleagues in presence**, making the workflow more stimulating, more natural, and less focused on desktop software, allowing young workers to get the most out of their work experience even from home.
 
 If you are more curios about the process and the project in general you can see it [here](https://knocknock-project.framer.website/).
 
@@ -65,7 +65,7 @@ If you are more curios about the process and the project in general you can see 
 #### INTERACTIONS
 
 Physical interaction with the device is based on four simple affordances, all executable with a single hand and designed to require as little effort as possible. The physical elements that can be interacted with are also communicated by the color violet on the device.
-Each of the interactions is linked to a specific set of functions, so that the user learns immediately what he can expect from each action.
+Each of the interactions is linked to a specific set of functions so that the user learns immediately what he can expect from each action.
 
 <div class="image">
 

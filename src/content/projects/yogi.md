@@ -31,7 +31,7 @@ draft: true
 
 On each Yogi device there is a VOC reading sensor that we trained to identify the difference between air particles and other dangerous gasses, thanks to this we basically have an electronic nose powered by Machine Learning that is capable of alerting us if a fire starts in its vicinity.
 
-Each device goes a period of sleeping and sniffing that permits to lower the power consumption and run the machine learning model on the edge, making it viable to deploy also in places that are distant from human zones. Thanks to the LoRa sistem this distance can also grow to various kilometers.
+Each device goes through a period of sleeping and sniffing that permits lower power consumption and runs the machine learning model on the edge, making it viable to deploy also in places that are distant from human zones. Thanks to the LoRa system this distance can also grow to various kilometers.
 
 <div class="image">
 
@@ -55,7 +55,7 @@ Each device goes a period of sleeping and sniffing that permits to lower the pow
 
 #### FUTURE DEVELOPMENTS
 
-We are now working to make Yogi an open-source kit that is easy for people to modify and use, for this reasons we are also looking at other cheaper and open-source sensors, in order to make a design more accessible.
+We are now working to make Yogi an open-source kit that is easy for people to modify and use, for this reason, we are also looking at other cheaper and open-source sensors, in order to make a design more accessible.
 
 <div class="image">
 

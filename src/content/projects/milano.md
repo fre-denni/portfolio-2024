@@ -29,7 +29,7 @@ tags:
 type: None
 draft: true
 ---
-###  Milano Partecipa is a platform that connects the citizen to their municipality, offering the opportunities of integrate their values and opinion in the future of their city. This is possible by connecting to communities, that help in involving the citizen in challenges and workshops that collects their opinions and projects, in a transparent and fact-checked process
+###  Milano Partecipa is a platform that connects citizens to their municipality, offering opportunities to integrate their values and opinions into the future of their city. This is possible by connecting to communities, that help in involving the citizen in challenges and workshops that collect their opinions and projects, in a transparent and fact-checked process
 
 <div class="image">
 <div style="padding:56.25% 0 0 0;position:relative;margin-bottom:30px;"><iframe src="https://player.vimeo.com/video/983146226?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Milano Partecipa - Concept Proposal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -37,11 +37,11 @@ draft: true
 
 #### HOW TO MAKE CITIZEN HAVE AN IMPACT ON THEIR CITY?
 
-The Milano Partecipa platform is an official platform of the city of Milano that is suffering from the inability of involving citizen in their activities. We found these problems were related to issues like the feeling that any activity of the citizen would be useless at best and that everything was moving too slow to have any kind of an impact.
+The Milano Partecipa platform is an official platform of the city of Milano that is suffering from the inability to involve citizens in their activities. We found these problems were related to issues like the feeling that any activity of the citizen would be useless at best and that everything was moving too slowly to have any kind of an impact.
 
-Following the examples of citizen involving activities in other European cities, we proposed a new system based on six-months challenges organized by the municipality with local organizations and communities (only in Milano there are more than 1000 of them), that collects problems and proposal by the citizen and then by iterating with them proceed to organize workshops and events of co-design in which solution are found and proposed in a manner similar to the Design Process.
+Following the examples of citizens involving activities in other European cities, we proposed a new system based on six-month challenges organized by the municipality with local organizations and communities (only in Milano there are more than 1000 of them), that collects problems and proposals by the citizen and then by iterating with them proceed to organize workshops and events of co-design in which solution are found and proposed in a manner similar to the Design Process.
 
-For making this possibile we designed and tested a new platform for the city, with useful tools like forums and dashboard for the associations to use like a co-design toolkit and a fact-checking tool.
+To make this possible we designed and tested a new platform for the city, with useful tools like forums and dashboards for the associations to use like a co-design toolkit and a fact-checking tool.
 
 <div class="image">
 

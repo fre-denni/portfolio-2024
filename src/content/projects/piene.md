@@ -39,7 +39,7 @@ draft: true
 
 This project was the response to the one-week-long Qualitative Design Workshop led by [EPFL+ECAL lab](https://epfl-ecal-lab.ch/), with the aim to reflect on the importance of qualified and nuanced expressions of self-tracking data.
 
-To do this we our data-collecting device is a soft fidget toy, usually used in stressful situations, shaped as a hearth/balls object, that simply collects the strength of the squeeze and compares it with the Google Calendar Activity.  The data is then shown as spheres that will steadily  cover your screen until it’s impossible to use.
+To do this our data-collecting device is a soft fidget toy, usually used in stressful situations, shaped as a heart/balls object, that simply collects the strength of the squeeze and compares it with the Google Calendar Activity.  The data is then shown as spheres that will steadily cover your screen until it’s impossible to use.
 
 <div class="image">
 <div style="padding:56.25% 0 0 0;position:relative;margin-bottom:30px;"><iframe src="https://player.vimeo.com/video/984214710?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Piene Block Screen UI"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

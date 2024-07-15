@@ -31,12 +31,6 @@ draft: true
 ### HACKO is an open-source fermenter kit developed for the Distributed Design Platform, in collaboration with Polifactory, the Fablab of Politecnico di Milano, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices and to promote methods of production of food at home. 
 
 
-<div class="image">
-
-![heroshot](/images/hacko-1.png)
-
-</div>
-
 #### FROM WASTE TO FOOD SOURCE
 
 A by-product of the agricolture industry is the bran, the "cover" of the seed, which is usually used in other productions or discarded.  This bran can be fermented with salt and Nori algae, thus making a compost that could then be used to make pickled vegetables, which are called [Nukazuke](https://en.wikipedia.org/wiki/Nukazuke). 

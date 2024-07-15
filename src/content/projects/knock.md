@@ -38,6 +38,12 @@ draft: true
 
 Knocking on someone’s door is an act of courtesy that alerts and lets you know that a conversation is about to happen, giving you time to prepare.  Similarly, in our device knocking is the very action that allows you to reach another user.
 
+<div class="image">
+
+![knocking gif](../../assets/knocknock.gif)
+
+</div>
+
 Our main objective was to make a product for [Digital Wellbeing](https://blog.google/products/android/search-jomo-new-research-digital-wellbeing/); we refer by this expression to all those aspects related to a healthy and efficient use of digital tools.
 We designed to aim to bring back the **immediacy of communicating between colleagues in presence**, making the workflow more stimulating, more natural, and less focused on desktop software, allowing young workers to get the most out of their work experience even from home.
 
@@ -45,7 +51,7 @@ If you are more curios about the process and the project in general you can see 
 
 <div class="image">
 
-![knocking gif](../../assets/knocknock.gif)
+![UI screen](../../assets/knocknock.gif)
 
 </div>
 

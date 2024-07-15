@@ -1,99 +1,76 @@
 ---
 title: SOMMELIER
-time: 10-22 to 05-23
+time: 02-23 to 06-23
 description: Future Aperitivo Experience
-card: "design an art experience to understand what relation we will have with future food systems "
+card: design an art experience to understand what relation we will have with future food systems
 image:
   url: /images/hacko-heroshot.jpg
   alt: heroshot
 role:
   - Hardware & Software Design
-  - UX/UI Design
-  - Research
+  - 3D modelling
+  - 3D printing
+  - Coding
+  - Prototype development
 team:
-  - Martina Comola
-  - Andrea Somenzi
-  - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Fabiana Marino
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://www.figma.com/proto/PagIVcSBQNd7rniBQk3FxZ/Report-finale?page-id=301%3A2&node-id=301-2475&viewport=1240%2C520%2C0.12&t=7KLKvapLQFDTDBNr-1&scaling=contain&content-scaling=fixed
 taglinks:
-  - Project files
-  - Distributed Design
+  - Project Report
 tags:
   - Prototyping
   - Digital-Art
 type: None
 draft: true
 ---
-<section class="row">
-
-<div class="column large-2-5">
-
-<div class="inner">
-
-## Scope of the project
-
-HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
-
-</div>
-
-</div>
-
-<div class="column large-3-5">
+### the SOMMELIER experience aims to understand how much squeamishness will influence the variety of food that we will access in the future. By simulating the Italian Aperitivo experience, our user will be asked to substitute the food of today with alternatives of the future based on their taste and convictions.
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![prototype-showdown](/images/hacko-1.png)
 
 </div>
 
-</div>
-
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
-
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
-
-</div>
-
-<div class="column large-3-5">
+We used a Critical Design approach, in the vision of the current political debate in Italy about the consumption of insect or lab meat, to make people surpass their own biases. 
+The experience is designed to be made by two people, and they have to discuss how they will compose their future aperitivo tagliere, considering that with the increase of pollution and temperatures some of this food will simply disappear.
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![experience-1](/images/hacko-1.png)
 
 </div>
 
-</div>
+<div class="image">
 
-</section>
+![experience-2](/images/hacko-1.png)
+
+</div>
 
 ---
 
-<section class="row">
+#### RESEARCH
 
-<div class="column large-2-5">
+We explored how quantifying taste in 5 basic values, impacted and pushed the narrative and their choices, making the discussion the main  drive of the interaction.  
+  
+In our process we iterated with our users, refining the language and the visual of the communication.  
+  
+By iterating with them we found that giving them rewards in the form of recipes and points helped in continuing the discussion.
 
-### Interface Design
+<div class="image">
 
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
+![test](/images/hacko-1.png)
 
 </div>
 
-</section>
+<div class="image">
 
+![prototype-iterations](/images/hacko-1.png)
+
+</div>
+
+<div class="image">
+
+![glamour shots](/images/hacko-1.png)
+
+</div>

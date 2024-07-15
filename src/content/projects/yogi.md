@@ -1,6 +1,6 @@
 ---
-title: YOGI 🐻
-time: three weeks project
+title: YOGI
+time: three weeks workshop
 description: Edge AI for IoT
 card: teaching AI to protect woods from fire
 image:
@@ -11,89 +11,54 @@ role:
   - Hardware & Software Design
   - UX/UI Design
   - Research
+  - AI development
 team:
-  - Martina Comola
-  - Andrea Somenzi
-  - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Andrea Fiocca
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://docs.google.com/document/d/1hi1jR4ESfe1POSv9JZn9NwBBKJ816eptPMsYZgj9e_Y/edit#heading=h.g7mrpp73l7v8
 taglinks:
-  - Project files
-  - Distributed Design
+  - Project Report
 tags:
   - Prototyping
   - AI
-type: None
+type: New
 draft: true
 ---
-<section class="row">
+## YOGI is an IoT device capable of detecting ILRs (Ignitable Liquid Residues) and Early Wildfire Gasses where it is deployed, providing the possibility of being deployed in arrays in areas where droughts and climate change could make more possible the risk of wildfire, helping in fast response and detection of arson-related organized crime. The system is supported by LoRa and LoRaWan protocols, permitting long-distance monitoring and communication.
 
-<div class="column large-2-5">
 
-<div class="inner">
+#### HOW THE SYSTEM WORKS
 
-## Scope of the project
+On each Yogi device there is a VOC reading sensor that we trained to identify the difference between air particles and other dangerous gasses, thanks to this we basically have an electronic nose powered by Machine Learning that is capable of alerting us if a fire starts in its vicinity.
 
-HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
-
-</div>
-
-</div>
-
-<div class="column large-3-5">
+Each device goes a period of sleeping and sniffing that permits to lower the power consumption and run the machine learning model on the edge, making it viable to deploy also in places that are distant from human zones. Thanks to the LoRa sistem this distance can also grow to various kilometers.
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![system works](/images/hacko-1.png)
 
 </div>
-
-</div>
-
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
-
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
-
-</div>
-
-<div class="column large-3-5">
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![yogi-prototype](/images/hacko-1.png)
 
 </div>
 
-</div>
+<div class="image">
 
-</section>
+![glamour-shotimages/hacko-1.png)
+
+</div>
 
 ---
 
-<section class="row">
+#### FUTURE DEVELOPMENTS
 
-<div class="column large-2-5">
+We are now working to make Yogi an open-source kit that is easy for people to modify and use, for this reasons we are also looking at other cheaper and open-source sensors, in order to make a design more accessible.
 
-### Interface Design
+<div class="image">
 
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
+![glamour-shotimages/hacko-1.png)
 
 </div>
-
-</section>

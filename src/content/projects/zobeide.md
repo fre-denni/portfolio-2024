@@ -1,99 +1,70 @@
 ---
 title: ZOBEIDE
-time: 10-22 to 05-23
+time: 11-22 to 01-23
 description: Dream Visualizer
 card: and using generative AI to translate dreams to cities
 image:
   url: /images/hacko-heroshot.jpg
   alt: heroshot
 role:
-  - Hardware & Software Design
-  - UX/UI Design
   - Research
+  - AI development
+  - Concept Proposal
 team:
-  - Martina Comola
-  - Andrea Somenzi
   - Valerio Libardo
-  - Gaia Rubino
-  - Luca Grosso
+  - Andrea Fiocca
+  - Fabiana Marino
+  - Cheng Tahoui
 links:
-  - https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/
-  - https://distributeddesign.eu/talent/hacko/
+  - https://visit.virtualartgallery.com/7324cdd7-d11f-4f63-aa67-c2f9b4571d30/
 taglinks:
-  - Project files
-  - Distributed Design
+  - Digital Art Exhibition
 tags:
   - AI
   - Prototyping
+  - Digital-Art
 type: None
 draft: true
+made: with Limiteazero
 ---
-<section class="row">
-
-<div class="column large-2-5">
-
-<div class="inner">
-
-## Scope of the project
-
-HACKO is an open-source fermenter of bran developed for the Distributed Design Platform, with the scope of offering an alternative food source for restaurants and public canteens, designed to share teachings and DIY practices, promoting methods of production of food at home.
-
-</div>
-
-</div>
-
-<div class="column large-3-5">
+### We were tasked to create a digital art experience inspired by the book ["Invisible Cities"](https://it.wikipedia.org/wiki/Le_citt%C3%A0_invisibili) of Italo Calvino, in which we translated one of the cities presented in the book using the Stable Diffusion Generative AI model. Our choice was for the city of Zobeide, a city that people started building from their shared dreams, so we decided to make generative paintings starting from people dreams.
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![zobeide-run](/images/hacko-2.png)
 
 </div>
 
-</div>
-
-</section>
-
----
-
-<section class="row">
-
-<div class="column large-2-5">
-
-Our brief consisted in developing a toolkit to be produced 
-in Fab Labs. We aimed to make the project accessible to people who do not have knowledge of fermentation, keeping it cheap and fun for our users.
-We worked for 5 months in Polifactory, the Fab Lab of Politecnico, iterating with prototypes and our own production of bran. My role was to develop the interaction and the software architecture of the fermenter.
-
-All project files are visible on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/).
-
-</div>
-
-<div class="column large-3-5">
+The theme of creating from dreams is a recurrent one in the book of Calvino, which emphasize the absurdity and sense of wonder in order to extrapolate interesting concepts.
+For us the city of Zobeide is a perfect example of this: it’s a city that people built in a shared dream of a naked woman, that they were hunting in the woods. They decided then to go to the location of the hunting, and built a maze of traps with the sole scope of “capturing this dream”
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![experience](/images/hacko-2.png)
 
 </div>
-
-</div>
-
-</section>
 
 ---
 
-<section class="row">
+So we decided to bring on this concept, making an online interactive art experience, which pose as objective to make people give form to their desire. We made an online form that categorized people based on their personality and then we asked them to narrate of their city.
 
-<div class="column large-2-5">
+This was then build in a unifying prompt that was given to the model and generated the artwork. All artworks were then collected and putted in an online art gallery, that you can find [here](https://visit.virtualartgallery.com/7324cdd7-d11f-4f63-aa67-c2f9b4571d30/).
 
-### Interface Design
+<div class="image">
 
-The design of the interface is based on interacting
-with the Hackos, mascots that communicate with their colors the status of the fermented bran, that the user iterates with by touching the device.
-
-To diminish energy waste an e-ink display is used.
+![how the prompt is formed](/images/hacko-2.png)
 
 </div>
 
-</section>
+<div class="image">
+
+![weavely form](/images/hacko-2.png)
+
+</div>
+
+<div class="image">
+
+![artwork](/images/hacko-2.png)
+
+</div>
 

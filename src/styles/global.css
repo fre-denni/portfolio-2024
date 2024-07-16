@@ -1165,7 +1165,7 @@ main,
 
 .work-project .image{
     margin: 0 0 30px;
-    height: auto;
+    height: 100%;
     width: 100%;
     margin: 20px 0;
 }
@@ -1842,7 +1842,7 @@ main,
     }
 
     .work-project .image img{
-        height: 400px;
+        max-height: 650px;
         margin-bottom: 40px;
     }
 

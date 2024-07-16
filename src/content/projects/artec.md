@@ -42,7 +42,7 @@ We were tasked to find a novelty way to put emotion recognition models in art ex
 
 <div class="image">
 
-![testing](../../assets/hacko-heroshot.jpg)
+![testing](../../assets/artec-testing.jpg)
 
 </div>
 
@@ -54,6 +54,14 @@ The emotion caught by the camera would then be compared with the BPM levels read
 ![how the system works](../../assets/hacko-heroshot.jpg)
 
 </div>
+
+
+<div class="image">
+
+![artec-ui](../../assets/artec-ui.jpg)
+
+</div>
+
 
 The rest of the AR app was built with the Unity engine using [Vuforia](https://developer.vuforia.com/home), which we set on 4 paintings that are present in the Museo del 900 collection in Milano.
 

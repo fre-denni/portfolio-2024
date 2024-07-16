@@ -2,7 +2,7 @@
 title: JUNKER
 time: 2-23 to 3-23
 description: UX/UI Redesign
-card: redesign an app for conscious waste management for everyone
+card: redesign an app for conscious waste management
 image:
   url: /images/junker-heroshot.jpg
   alt: heroshot

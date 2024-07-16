@@ -4,7 +4,7 @@ time: Milan Design Week 2022
 description: Memory of life
 card: design a 3D printable vase using 1mms of bee sound
 image:
-  url: /images/hacko-heroshot.jpg
+  url: /images/hive-heroshot.jpg
   alt: heroshot
 made: with Superforma && YOOX
 role:
@@ -32,18 +32,18 @@ From the soundtrack of a bee buzz, I extrapolated a sequence of it and then tran
 
 <div class="image">
 
-![hive-glamour shot 1](/images/hacko-1.png)
+![hive-glamour shot 1](../../assets/hive-dev.jpg)
 
 </div>
 
 <div class="image">
 
-![hive-glamour shot 2](/images/hacko-1.png)
+![hive-glamour shot 2](../../assets/hive-glamour1.jpg)
 
 </div>
 
 <div class="image">
 
-![hive-glamour shot 3](/images/hacko-1.png)
+![hive-glamour shot 3](../../assets/hive-glamour2.jpg)
 
 </div>

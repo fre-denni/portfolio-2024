@@ -40,24 +40,18 @@ We were tasked to find a novelty way to put emotion recognition models in art ex
 ---
 #### DEVELOPMENT
 
-<div class="image">
-
-![testing|400](../../assets/artec-testing.jpg)
-
-</div>
-
 We started by testing and collecting emotional responses to artworks by measuring the facial changes and the BPMs of our test subjects, and then we used this data, together with already existing and open-to-public facial expressions image databases, to mash together our emotion recognition model using [Teachable Machine](https://teachablemachine.withgoogle.com/).
 The emotion caught by the camera would then be compared with the BPM levels read through a ring wearable, that would connect via Bluetooth to the phone.
 
+
 <div class="image">
 
-![how the system works](../../assets/hacko-heroshot.jpg)
+![artec-system](../../assets/artec-system.jpg)
 
 </div>
 
 
 The rest of the AR app was built with the Unity engine using [Vuforia](https://developer.vuforia.com/home), which we set on 4 paintings that are present in the Museo del 900 collection in Milano.
-
 
 <div class="image">
 

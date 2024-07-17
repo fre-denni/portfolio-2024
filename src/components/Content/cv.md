@@ -1,13 +1,11 @@
 ### From Art School to Design
 
-I started my creative journey in high school, were I learned all the crafts of making art and share concepts and ideas, this would become more important as I entered Politecnico di Milano
+I started my creative journey in my high school in Rome were I learned crafting techiniques and digital tools, but especially the capacity of present and explain my projects. <br/> Art wasn't 100% my thing, so I then got interest in the world of multimedia design and product design.
 
-### Jack-of-all-trades && Masters of Fuffa
+### Politecnico di Milano
 
-Ciao! I’m Federico, an Interaction Designer that likes to find opportunities in complex problems, break them down and squeeze out products and experiences.
+After high school I went to study Industrial Design at Politecnico di Milano, one of the best university in the world. During my stay there I learned that Design is not only about tools or solving problems, but in its capacity of share and express your ideas correctly.
 
+### Right now 
 
-### Jack-of-all-trades && Masters of Fuffa
-
-Ciao! I’m Federico, an Interaction Designer that likes to find opportunities in complex problems, break them down and squeeze out products and experiences.
-.
+Now I'm concluding my second run at Politecnico finishing my master in Digital Interaction Design, where I refined my skill and learned more especially in Web Design and Coding, which you can see as I made this website from scratch!

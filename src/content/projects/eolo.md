@@ -4,7 +4,7 @@ time: one month project
 description: Playful Experience
 card: making a puzzle-platform game for children as a disguise for a spirometry test
 image:
-  url: /images/about.jpeg
+  url: /images/eolo.gif
   alt: heroshot
 role:
   - Game design

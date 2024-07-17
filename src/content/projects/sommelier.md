@@ -22,7 +22,7 @@ tags:
   - Prototyping
   - Digital-Art
 type: None
-draft: true
+draft: false
 ---
 ### The SOMMELIER experience aims to understand how much squeamishness will influence the variety of food that we will access in the future. By simulating the Italian Aperitivo experience, our user will be asked to substitute the food of today with alternatives of the future based on their taste and convictions.
 

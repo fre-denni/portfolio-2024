@@ -24,7 +24,7 @@ tags:
   - Prototyping
   - Digital-Art
 type: None
-draft: true
+draft: false
 made: with Limiteazero
 ---
 ### We were tasked to create a digital art experience inspired by the book ["Invisible Cities"](https://it.wikipedia.org/wiki/Le_citt%C3%A0_invisibili) of Italo Calvino, in which we translated one of the cities presented in the book using the Stable Diffusion Generative AI model. Our choice was for the city of Zobeide, a city that people started building from their shared dreams, so we decided to make generative paintings starting from people's dreams.

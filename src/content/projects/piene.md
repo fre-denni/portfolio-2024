@@ -2,7 +2,7 @@
 title: PIENE
 time: one week workshop
 description: Hack a fidget toy
-card: hacking a fidget toy to tells us to stop stressing && enjoy life
+card: a fidget toy to tells us to stop stressing and enjoy life
 image:
   url: /images/about.jpeg
   alt: heroshot

@@ -38,11 +38,12 @@ A by-product of the agricolture industry is the bran, the "cover" of the seed, w
 The scope of the project is to introduce this technique in Italy, by providing a user-friendly kit, making it viable for restaurants, canteens, or fermentation enthusiasts to have a waste-free food source at home.  
 
 ---
+
 #### DEVELOPMENT
 
 <div class="image">
 
-![development](/images/hacko-1.png)
+![development](../../assets/hacko-2.png)
 
 </div>
 
@@ -50,14 +51,14 @@ We worked for 5 months iterating with prototypes and technologies and testing th
 
 To do so, we designed a housing case for the sensors and a simple interface that uses an e-ink screen to reduce the energy waste, but also to lessen the impact of technology in the design. 
 
-<div class="image">
-
-![hacko kit](/images/hacko-2.png)
-
-</div>
-
 ---
 #### INTERFACE DESIGN
+
+<div class="image">
+
+![hacko interface](../../assets/hacko-3.jpg)
+
+</div>
 
 For the interface design we followed the principle of making it easily understandable to everyone, but also to make it so that people would get from it an emotional response without descending too much in technical details.
 
@@ -65,29 +66,25 @@ Our idea was to make a discourse with the Hackos, the bacteria in the bran that 
 
 <div class="image">
 
-![hacko interface](/images/hacko-2.png)
+![development](../../assets/hacko-1.png)
 
 </div>
 
----
+<div class="image">
+
+![hacko secsi-shots](../../assets/hacko-heroshot.jpeg)
+
+</div>
+
+<div class="image">
+
+![hacko secsi-shots2](../../assets/hacko-tools.jpg)
+
+</div>
 
 #### OPEN-SOURCE CONNECTIONS
 
 HACKO has been presented at a lot of events around the world, promoting the principles of open-source designs and fab labs in the fields of food and sustainability production. <br/>
-We presented HACKO in Lisbon at the [Gentler Food Festival](https://www.tickettailor.com/events/bytheendofmay/990542) in September 2023 and it is present in the book [Driving Design I](https://distributeddesign.eu/resources/driving-design-book/) edited by the Distributed Design Platform. <br/>
+We presented HACKO in Lisbon at the [Gentler Food Festival](https://www.tickettailor.com/events/bytheendofmay/990542) in September 2023 and it is present in the book [Driving Design](https://distributeddesign.eu/resources/driving-design-book/) edited by the Distributed Design Platform. <br/>
 All  HACKO project files are available on the [Polifactory website](https://www.polifactory.polimi.it/en/portfolio/open-food-factory-ddp/), free to use and modify.
-
-<div class="image">
-
-![hacko secsi-shots](/images/hacko-2.png)
-
-</div>
-<div class="image">
-
-![hacko secsi-shots2](/images/hacko-2.png)
-
-</div>
-
-
-
 

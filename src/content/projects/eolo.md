@@ -54,7 +54,7 @@ Here you can see a gameplay example:
 
 ---
 
-#### PROTOTYPE
+#### DEVELOPMENT
 
 For the development, I used [Protopie](https://www.protopie.io/) to prototype the game and the doctor app to a mid-fi level, making all the animations and connecting the data together between the two apps. All the game and app UI and assets were made by me on Figma, I was inspired by the Monkey Island games for the looks.
 
@@ -64,7 +64,7 @@ For my purpose was enough but in the future development of this game, it could b
 
 <div class="image">
 
-![vuvuzela](/images/hacko-1.png)
+![vuvuzela](../../assets/eolo-vuvuzela.jpg)
 
 </div>
 

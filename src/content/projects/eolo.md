@@ -70,12 +70,7 @@ For my purpose was enough but in the future development of this game, it could b
 
 <div class="image">
 
-![game design](/images/hacko-1.png)
+![game design](../../assets/eolo-assets.jpg)
 
 </div>
 
-<div class="image">
-
-![eolo mockup](../../assets/hacko-1.png)
-
-</div>

@@ -19,8 +19,16 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 > Bisogna 🏃🏃🏃
 
 - 💃 Content Time! 💃
-    - ~~Obsidian setup~~ && Scrivere content && raccogliere immagini
-    - decidere per colore header
+    - ~~Obsidian setup && Scrivere content && raccogliere immagini~~
+    - ~~decidere per colore header~~
+
+- aggiungi ingradimento immagini quando cliccate
+- migliora tipografia
+    - font più leggibile (inter?)
+    - aggiungi `clamp` for font dimensions
+    - metti dimensioni standard
+    - migliora line-height e spazi tra i paragrafi 
+- cambia header per i progetti
 
 ## Lavoro futuro!
 

@@ -22,7 +22,7 @@ tags:
   - Prototyping
   - AI
 type: New
-draft: true
+draft: false
 ---
 ## YOGI is an IoT device capable of detecting ILRs (Ignitable Liquid Residues) and Early Wildfire Gasses where it is deployed, providing the possibility of being deployed in arrays in areas where droughts and climate change could make more possible the risk of wildfire, helping in fast response and detection of arson-related organized crime. The system is supported by LoRa and LoRaWan protocols, permitting long-distance monitoring and communication.
 

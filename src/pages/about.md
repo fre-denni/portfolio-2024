@@ -23,7 +23,7 @@ link:
 
 ## About Me
 
-Ciao! I'm Federico, pleased to meet you! <br/>
+Ciao! I'm Federico Denni (fre-denni), pleased to meet you! <br/>
 I'm an in-training interaction designer from Italy, working on products and interfaces trying to design meaningful moments for the present and the future,  in the least boring way.
 <br/>
 

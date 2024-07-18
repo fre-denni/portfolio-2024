@@ -10,7 +10,7 @@ const {frontmatter} = Astro.props; //here the frontmatter of the displayed proje
 
 const Projects = await getCollection("projects");
 // Filter out the current project
-const otherProjects = Projects.filter(p => p.data.title !== frontmatter.title);
+const otherProjects = Projects.filter(p => p.data.title !== frontmatter.title && p.data.draft !== false);
 
 function compareTags(projectTags, otherProjectTags) {
     return otherProjectTags.filter(tag => projectTags.includes(tag));

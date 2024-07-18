@@ -66,13 +66,7 @@ Our idea was to make a discourse with the Hackos, the bacteria in the bran that 
 
 <div class="image">
 
-![development](../../assets/hacko-1.png)
-
-</div>
-
-<div class="image">
-
-![hacko secsi-shots](../../assets/hacko-heroshot.jpeg)
+![foto-secsi](../../assets/hacko-1.png)
 
 </div>
 

@@ -4,7 +4,7 @@ time: one week workshop
 description: Hack a fidget toy
 card: a fidget toy to tells us to stop stressing and enjoy life
 image:
-  url: /images/about.jpeg
+  url: /images/piene-heroshot.jpg
   alt: heroshot
 made: with EPFAL+ECAL
 role:
@@ -29,7 +29,7 @@ draft: true
 
 <div class="image">
 
-![hands-ball](/images/hacko-1.png)
+![hands-ball](../../assets/piene-hands.jpg)
 
 </div>
 
@@ -48,19 +48,19 @@ To do this our data-collecting device is a soft fidget toy, usually used in stre
 
 <div class="image">
 
-![secsi photo 1](/images/hacko-1.png)
+![secsi photo 1](../../assets/piene-computer.jpg)
 
 </div>
 
 <div class="image">
 
-![secsi photo 2](/images/hacko-1.png)
+![secsi photo 2](../../assets/piene-love.jpg)
 
 </div>
 
 <div class="image">
 
-![secsi photo 3](/images/hacko-1.png)
+![secsi photo 3](../../assets/piene-balls.jpg)
 
 </div>
 

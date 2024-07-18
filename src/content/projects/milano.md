@@ -4,7 +4,7 @@ time: 03-23 to 05-23
 description: Your voice for the city
 card: design a platform for the city to listen && grow with its citizen
 image:
-  url: /images/hacko-heroshot.jpeg
+  url: /images/milano-heroshot.jpg
   alt: heroshot
 made: with Milano Municipality
 role:

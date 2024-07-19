@@ -27,7 +27,7 @@ const {frontmatter} = Astro.props;
             <div class="interests">
                 <Interest title="What I'm up to" content={frontmatter.upto}/>
                 <Interest title="What I love" content={frontmatter.love}/>
-                <Interest title="What I'm obsessed with" content={frontmatter.obs} link={frontmatter.link.url} text={frontmatter.link.text}/>
+                <Interest title="What I'm obsessed" content={frontmatter.obs} link={frontmatter.link.url} text={frontmatter.link.text}/>
             </div>
         </section>
         <hr/>
@@ -66,7 +66,7 @@ const {frontmatter} = Astro.props;
                 <div class="row quests">
                     <QuestCard
                         url="/404/"
-                        img="/images/hacko-1.png"
+                        img="/digital_garden.jpg"
                         alt="digital garden"
                         website="My Digital Garden (🚧)"
                         title="Building a Digital Garden!"
@@ -74,14 +74,14 @@ const {frontmatter} = Astro.props;
                     />
                     <QuestCard
                         url="/404/"
-                        img="/images/hacko-2.png"
+                        img="/cheffo.jpg"
                         alt="cheffo"
                         website="Cheffo's (🚧)"
                         title="Building my Chef blog!"
                         description="I'm building a space where to collect and share my recipes, a good excuse to learn more Web Design tools"
                     />
                     <QuestCard
-                        img="/images/knocknock.gif"
+                        img="/game.jpg"
                         website="Secret Game(🚧)"
                         title="Making a game!"
                         description="With some friends we started to lay down some ideas and prototypes for making our own game. More information soon!"

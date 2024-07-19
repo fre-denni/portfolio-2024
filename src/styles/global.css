@@ -1477,6 +1477,23 @@ main,
     text-decoration: underline;
 }
 
+.quest .image{
+    display: block;
+    width: 100%;
+    max-height:250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.quest .image img{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+}
+
 @media only screen and (min-width:768px) {
 	.medium-1-10 {
 		width: 10%;
@@ -1938,6 +1955,14 @@ main,
         margin-bottom: 20px;
         clip-path: polygon( 0.396% 95.139%,3.445% 95.139%,3.446% 96.948%,6.457% 96.948%,6.457% 98.465%,10.051% 98.465%,10.051% 100%,90.345% 100%,90.345% 98.465%,93.939% 98.465%,93.939% 96.948%,96.95% 96.948%,96.951% 95.139%,100% 95.139%,100% 4.863%,96.951% 4.863%,96.95% 3.053%,93.939% 3.053%,93.939% 1.537%,90.345% 1.537%,90.345% 0.013%,10.053% 0.013%,10.053% 1.537%,6.458% 1.537%,6.458% 3.053%,3.447% 3.053%,3.446% 4.863%,0.397% 4.863%,0.396% 95.139% );
     }
+
+    .quest .image{
+        height: 280px;
+    }
+
+    .quest .image img{
+        max-height: 300px;
+    }
     
 }
 
@@ -2048,6 +2073,15 @@ main,
         padding: 0 20%;
     }
 
+    .quest .image{
+        height: 100px;
+    }
+
+    .quest .image img{
+        max-height: 110px;
+    }
+    
+
 }
 
 @media only screen and (min-width:1220px) {
@@ -2066,6 +2100,14 @@ main,
 
     .wrapper {
         padding: 0 23%;
+    }
+
+    .quest .image{
+        height: 180px;
+    }
+
+    .quest .image img{
+        max-height: 180px;
     }
 
 }

@@ -23,8 +23,8 @@ link:
 
 ## About Me
 
-Ciao! I'm Federico Denni (fre-denni), pleased to meet you! <br/>
+Ciao! I'm Federico Denni, pleased to meet you! <br/>
 I'm an in-training interaction designer from Italy, working on products and interfaces trying to design meaningful moments for the present and the future,  in the least boring way.
 <br/>
 
-I like to explore new tools and technologies in my projects, learning from people so that I can narrate and develop my ideas better.
+I believe in ideas over opinions, prototypes as the most valuable tool for collaboration, and exploring one hundred ideas to find the right one.

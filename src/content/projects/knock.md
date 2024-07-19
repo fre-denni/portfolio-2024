@@ -40,7 +40,7 @@ Knocking on someone’s door is an act of courtesy that alerts and lets you know
 
 <div class="image">
 
-![knocking gif](../../assets/knocknock.gif)
+![knocking gif](../../assets/knock-knock.gif)
 
 </div>
 
@@ -51,21 +51,22 @@ If you are more curios about the process and the project in general you can see 
 
 <div class="image">
 
-![UI screen](../../assets/knocknock.gif)
+![prototipi](../../assets/knock-prototipi.jpg)
 
 </div>
 
 <div class="image">
 
-![photo with mac](../../assets/hacko-heroshot.jpg)
+![withmac](../../assets/knock-contesto.jpg)
 
 </div>
 
 <div class="image">
 
-![lines and groups](../../assets/hacko-heroshot.jpg)
+![parti](../../assets/knock-components.jpg)
 
 </div>
+
 
 ---
 #### INTERACTIONS
@@ -73,20 +74,9 @@ If you are more curios about the process and the project in general you can see 
 Physical interaction with the device is based on four simple affordances, all executable with a single hand and designed to require as little effort as possible. The physical elements that can be interacted with are also communicated by the color violet on the device.
 Each of the interactions is linked to a specific set of functions so that the user learns immediately what he can expect from each action.
 
-<div class="image">
-
-![all interactions](../../assets/hacko-heroshot.jpg)
-
-</div>
 
 <div class="image">
 
-![prototype-development](../../assets/hacko-heroshot.jpg)
-
-</div>
-
-<div class="image">
-
-![esploso-3d](../../assets/hacko-heroshot.jpg)
+![slide](../../assets/knock-slide.gif)
 
 </div>

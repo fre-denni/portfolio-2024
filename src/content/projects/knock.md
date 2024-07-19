@@ -61,22 +61,21 @@ If you are more curios about the process and the project in general you can see 
 
 </div>
 
-<div class="image">
-
-![parti](../../assets/knock-components.jpg)
-
-</div>
-
-
 ---
 #### INTERACTIONS
 
 Physical interaction with the device is based on four simple affordances, all executable with a single hand and designed to require as little effort as possible. The physical elements that can be interacted with are also communicated by the color violet on the device.
 Each of the interactions is linked to a specific set of functions so that the user learns immediately what he can expect from each action.
 
+<div class="image">
+
+![interaction](../../assets/knocknock.gif)
+
+</div>
 
 <div class="image">
 
 ![slide](../../assets/knock-slide.gif)
 
 </div>
+

@@ -35,25 +35,25 @@ In our process, we redesigned the flow of interaction by re-clustering the infor
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![comparison](../../assets/junker-oldvsnew.jpg)
 
 </div>
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![from wireframe to](../../assets/junker-process.jpg)
 
 </div>
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![ui array](../../assets/junker-ui.jpg)
 
 </div>
 
 <div class="image">
 
-![heroshot](/images/hacko-1.png)
+![nice mockup](../../assets/junker-mockup.jpg)
 
 </div>
 

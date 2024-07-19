@@ -37,6 +37,12 @@ draft: true
 
 #### HOW TO MAKE CITIZEN HAVE AN IMPACT ON THEIR CITY?
 
+<div class="image">
+
+![process](../../assets/milano-codesign.jpg)
+
+</div>
+
 The Milano Partecipa platform is an official platform of the city of Milano that is suffering from the inability to involve citizens in their activities. We found these problems were related to issues like the feeling that any activity of the citizen would be useless at best and that everything was moving too slowly to have any kind of an impact.
 
 Following the examples of citizens involving activities in other European cities, we proposed a new system based on six-month challenges organized by the municipality with local organizations and communities (only in Milano there are more than 1000 of them), that collects problems and proposals by the citizen and then by iterating with them proceed to organize workshops and events of co-design in which solution are found and proposed in a manner similar to the Design Process.
@@ -45,20 +51,22 @@ To make this possible we designed and tested a new platform for the city, with u
 
 <div class="image">
 
-![process](/images/hacko-2.png)
+![process](../../assets/milano-ui.jpg)
 
 </div>
 
 <div class="image">
 
-![process](/images/hacko-2.png)
+![process](../../assets/milano-sfide.jpg)
 
 </div>
 
 <div class="image">
 
-![process](/images/hacko-2.png)
+![process](../../assets/milano-tools.jpg)
 
 </div>
+
+
 
 

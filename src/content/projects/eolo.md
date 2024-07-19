@@ -31,22 +31,21 @@ In [spirometry](https://en.wikipedia.org/wiki/Spirometry), it is common to have 
 
 <div class="image">
 
-![immagine significativa](/images/hacko-1.png)
+![blow](../../assets/eolo-inspo.jpg)
 
 </div>
 
 ---
-#### THE GAMEPLAY
+#### FLOW OF DATA
 
 <div class="image">
 
-![gameplay flow](/images/hacko-1.png)
+![gameplay flow](../../assets/eolo-flow.jpg)
 
 </div>
 
-In the gameplay, the player has to evade dangerous perils and make it to the end of the level, while directing the flow of air in the correct position to move the raft along. 
-
-The test data are all collected on a company app for the doctors, which they could also use to set the difficulty of the game based on the results, in order to continue monitoring.
+The test data are all collected on a company app for the doctors, called EOLO DOC. This app is used to set the calibration for the pulmonary flow, and then that will become the difficulty level of the game. <br/>
+By evading all the perils, the app will interpret and show the final test results when the player finish the game.
 
 Here you can see a gameplay example:
 

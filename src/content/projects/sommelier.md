@@ -4,7 +4,7 @@ time: 02-23 to 06-23
 description: Future Aperitivo Experience
 card: design an art experience to understand what relation we will have with future food systems
 image:
-  url: /images/hacko-heroshot.jpg
+  url: /images/sommelier-heroshot.jpg
   alt: heroshot
 role:
   - Hardware & Software Design
@@ -22,13 +22,13 @@ tags:
   - Prototyping
   - Digital-Art
 type: None
-draft: false
+draft: true
 ---
 ### The SOMMELIER experience aims to understand how much squeamishness will influence the variety of food that we will access in the future. By simulating the Italian Aperitivo experience, our user will be asked to substitute the food of today with alternatives of the future based on their taste and convictions.
 
 <div class="image">
 
-![prototype-showdown](/images/hacko-1.png)
+![prototype-showdown](../../assets/sommelier-showdown.jpg)
 
 </div>
 
@@ -37,13 +37,13 @@ The experience is designed to be made by two people, and they have to discuss ho
 
 <div class="image">
 
-![experience-1](/images/hacko-1.png)
+![experience-1](../../assets/sommelier-experience.jpg)
 
 </div>
 
 <div class="image">
 
-![experience-2](/images/hacko-1.png)
+![experience-2](../../assets/sommelier-menu.jpg)
 
 </div>
 
@@ -59,18 +59,12 @@ By iterating with them we found that giving them rewards in the form of recipes 
 
 <div class="image">
 
-![test](/images/hacko-1.png)
+![test](../../assets/sommelier-development.jpg)
 
 </div>
 
 <div class="image">
 
-![prototype-iterations](/images/hacko-1.png)
-
-</div>
-
-<div class="image">
-
-![glamour shots](/images/hacko-1.png)
+![arduino shots](../../assets/sommelier-arduino.jpg)
 
 </div>

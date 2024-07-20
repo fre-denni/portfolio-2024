@@ -29,6 +29,7 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
     - metti dimensioni standard
     - migliora line-height e spazi tra i paragrafi 
 - cambia header per i progetti
+- SEO
 
 ## Lavoro futuro!
 

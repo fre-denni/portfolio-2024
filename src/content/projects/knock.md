@@ -73,9 +73,3 @@ Each of the interactions is linked to a specific set of functions so that the us
 
 </div>
 
-<div class="image">
-
-![slide](../../assets/knock-slide.gif)
-
-</div>
-

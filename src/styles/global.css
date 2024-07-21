@@ -1880,7 +1880,7 @@ main,
     }
 
     .page-about .image img{
-        height: 350px;
+        height: 450px;
         margin: 10px 0 0;
         object-position: top;
     }
@@ -2035,7 +2035,7 @@ main,
     }
     
     .page-about .image img{
-        height: 350px;
+        height: 400px;
         object-fit:cover;
         object-position: center;
     }
@@ -2091,7 +2091,7 @@ main,
 	}
 
     .page-about .image img{
-        height: 300px;
+        height: 400px;
     }
 
     .cv .image{

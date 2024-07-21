@@ -13,10 +13,8 @@ role:
 team:
   - Only me!
 links:
-  - .
   - https://github.com/fre-denni/poetic-interfaces
 taglinks:
-  - W.I.P. App!
   - Github Project Page
 tags:
   - AI

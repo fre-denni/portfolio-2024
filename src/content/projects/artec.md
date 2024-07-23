@@ -24,6 +24,7 @@ taglinks:
 tags:
   - AI
   - UX-Research
+  - Digital-Art
 type: None
 draft: true
 ---

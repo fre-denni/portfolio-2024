@@ -20,7 +20,7 @@ tags:
   - AI
   - Prototyping
 type: New
-draft: false
+draft: true
 ---
 ### I'm always stoked at how some apps are simply there for being as useful as possible without considering that sometimes they become excessively boring. I decided to find an interesting way of having a weather prediction that could engage me in fun ways using the power of Large Language Models
 

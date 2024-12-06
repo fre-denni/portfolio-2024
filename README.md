@@ -52,3 +52,6 @@ Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
 - Carosello per progetti consigliati su mobile
 - Carosello immagini per heroshot && immagini progetto && immagini su homepage
 - Più microinterazioni! Più componenti React con codice, più divertimento!
+
+
+prova 1

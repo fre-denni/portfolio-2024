@@ -17,7 +17,7 @@ obs: "People renovating little houses, game devlogs and whatever passes to the m
 link:
   url: "https://www.youtube.com/watch?v=eA0neTHUN6M"
   text: "guy"
-link2:
+tesi:
   url: "https://heyzine.com/flip-book/1ca73920f2.html"
   text: "link"
 ---

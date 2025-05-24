@@ -38,11 +38,6 @@ const Suggested = sortedProjects.slice(0, 3);
     </div>
     <main class="wrapper">
         <div class="container">
-            <div class="work-project">
-                <div class="inner">
-                    <slot />
-                </div>
-            </div>
             <div class="credits">
                 <div class="row">
                     <div class="column small-1-2 medium-1-4 large-1-4">
@@ -70,6 +65,11 @@ const Suggested = sortedProjects.slice(0, 3);
                             {frontmatter.links.map((link, index) => <li><a href={link} target="blank">{frontmatter.taglinks[index]}</a></li>)}
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="work-project">
+                <div class="inner">
+                    <slot />
                 </div>
             </div>
     </main>

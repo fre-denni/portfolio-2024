@@ -1,57 +1,13 @@
-# Personal Website Logbook 🐢
+# Portfolio 2024 🐢
 
-> **Siamo ufficialmente al 100%**
-> *Daje forte*
+This is a peek at my first website that I entirely created from scratch, starting from some really confused ideas about the needs of frameworks for making websites (altough I've used Astro which was more than adeguate and easy to learn for an inexperienced coder such as myself). Right now (September 2025) this website will be my personal business card for at least the beginnings of 2026, from which I'll have a much simpler website, in lieu of building a more sustainable impact of my digital works on the internet and also because the css of this website is a nightmare to modify (what I was thinking for gods sake...)
 
-Daily logbook per tenere conto dei cambiamenti da fare e dei bug noti
+---
 
-## Bug noti
+Still I strongly suggest for any beginners such a myself to try build a website/blog with Astro, it was a fun experience!
 
-> Qui una lista di tutti i bug che vengono riportati
-
-### iOS
-
-- non compare il favicon
-
-## Lavoro da fare
-
-> Divise per importanza <br/>
-> Bisogna 🏃🏃🏃
-
-- 💃 Content Time! 💃
-    - ~~Obsidian setup && Scrivere content && raccogliere immagini~~
-    - ~~decidere per colore header~~
-
-- aggiungi ingradimento immagini quando cliccate
-- migliora tipografia
-    - font più leggibile (inter?)
-    - aggiungi `clamp` for font dimensions
-    - metti dimensioni standard
-    - migliora line-height e spazi tra i paragrafi 
-- cambia header per i progetti
-- SEO
-
-## Lavoro futuro!
-
-> Progetti post-deployment
-
-- Pulisci css
-    - Tipografia && importare font giusti
-    - Cambiare tutte le dimensioni a responsive (rem && %)
-    - Fare variabili di testo globali
-    - Fare contorno immagine responsive (quadrato, rettangolare basso, rettangolare alto)
-        - aggiustare tutti i casini con le immagini
-            1. imposta altezza e larghezza (vedi lavoro fatto per immagini page-about)
-            2. crea delle immagini a differenti dimensioni e qualità (1280x914, 400x286, 768x549)
-                - fai src set
-                - abbina anche il clip-path proporzionato
-            3. imposta a tutte le immagini
-        
-- Commenta Codice e costruisci una buona documentazione sul processo (immagini sopratutto!)
-
-- Carosello per progetti consigliati su mobile
-- Carosello immagini per heroshot && immagini progetto && immagini su homepage
-- Più microinterazioni! Più componenti React con codice, più divertimento!
-
-
-prova 1
+Some "interesting" facts about my website:
+- the content is completely manage locally on my computer as .md files using Obsidian and symlinks
+- the page 404 I still believe it's really funny
+- I started creating this website mobile first, then forgot about it, then tried to adjust everything using media, then crying in an angle of my room
+- I'm 100% convinced that 80% of the css code could be deleted, but I'm to ~afraid..~ lazy to try

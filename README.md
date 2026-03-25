@@ -7,8 +7,8 @@ This is a peek at my first website that I entirely created from scratch, startin
 Still I strongly suggest for any beginners such a myself to try build a website/blog with Astro, it was a fun experience!
 
 Some "interesting" facts about my website:
+
 - the content is completely manage locally on my computer as .md files using Obsidian and symlinks
 - the page 404 I still believe it's really funny
-- I started creating this website mobile first, then forgot about it, then tried to adjust everything using media, then crying in an angle of my room
+- I started creating this website mobile first, then forgot about it, then tried to adjust everything using media, then ended up crying in an angle of my room
 - I'm 100% convinced that 80% of the css code could be deleted, but I'm too ~afraid..~ lazy to try
-
